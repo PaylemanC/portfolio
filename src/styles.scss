@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('assets/styles/reset.css');
+
+$primary-color: #FAA87F;
+$secondary-color: #FF7A5A;
+$background: #212121;
+
+body {
+  background-color: $background;
+  color: white;
+}
+
