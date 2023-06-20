@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 16px;
+  li {
+    font-size: 1.6rem;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  .nav-right {
+    display: flex;
+    gap: 24px;
+  }
+}
