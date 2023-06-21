@@ -10,3 +10,11 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+section {
+  margin: 32px 16px;
+}
+
+::selection {
+  background-color: #f7c0a4; 
+  color: #111111; 
+}
