@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './shared/components/nav/nav.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
-import { AboutMeComponent } from './about-me/about-me.component';
+import { AboutMeComponent } from './sections/about-me/about-me.component';
 import { CvDownloadButtonComponent } from './shared/components/cv-download-button/cv-download-button.component';
 
 @NgModule({
