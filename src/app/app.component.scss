@@ -54,12 +54,10 @@ h2 {
 }
 
 #about-me {
-  .hard-skills__container {
+  .hard-skills__container, .soft-skills__container {
     display: flex;
     gap: 32px;
     flex-wrap: wrap;
     justify-content: center;
   }
-
-
 }

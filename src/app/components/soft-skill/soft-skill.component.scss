@@ -1,0 +1,9 @@
+@import '../hard-skill/hard-skill.component.scss';
+@import '../../../styles.scss';
+
+.soft-skill {
+  @extend .hard-skill;
+  // border-color: $secondary-color;
+}
+
+
