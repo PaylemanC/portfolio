@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Skill } from './models/skill';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,7 @@ export class AppComponent {
 
 
   //DATA -----------------------------------------------------------
-  hardSkills = [
+  hardSkills: Skill[] = [
     {
       "name": "Angular",
       "icon": "../../../assets/icons/hard-skills/angular.svg"

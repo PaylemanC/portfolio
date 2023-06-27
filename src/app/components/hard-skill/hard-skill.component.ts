@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Skill } from '../../models/skill';
 
 @Component({
   selector: 'app-hard-skill',
@@ -6,5 +7,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./hard-skill.component.scss']
 })
 export class HardSkillComponent {
-  @Input() hardSkill = { "name": "", "icon": "" };
+  @Input() hardSkill: Skill = { "name": "", "icon": "" };
 }
