@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-hard-skill',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./hard-skill.component.scss']
 })
 export class HardSkillComponent {
-
+  @Input() hardSkill = { "name": "", "icon": "" };
 }

@@ -17,6 +17,10 @@
     </div>
   </section>
   <section id="about-me">
+    <h2>Hard Skills</h2>
+    <div class="hard-skills__container">
+      <app-hard-skill [hardSkill]="hardSkill" *ngFor="let hardSkill of hardSkills"></app-hard-skill>
+    </div>
   </section>
 </main>
 <!-- <app-footer></app-footer> -->

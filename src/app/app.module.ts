@@ -7,6 +7,7 @@ import { NavComponent } from './shared/components/nav/nav.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { AboutMeComponent } from './sections/about-me/about-me.component';
 import { CvDownloadButtonComponent } from './shared/components/cv-download-button/cv-download-button.component';
+import { HardSkillComponent } from './components/hard-skill/hard-skill.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CvDownloadButtonComponent } from './shared/components/cv-download-butto
     NavComponent,
     FooterComponent,
     AboutMeComponent,
-    CvDownloadButtonComponent
+    CvDownloadButtonComponent,
+    HardSkillComponent
   ],
   imports: [
     BrowserModule,

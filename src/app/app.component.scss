@@ -4,6 +4,12 @@ main {
   margin: 0 32px;
 }
 
+h2 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin: 32px 0;
+}
+
 #introduction {
   margin-top: 0;
   display: flex;
@@ -45,4 +51,15 @@ main {
     background-image: url('../assets/avatar.png');
     border-radius: 100%;
   }
+}
+
+#about-me {
+  .hard-skills__container {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
 }
