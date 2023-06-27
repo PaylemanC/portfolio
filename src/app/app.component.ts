@@ -53,4 +53,31 @@ export class AppComponent {
       "icon": "../../../assets/icons/hard-skills/html_css.svg"
     }
   ]
+
+  softSkills: Skill[] = [
+    {
+      "name": "Trabajo en equipo",
+      "icon": ""
+    },
+    {
+      "name": "Autodidacta",
+      "icon": ""
+    },
+    {
+      "name": "Facilidad de aprendizaje",
+      "icon": ""
+    },
+    {
+      "name": "Creatividad",
+      "icon": ""
+    },
+    {
+      "name": "Adaptabilidad",
+      "icon": ""
+    },
+    {
+      "name": "Capacidad analítica",
+      "icon": ""
+    }
+  ]
 }
