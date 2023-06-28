@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './shared/components/nav/nav.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
-import { AboutMeComponent } from './sections/about-me/about-me.component';
 import { CvDownloadButtonComponent } from './shared/components/cv-download-button/cv-download-button.component';
 import { HardSkillComponent } from './components/hard-skill/hard-skill.component';
 import { SoftSkillComponent } from './components/soft-skill/soft-skill.component';
@@ -15,7 +14,6 @@ import { SoftSkillComponent } from './components/soft-skill/soft-skill.component
     AppComponent,
     NavComponent,
     FooterComponent,
-    AboutMeComponent,
     CvDownloadButtonComponent,
     HardSkillComponent,
     SoftSkillComponent
