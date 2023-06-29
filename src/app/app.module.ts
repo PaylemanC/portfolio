@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ProjectsModule } from './projects/projects.module';
+
 import { NavComponent } from './shared/components/nav/nav.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { CvDownloadButtonComponent } from './shared/components/cv-download-button/cv-download-button.component';
@@ -20,7 +22,8 @@ import { SoftSkillComponent } from './components/soft-skill/soft-skill.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ProjectsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
