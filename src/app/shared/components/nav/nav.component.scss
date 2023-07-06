@@ -1,8 +1,20 @@
+@mixin blurBackground {
+  background-color: transparent;
+  backdrop-filter: blur(2px) saturate(75%);
+  -webkit-backdrop-filter: blur(2px) saturate(75%);
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 16px 32px;
+  position: sticky;
+  top: 0;
+  @include blurBackground;
+  ul {
+    align-items: center;
+  }
   li {
     font-size: 1.6rem;
     a {
@@ -16,8 +28,47 @@ nav {
       height: 64px;
     }
   }
-  .nav-right {
+  .nav-right__links-container {
     display: flex;
     gap: 24px;
+  }
+  .nav-right__mobile-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 572px) {
+  nav {
+    .nav-right__mobile-menu {
+      display: flex;
+    }
+    .nav-right__links {
+      display: none;
+      border: 1px solid gold;
+      background-color: rgba(21, 21, 21, 0.75);
+      &.active {
+        display: block;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: calc(100vh - 99px); // height: fit-content;
+        .nav-right__links-container {
+          @include blurBackground;
+          height: calc(100vh - 99px);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 32px;
+          align-items: center;
+          gap: 56px;
+          a {
+            font-size: 2.8rem;
+          }
+        }
+      }
+    }
   }
 }

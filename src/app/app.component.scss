@@ -47,6 +47,7 @@ h2 {
   }
   .introduction__avatar {
     border: 2px solid rgba(241, 205, 0, 0.99);
+    z-index: -1;
   }
   .introduction__avatar-profile {
     position: relative;
@@ -56,6 +57,7 @@ h2 {
     height: 352px;
     background: url('../assets/avatar.png') center/cover no-repeat;
     border-radius: 4px;
+    z-index: 1;
   }
 }
 
