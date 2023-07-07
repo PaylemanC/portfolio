@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 $primary-color: #FAA87F;
-$secondary-color: #FF7A5A;
+$secondary-color: #fd886c;
 $background: #212121;
+$degradado-gold: linear-gradient(90deg, rgba(249,237,85,1) 6%, rgba(223,170,64,1) 40%, rgba(236,178,61,1) 76%, rgba(210,155,72,1) 100%);
+$soft-pink: #FDD8B2;
+$aux-gold: rgba(241, 205, 0, 0.99);
+$aux-grey: #323232;
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: $background;
@@ -15,6 +23,6 @@ section {
 }
 
 ::selection {
-  background-color: #f7c0a4; 
-  color: #111111; 
+  background-color: #f7c0a4;
+  color: #111111;
 }
