@@ -12,7 +12,8 @@ h2 {
   margin: 32px 0;
   color: $secondary-color;
   line-height: 6rem;
-  border-bottom: 3px solid gold;
+  border-bottom: 2px solid gold;
+  z-index: -1;
 }
 
 #introduction {

@@ -20,6 +20,19 @@ nav {
     a {
       color: white;
       text-decoration: none;
+      line-height: 3rem;
+      &::after {
+        content: "";
+        display: block;
+        height: 3px;
+        background-color: #FF7A5A;
+        transform: scale(0,1);
+        transform-origin: center;
+        transition: transform .35s;
+      }
+      &:hover::after {
+        transform: scale(1,1);
+      }
     }
   }
   .nav-left {
