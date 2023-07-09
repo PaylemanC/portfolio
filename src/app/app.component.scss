@@ -14,6 +14,7 @@ h2 {
   line-height: 6rem;
   border-bottom: 2px solid gold;
   z-index: -1;
+  letter-spacing: 8px;
 }
 
 #introduction {
@@ -67,6 +68,34 @@ h2 {
   }
 }
 
+.social-media {
+  position: relative;
+  top: -95px; //-100px
+  right: 47px;
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  .social-media_icon {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: float;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    border: 2px solid $secondary-color;
+    &.github {
+      background: url('../assets/icons/github.png') center/cover no-repeat;
+      background-color:white;
+    }
+    &.linkedin {
+      background: url('../assets/icons/linkedin.png') center/cover no-repeat;
+      background-color:white;
+    }
+  }
+}
+
 #about-me {
   .hard-skills__container, .soft-skills__container {
     display: flex;
@@ -75,3 +104,21 @@ h2 {
     justify-content: center;
   }
 }
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+// @media (max-width: 425px) {
+//   .introduction__avatar {
+//     display: none;
+//   }
+// }
