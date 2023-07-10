@@ -61,19 +61,19 @@ export class AppComponent {
     },
     {
       "name": "Autodidacta",
-      "icon": "../../../assets/icons/soft-skills/4.svg" // LISTO
+      "icon": "../../../assets/icons/soft-skills/5.svg"
     },
     {
       "name": "Facilidad de aprendizaje",
-      "icon": "../../../assets/icons/soft-skills/1.svg" // LISTO
+      "icon": "../../../assets/icons/soft-skills/1.svg"
     },
     {
       "name": "Creatividad",
-      "icon": "../../../assets/icons/soft-skills/3.svg" // LISTO
+      "icon": "../../../assets/icons/soft-skills/3.svg"
     },
     {
       "name": "Capacidad analítica",
-      "icon": "../../../assets/icons/soft-skills/5.svg" // LISTO
+      "icon": "../../../assets/icons/soft-skills/4.svg"
     }
   ]
 }

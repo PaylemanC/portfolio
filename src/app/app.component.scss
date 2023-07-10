@@ -96,6 +96,9 @@ h2 {
 }
 
 #about-me {
+  .about-me__skills {
+    display: flex;
+  }
   .hard-skills__container, .soft-skills__container {
     display: flex;
     gap: 32px;

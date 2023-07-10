@@ -26,13 +26,17 @@
   </div>
   <section id="about-me">
     <div class="about-me__skills">
-      <h2>Hard Skills</h2>
-      <div class="hard-skills__container">
-        <app-hard-skill [hardSkill]="hardSkill" *ngFor="let hardSkill of hardSkills"></app-hard-skill>
+      <div class="about-me__hard-kills">
+        <h2>hard skills</h2>
+        <div class="hard-skills__container">
+          <app-hard-skill [hardSkill]="hardSkill" *ngFor="let hardSkill of hardSkills"></app-hard-skill>
+        </div>
       </div>
-      <h2>Soft Skills</h2>
-      <div class="soft-skills__container">
-        <app-soft-skill [softSkill]="softSkill" *ngFor="let softSkill of softSkills"></app-soft-skill>
+      <div class="about-me__soft-skills">
+        <h2>soft skills</h2>
+        <div class="soft-skills__container">
+          <app-soft-skill [softSkill]="softSkill" *ngFor="let softSkill of softSkills"></app-soft-skill>
+        </div>
       </div>
     </div>
   </section>
