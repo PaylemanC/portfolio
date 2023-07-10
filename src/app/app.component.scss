@@ -117,8 +117,8 @@ h2 {
   }
 }
 
-// @media (max-width: 425px) {
-//   .introduction__avatar {
-//     display: none;
-//   }
-// }
+@media (max-width: 425px) {
+  .introduction__avatar, .social-media {
+    display: none;
+  }
+}
