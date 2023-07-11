@@ -1,21 +1,37 @@
+@import '../../../styles.scss';
+
 .hard-skill {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
+  span {
+    position: relative;
+    top: 16px;
+    left: 16px;
+    font-size: 4.6rem;
+    opacity: 0.35;
+    font-weight: bolder;
+    z-index: -1;
+  }
+}
+
+.hard-skill__content {
+  display: flex;
+  background: $aux-grey;
+  border-right: 2px solid #505050;
+  border-bottom: 2px solid #505050;
   align-items: center;
-  justify-content: center;
-  border: 6px solid darksalmon;
-  border-radius: 100%;
-  width: 140px;
-  height: 140px;
-  padding: 18px;
+  border-radius: 8px;
+  padding: 16px;
+  gap: 12px;
   img {
     height: 62px;
     width: 62px;
   }
   p {
     font-size: 1.6rem;
-    margin-top: 8px;
-    font-style: italic;
-    text-align: center;
+    font-weight: bold;
+    text-transform:uppercase;
+    letter-spacing: 1rem;
   }
 }

@@ -1,7 +1,7 @@
 @import '../styles.scss';
 
 main {
-  margin: 0 32px;
+  margin: 0 16px;
 }
 
 h2 {
@@ -99,9 +99,14 @@ h2 {
   .about-me__skills {
     display: flex;
   }
+  .about-me__hard-kills {
+    h2 {
+      margin: 0;
+    }
+  }
   .hard-skills__container, .soft-skills__container {
     display: flex;
-    gap: 32px;
+    gap: 0 24px;
     flex-wrap: wrap;
     justify-content: center;
   }

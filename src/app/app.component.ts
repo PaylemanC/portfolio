@@ -49,7 +49,7 @@ export class AppComponent {
       "icon": "../../../assets/icons/hard-skills/sass.svg"
     },
     {
-      "name": "HTML & CSS",
+      "name": "HTML&CSS",
       "icon": "../../../assets/icons/hard-skills/html_css.svg"
     }
   ]
