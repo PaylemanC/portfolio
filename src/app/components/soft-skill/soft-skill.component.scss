@@ -1,7 +1,23 @@
-@import '../hard-skill/hard-skill.component.scss';
 @import '../../../styles.scss';
+@import '../hard-skill/hard-skill.component.scss';
 
 .soft-skill {
   @extend .hard-skill;
-  border-color: #f7c0a4;
+  align-items: initial;
+  span {
+    top: 28px;
+    left: -21px;
+  }
+}
+
+.soft-skill__content {
+  @extend .hard-skill__content;
+  background-color: #272727;
+  border: 2px solid #505050;
+  border-bottom: none;
+  border-right: none;
+  p {
+    text-transform: lowercase;
+    letter-spacing: .5rem;
+  }
 }
