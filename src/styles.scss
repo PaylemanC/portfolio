@@ -6,7 +6,7 @@ $background: #212121;
 $degradado-gold: linear-gradient(90deg, rgba(249,237,85,1) 6%, rgba(223,170,64,1) 40%, rgba(236,178,61,1) 76%, rgba(210,155,72,1) 100%);
 $soft-pink: #FDD8B2;
 $aux-gold: rgba(241, 205, 0, 0.99);
-$aux-grey: #323232;
+$aux-grey: #303030;
 
 html {
   scroll-behavior: smooth;
@@ -19,7 +19,7 @@ body {
 }
 
 section {
-  margin: 32px 16px;
+  margin: 0 16px;
 }
 
 ::selection {
