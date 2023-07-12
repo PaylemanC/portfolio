@@ -9,6 +9,7 @@ import { Project } from '../../../models/project';
 export class CardProjectComponent {
   project: Project = {
     id: 0,
+    img: 'https://via.placeholder.com/300x150',
     title: 'Project Title',
     description: 'Quis ex aliquip sunt irure excepteur reprehenderit tempor Lorem. Eu commodo nulla laborum occaecat. Consectetur officia dolor culpa esse tempor reprehenderit. Aliquip amet sint exercitation consectetur eiusmod ad minim qui laboris cupidatat esse. Nisi aliqua do magna dolor sunt proident dolor esse ea quis deserunt adipisicing labore. Voluptate ullamco eu esse ipsum et exercitation nulla Lorem',
     skills: ['Angular', 'TypeScript', 'SCSS'],
