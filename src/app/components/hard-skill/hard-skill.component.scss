@@ -12,6 +12,7 @@
     opacity: 0.35;
     font-weight: bolder;
     z-index: -1;
+    cursor: default;
   }
 }
 
@@ -33,5 +34,8 @@
     font-weight: bold;
     text-transform:uppercase;
     letter-spacing: 1rem;
+  }
+  &:hover {
+    transform: scale(1.03);
   }
 }
