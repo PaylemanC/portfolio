@@ -1,11 +1,57 @@
+@import '../../../../styles.scss';
+
 footer {
   font-size: 1.6rem;
   width: 100%;
   background-color: #282828;
   padding: 32px 64px;
+  .footer__content-thanks {
+    .heart {
+      position:relative;
+      width:100px;
+      height:90px;
+      transition: transform 500ms;
+      transition-timing-function: cubic-bezier(.75, -3, .25, 4);
+      &:before {
+        position: absolute;
+        content: "";
+        left: 42px;
+        top: 0;
+        width: 42px;
+        height: 70px;
+        background: $secondary-color;
+        border-radius: 50px 50px 0 0;
+      }
+      &::before, &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 42px;
+        height: 70px;
+        border-radius: 50px 50px 0 0;
+        background: $secondary-color;
+      }
+      &::before {
+        left: 42px;
+        transform: rotate(-45deg);
+        transform-origin: 0 100%;
+      }
+      &::after {
+        left: 0;
+        transform: rotate(45deg);
+        transform-origin: 100% 100%;
+      }
+    }
+  }
+  &:hover {
+    .heart {
+      transform: scale(1.1);
+    }
+  }
   .footer__content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     ul {
       display: flex;
       flex-direction: column;
