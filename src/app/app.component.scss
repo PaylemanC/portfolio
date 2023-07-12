@@ -33,10 +33,18 @@ h2 {
       flex-direction: column;
       margin: 16px 0;
       font-weight: bold;
-      span {
+      .content-title_occupation {
         font-size: 7.4rem;
+        padding-right: 6px;
+        display: inline-block;
+        max-width:fit-content;
+        color: white;
+        overflow: hidden;
+        border-right: .7rem solid $secondary-color;
+        white-space: nowrap;
+        animation: typing 1.7s steps(20, end) forwards, blinking .85s infinite;
       }
-      span:first-child {
+      .content-title_name {
         color: $primary-color;
         font-size: 5.6rem;
       }
@@ -44,6 +52,7 @@ h2 {
     p {
       color: rgba(255, 255, 255, 0.6);
       font-size: 2.8rem;
+      cursor: default;
     }
   }
   .introduction__content-summary {
@@ -115,6 +124,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    margin-top: 16px;
   }
 }
 
@@ -127,6 +137,24 @@ h2 {
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blinking {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: $secondary-color;
   }
 }
 
