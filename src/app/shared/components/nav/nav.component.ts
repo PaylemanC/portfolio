@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-nav',
@@ -10,5 +10,29 @@ export class NavComponent {
 
   toggleMenu() {
     this.activeMenu = !this.activeMenu;
+  }
+
+  activeSection: string = 'introduction';
+
+  @HostListener('window:scroll', ['$event.target'])
+  onScroll(target: HTMLElement) {
+    this.detectCurrentSection(target);
+  }
+
+  detectCurrentSection(target: HTMLElement) {
+    const sections = document.querySelectorAll('section');
+    let currentSection: string = '';
+
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop;
+      const sectionHeight = section.clientHeight;
+      const scrollTop = target.scrollTop || window.pageYOffset;
+
+      if (scrollTop >= sectionTop - sectionHeight / 3) {
+        currentSection = section.id;
+      }
+    });
+
+    this.activeSection = currentSection;
   }
 }

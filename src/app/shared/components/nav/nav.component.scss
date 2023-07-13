@@ -4,6 +4,21 @@
   -webkit-backdrop-filter: blur(2px) saturate(75%);
 }
 
+@mixin underlineAnimation {
+  &::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: #FF7A5A;
+    transform: scale(0,1);
+    transform-origin: center;
+    transition: transform .35s;
+  }
+  &:hover::after, &.currentLink::after {
+    transform: scale(1,1);
+  }
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -22,17 +37,9 @@ nav {
       color: white;
       text-decoration: none;
       line-height: 3rem;
-      &::after {
-        content: "";
-        display: block;
-        height: 3px;
-        background-color: #FF7A5A;
-        transform: scale(0,1);
-        transform-origin: center;
-        transition: transform .35s;
-      }
-      &:hover::after {
-        transform: scale(1,1);
+      @include underlineAnimation();
+      &.currentLink {
+        @include underlineAnimation();
       }
     }
   }
@@ -55,6 +62,7 @@ nav {
   nav {
     .nav-right__mobile-menu {
       display: flex;
+      cursor: pointer;
     }
     .nav-right__links {
       display: none;
@@ -80,6 +88,7 @@ nav {
           gap: 56px;
           a {
             font-size: 2.8rem;
+            text-transform: uppercase;
           }
         }
       }
