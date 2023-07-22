@@ -63,11 +63,20 @@ footer {
       gap: 20px;
       li {
         a {
-          position: relative;
-          display: inline-block;
           font-size: 1.8rem;
-          line-height: 3.2rem;
+          line-height: 4rem;
           color: white;
+          background: linear-gradient(to bottom, $aux-gold 0%, $aux-gold 100%);
+          background-position: 0 100%;
+          background-repeat: repeat-x;
+          background-size: 4px 4px;
+          text-decoration: none;
+          transition: background-size .2s;
+          padding: 4px 1px;
+          &:hover {
+            background-size: 4px 50px;
+            color: $aux-grey;
+          }
         }
         p {
           color: gold;
