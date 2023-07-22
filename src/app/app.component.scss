@@ -96,10 +96,14 @@ h2 {
     &.github {
       background: url('../assets/icons/github.png') center/cover no-repeat;
       background-color:white;
+      height: 60px;
+      width: 60px
     }
     &.linkedin {
       background: url('../assets/icons/linkedin.png') center/cover no-repeat;
       background-color:white;
+      height: 60px;
+      width: 60px
     }
   }
 }
