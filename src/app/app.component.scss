@@ -162,8 +162,18 @@ h2 {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 575px) {
   .introduction__avatar, .social-media {
     display: none;
+  }
+
+  #introduction {
+    .introduction__content-title {
+      h1 {
+        .content-title_occupation {
+          white-space:initial;
+        } 
+      }
+    }
   }
 }
