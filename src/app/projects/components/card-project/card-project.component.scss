@@ -1,13 +1,18 @@
 @import '../../../app.component.scss';
 
 .card-project {
-  padding: 32px;
+  padding: 64px;
   border-radius: 8px;
   border-radius: 12px;
   background: linear-gradient(145deg, #202020, #121212);
-  box-shadow: 4px 6px 8px #101010, -1px -2px 6px #121212;
+  box-shadow: 2px 3px 4px #101010, 1px 0 3px #121212;
+  transition: box-shadow 1s;
+  max-width: 700px;
   img {
     border-radius: 12px;
+    width: 100%;
+    filter: grayscale(1);
+    transition: filter .5s;
   }
   a {
     color: white;
@@ -15,6 +20,7 @@
   p {
     color: white;
     font-size: 1.6rem;
+    font-weight:lighter;
   }
   h3 {
     font-size: 3.1rem;
@@ -23,12 +29,51 @@
     -webkit-background-clip: text;
     background-clip: none;
     color: $aux-gold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
     &::selection {
       -webkit-text-fill-color: initial;
       -webkit-background-clip: initial;
       background-clip: initial;
     }
   }
+  .card-project__content {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 16px;
+    .card-project__img {
+      position: relative;
+      left: 104px;
+    }
+  }
+  .card-project__info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 16px;
+    .card-project__info-skills {
+      font-weight: bold;
+      letter-spacing: 3px;
+      font-size: 1.2rem;
+    }
+    .card-project__info-links {
+      display: flex;
+      cursor: pointer;
+      gap: 8px;
+      .link {
+        border: 2px solid white;
+        background: black;
+        border-radius: 50%;
+        padding: 8px;
+        height: fit-content;
+      }
+    }
+  }
+  &:hover {
+    box-shadow: 4px 6px 8px #101010, -1px -2px 6px #121212;
+    img {
+      filter: none;
+    }
+  }
 }
-
