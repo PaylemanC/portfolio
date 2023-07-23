@@ -1,7 +1,7 @@
 @mixin blurBackground {
   background-color: transparent;
-  backdrop-filter: blur(2px) saturate(75%);
-  -webkit-backdrop-filter: blur(2px) saturate(75%);
+  backdrop-filter: blur(6px) saturate(75%);
+  -webkit-backdrop-filter: blur(6px) saturate(75%);
 }
 
 @mixin underlineAnimation {
@@ -23,7 +23,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 16px 32px;
+  padding: 8px 32px;
   position: sticky;
   z-index: 2;
   top: 0;
@@ -75,8 +75,9 @@ nav {
         left: 0;
         bottom: 0;
         right: 0;
-        width: 100%;
+        width: 90%;
         height: calc(100vh - 99px); // height: fit-content;
+        margin: 8px 16px;
         .nav-right__links-container {
           @include blurBackground;
           height: calc(100vh - 99px);
