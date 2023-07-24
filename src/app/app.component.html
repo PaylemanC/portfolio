@@ -43,7 +43,7 @@
   <section id="project">
     <h2>Proyectos</h2>
     <div class="project__container">
-      <app-card-project></app-card-project>
+      <app-card-project [project]="project" *ngFor="let project of projects"></app-card-project>
     </div>
   </section>
   <!-- <section id="contact">

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Skill } from './models/skill';
+import { Project } from './models/project';
 
 @Component({
   selector: 'app-root',
@@ -74,6 +75,18 @@ export class AppComponent {
     {
       "name": "Capacidad analítica",
       "icon": "../../../assets/icons/soft-skills/4.svg"
+    }
+  ]
+
+  projects: Project[] = [
+    {
+      id: 0,
+      img: '../../../../assets/imgs/eco-store.png',
+      title: 'Eco-Store',
+      description: 'Landing page responsive de un e-commerce con catálogo de productos ecológicos y sustentables provenientes de Colombia.',
+      skills: ['HTML', 'CSS', 'SCSS'],
+      github: 'https://github.com/PaylemanC/Eco-Store--Platzi',
+      deploy: 'https://eco-store-platzi.netlify.app/'
     }
   ]
 }

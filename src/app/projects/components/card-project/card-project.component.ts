@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Project } from '../../../models/project';
 
 @Component({
@@ -7,13 +7,13 @@ import { Project } from '../../../models/project';
   styleUrls: ['./card-project.component.scss']
 })
 export class CardProjectComponent {
-  project: Project = {
+  @Input() project: Project = {
     id: 0,
-    img: 'https://via.placeholder.com/300x150',
-    title: 'Project Title',
-    description: 'Quis ex aliquip sunt irure excepteur reprehenderit tempor Lorem. Eu commodo nulla laborum occaecat. Consectetur officia dolor culpa esse tempor reprehenderit. Aliquip amet sint exercitation consectetur eiusmod ad minim qui laboris cupidatat esse. Nisi aliqua do magna dolor sunt proident dolor esse ea quis deserunt adipisicing labore. Voluptate ullamco eu esse ipsum et exercitation nulla Lorem',
-    skills: ['Angular', 'TypeScript', 'SCSS'],
-    github: 'https://github.com/PaylemanC',
+    img: '', //https://via.placeholder.com/300x150
+    title: '',
+    description: '',
+    skills: [],
+    github: '',
     deploy: ''
   }
 }
