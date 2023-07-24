@@ -132,6 +132,16 @@ h2 {
   }
 }
 
+#project {
+  .project__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}
+
 @keyframes float {
   0% {
     transform: translateY(0);
@@ -172,7 +182,7 @@ h2 {
       h1 {
         .content-title_occupation {
           white-space:initial;
-        } 
+        }
       }
     }
   }

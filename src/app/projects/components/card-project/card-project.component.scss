@@ -1,5 +1,8 @@
 @import '../../../app.component.scss';
 
+.card-project__container {
+  width: 686px;
+}
 .card-project {
   padding: 64px;
   border-radius: 8px;
@@ -15,7 +18,7 @@
     // width: 100%;
     width: 280px;
     filter: grayscale(1);
-    transition: filter .5s;
+    transition: filter .5s, transform .3s;
   }
   a {
     color: white;
@@ -24,6 +27,7 @@
     color: white;
     font-size: 1.6rem;
     font-weight:lighter;
+    line-height: 1.5;
   }
   h3 {
     font-size: 3.1rem;
@@ -33,7 +37,7 @@
     background-clip: none;
     color: $aux-gold;
     letter-spacing: 1px;
-    margin-bottom: 8px;
+    margin: 8px 0;
     &::selection {
       -webkit-text-fill-color: initial;
       -webkit-background-clip: initial;
@@ -41,8 +45,7 @@
     }
   }
   .card-project__content {
-    // display: flex;
-    // flex-direction: row-reverse;
+    min-height: 154px;
     margin-bottom: 36px;
     .card-project__text {
       width: 67%;
@@ -63,6 +66,7 @@
       font-weight: bold;
       letter-spacing: 3px;
       font-size: 1.2rem;
+      line-height: 2.4rem;
     }
     .card-project__info-links {
       display: flex;
@@ -81,11 +85,15 @@
     box-shadow: 4px 6px 8px #101010, -1px -2px 6px #121212;
     img {
       filter: none;
+      transform: scale(1.04);
     }
   }
 }
 
-@media (max-width: 572px) {
+@media (max-width: 768px) {
+  .card-project__container {
+    width: fit-content;
+  }
   .card-project {
     padding-top: 0;
     margin-top: 88px;
