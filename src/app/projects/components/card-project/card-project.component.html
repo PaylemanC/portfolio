@@ -1,7 +1,9 @@
 <div class="card-project">
   <div class="card-project__content">
     <div class="card-project__img">
-    <img [src]="project.img" alt="Screenshot de {{project.title}}">
+      <a [href]="project.deploy !== '' ? project.deploy : project.github">
+        <img [src]="project.img" alt="Screenshot de {{project.title}}">
+      </a>
     </div>
     <div class="card-project__text">
       <h3>{{project.title}}</h3>
@@ -10,7 +12,7 @@
   </div>
   <div class="card-project__info">
     <div class="card-project__info-skills">
-      <span>{{ project.skills | joinWithSlash}}</span>
+      <span>{{ project.skills | joinWithSlash }}</span>
     </div>
     <div class="card-project__info-links">
       <div class="link github">
