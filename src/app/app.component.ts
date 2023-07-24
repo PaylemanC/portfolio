@@ -86,7 +86,9 @@ export class AppComponent {
       description: 'Landing page responsive de un e-commerce con catálogo de productos ecológicos y sustentables provenientes de Colombia.',
       skills: ['HTML', 'CSS', 'SCSS'],
       github: 'https://github.com/PaylemanC/Eco-Store--Platzi',
-      deploy: 'https://eco-store-platzi.netlify.app/'
+      deploy: 'https://eco-store-platzi.netlify.app/',
+      status: 'COMPLETED',
+      category: 'Frontend'
     }
   ]
 }

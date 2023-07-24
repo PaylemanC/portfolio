@@ -5,5 +5,7 @@ export interface Project {
   description: string;
   skills: string[];
   github: string;
-  deploy?: string;
+  deploy: string;
+  status: 'COMPLETED' | 'IN PROGRESS';
+  category: 'Frontend' | 'Backend' | 'Full Stack' | 'UX/UI Design';
 }

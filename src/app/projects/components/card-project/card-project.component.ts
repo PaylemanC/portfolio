@@ -14,6 +14,8 @@ export class CardProjectComponent {
     description: '',
     skills: [],
     github: '',
-    deploy: ''
+    deploy: '',
+    status: 'IN PROGRESS',
+    category: 'Full Stack'
   }
 }
