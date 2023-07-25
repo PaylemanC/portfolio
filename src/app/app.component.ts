@@ -92,7 +92,7 @@ export class AppComponent {
     },
     {
       id: 2,
-      img: '../../../assets/imgs/',
+      img: '../../../assets/imgs/misrutinas.png',
       title: 'MisRutinas',
       description: 'Fitness web full stack para creación y seguimiento de rutinas de entrenamiento. Cuenta con sistema de autenticación y CRUD de rutinas y ejercicios. Fue llevada a cabo durante un año junto a un equipo de 7 personas.',
       skills: ['Angular', 'Django', 'MySQL', 'Bootstrap'],
@@ -103,7 +103,7 @@ export class AppComponent {
     },
     {
       id: 3,
-      img: '../../../assets/imgs/', /************************ */
+      img: '../../../assets/imgs/yardsale.png',
       title: 'YardSale',
       description: 'E-commerce de venta de garaje con implementación de routing, carrito y CRUD de productos, conexión con API, etc., iniciado con un maquetado sencillo en HTML&CSS hasta llevarlo al framework de Angular.',
       skills: ['Angular', 'TypeScript', 'SCSS', 'HTML', 'CSS', 'JavaScript', 'API'],
