@@ -1,5 +1,6 @@
 @import '../styles.scss';
 
+
 main {
   margin: 0 16px;
 }
@@ -109,6 +110,42 @@ h2 {
 }
 
 #about-me {
+  .about-me__content-container {
+    background-color: #282828;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    padding: 44px;
+    border-radius: 24px;
+    line-height: 1.5;
+    h3 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: $secondary-color;
+      margin-bottom: 14px;
+    }
+    p {
+      font-size: 1.4rem;
+    }
+    span {
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    li {
+      &.platzi {
+        span, a {
+          color: #97ca3f;
+          text-decoration: none;
+        }
+      }
+      &.ispc {
+        span {
+          color: #0ea8de;
+        }
+      }
+    }
+  }
   .about-me__hard-kills, .about-me__soft-skills {
     h2 {
       margin: 0;
@@ -184,6 +221,12 @@ h2 {
           white-space:initial;
         }
       }
+    }
+  }
+
+  #about-me {
+    .about-me__content-container {
+      grid-template-columns: 1fr;
     }
   }
 }
