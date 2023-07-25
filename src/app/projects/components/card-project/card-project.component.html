@@ -3,7 +3,7 @@
     <div class="card-project__content">
       <div class="card-project__img">
         <a [href]="project.deploy !== '' ? project.deploy : project.github">
-          <img [src]="project.img" alt="Screenshot de {{project.title}}">
+          <img [src]="project.img" alt="Screenshot de {{project.title}}" loading="lazy">
         </a>
       </div>
       <div class="card-project__text">
