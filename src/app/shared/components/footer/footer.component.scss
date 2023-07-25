@@ -8,7 +8,7 @@ footer {
   margin-top: 80px;
   h2 {
     @extend h2;
-    margin: 0;
+    margin-top: 0;
   }
   .footer__content-thanks {
     .heart {
@@ -64,19 +64,7 @@ footer {
       li {
         a {
           font-size: 1.8rem;
-          line-height: 4rem;
-          color: white;
-          background: linear-gradient(to bottom, $aux-gold 0%, $aux-gold 100%);
-          background-position: 0 100%;
-          background-repeat: repeat-x;
-          background-size: 4px 4px;
-          text-decoration: none;
-          transition: background-size .2s;
-          padding: 4px 1px;
-          &:hover {
-            background-size: 4px 50px;
-            color: $aux-grey;
-          }
+          @include secondaryUnderline(white, $aux-gold, 4px);
         }
         p {
           color: gold;
