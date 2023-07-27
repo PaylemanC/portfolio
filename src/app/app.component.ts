@@ -86,7 +86,7 @@ export class AppComponent {
       description: '¡Este portafolio! Realicé tanto diseño como programación, aplicando de mis conocimientos en Angular, Figma, Git, usabilidad UX, entre otros, en un reto personal por realizarlo través de todo su proceso desde la planeación hasta su implementación. Está en constante mejora.',
       skills: ['Angular', 'SCSS', 'TypeScript'],
       github: 'https://github.com/PaylemanC/myPortfolio',
-      deploy: '', /*********************************************/
+      deploy: '#', /*********************************************/
       status: 'IN PROGRESS',
       category: 'Frontend'
     },
@@ -138,34 +138,34 @@ export class AppComponent {
       id: 6,
       img: '../../../assets/imgs/eco-store.png',
       title: 'Eco-Store',
-      description: 'Landing page responsive de un e-commerce con catálogo de productos ecológicos y sustentables provenientes de Colombia.',
+      description: 'Landing page responsive de un e-commerce con catálogo de productos ecológicos y sustentables.',
       skills: ['HTML', 'CSS', 'SCSS'],
       github: 'https://github.com/PaylemanC/Eco-Store--Platzi',
       deploy: 'https://eco-store-platzi.netlify.app/',
       status: 'COMPLETED',
       category: 'Frontend'
     },
-    {
-      id: 7,
-      img: '../../../assets/imgs/accesible-portfolio.png',
-      title: 'Portfolio Accesible',
-      description: 'Un portfolio sencillo priorizando la accesibilidad web de acuerdo a los lineamientos de la WCAG, incluyendo accesibilidad para usuarios con teclado por navegación por tab y lectores de pantalla.',
-      skills: ['HTML', 'CSS', 'JavaScript'],
-      github: 'https://github.com/PaylemanC/proyEj-portfolio-accesible--Platzi',
-      deploy: 'https://master--portfolio-accesible.netlify.app/index.html',
-      status: 'COMPLETED',
-      category: 'Frontend'
-    },
-    {
-      id: 8,
-      img: '../../../assets/imgs/batatabit.png',
-      title: 'Batatabit',
-      description: 'Landing page responsive de la empresa ficticia de bitcoins Batatabit con enfoque en maquetación mobile first.',
-      skills: ['HTML', 'CSS'],
-      github: 'https://github.com/PaylemanC/Batabit--Platzi',
-      deploy: 'https://batabit-crypto.netlify.app/',
-      status: 'COMPLETED',
-      category: 'Frontend'
-    }
+    // {
+    //   id: 7,
+    //   img: '../../../assets/imgs/accesible-portfolio.png',
+    //   title: 'Portfolio Accesible',
+    //   description: 'Un portfolio sencillo priorizando la accesibilidad web de acuerdo a los lineamientos de la WCAG, incluyendo accesibilidad para usuarios con teclado por navegación por tab y lectores de pantalla.',
+    //   skills: ['HTML', 'CSS', 'JavaScript'],
+    //   github: 'https://github.com/PaylemanC/proyEj-portfolio-accesible--Platzi',
+    //   deploy: 'https://master--portfolio-accesible.netlify.app/index.html',
+    //   status: 'COMPLETED',
+    //   category: 'Frontend'
+    // },
+    // {
+    //   id: 8,
+    //   img: '../../../assets/imgs/batatabit.png',
+    //   title: 'Batatabit',
+    //   description: 'Landing page responsive de la empresa ficticia de bitcoins Batatabit con enfoque en maquetación mobile first.',
+    //   skills: ['HTML', 'CSS'],
+    //   github: 'https://github.com/PaylemanC/Batabit--Platzi',
+    //   deploy: 'https://batabit-crypto.netlify.app/',
+    //   status: 'COMPLETED',
+    //   category: 'Frontend'
+    // }
   ]
 }

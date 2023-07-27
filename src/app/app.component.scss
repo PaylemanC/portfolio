@@ -199,6 +199,17 @@ h2 {
     flex-wrap: wrap;
     gap: 40px;
   }
+  h2 {
+    margin-bottom: 0;
+  }
+  h3 {
+    font-size: 2.2rem;
+    margin: 0;
+    border-bottom: none;
+    color: #fd886c;
+    line-height: 6rem;
+    letter-spacing: 6px;
+  }
 }
 
 @keyframes float {
