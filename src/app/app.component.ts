@@ -16,6 +16,17 @@ export class AppComponent {
 
 
   //DATA -----------------------------------------------------------
+  personalInfo = {
+    name: 'Carina Payleman',
+    occupation: 'Web Developer',
+    summary: 'Programadora Web Full Stack con conocimientos en Django, MySQL y enfoque en Angular, comprometida en generar soluciones digitales eficientes, robustas y estéticas de calidad para satisfacer los objetivos de negocio y optimizar la experiencia de usuario. Destaco por mi creativa capacidad de resolución de problemas, mi iniciativa autodidacta con facilidad de aprendizaje, y mi adaptabilidad y entusiasmo ante nuevas tecnologías y proyectos desafiantes.',
+    social: {
+      github: 'https://github.com/PaylemanC',
+      linkedin: 'https://www.linkedin.com/in/carina-rocio-payleman/',
+      email: 'carinapaylemandev@gmail.com',
+    }
+  }
+
   hardSkills: Skill[] = [
     {
       "name": "Angular",

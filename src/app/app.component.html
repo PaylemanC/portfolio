@@ -4,11 +4,11 @@
     <div class="introduction__content">
       <div class="introduction__content-title">
         <p>&lt;h1&gt;</p>
-        <h1><span class="content-title_name">Carina Payleman</span><span class="content-title_occupation">Web Developer</span></h1>
+        <h1><span class="content-title_name">{{personalInfo.name | titlecase }}</span><span class="content-title_occupation">{{personalInfo.occupation  | titlecase }}</span></h1>
         <p>&lt;/h1&gt;</p>
       </div>
       <div class="introduction__content-summary">
-        <p>Programadora Web Full Stack con conocimientos en Django, MySQL y enfoque en Angular, comprometida en generar soluciones digitales eficientes, robustas y estéticas de calidad para satisfacer los objetivos de negocio y optimizar la experiencia de usuario. Destaco por mi creativa capacidad de resolución de problemas, mi iniciativa autodidacta con facilidad de aprendizaje, y mi adaptabilidad y entusiasmo ante nuevas tecnologías y proyectos desafiantes.</p>
+        <p>{{personalInfo.summary}}</p>
       </div>
       <app-cv-download-button></app-cv-download-button>
     </div>
@@ -17,10 +17,10 @@
     </div>
   </section>
   <div class="social-media">
-    <a href="https://github.com/PaylemanC">
+    <a [href]="personalInfo.social.github">
       <div class="social-media_icon github"></div>
     </a>
-    <a href="https://www.linkedin.com/in/carina-rocio-payleman/">
+    <a [href]="personalInfo.social.linkedin">
       <div class="social-media_icon linkedin"></div>
     </a>
   </div>
