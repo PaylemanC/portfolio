@@ -96,3 +96,10 @@ footer {
     }
   }
 }
+
+@media (max-width: 768px) {
+  .footer__content {
+    justify-content: space-around;
+    gap: 24px;
+  }
+}

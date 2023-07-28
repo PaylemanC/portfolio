@@ -5,18 +5,18 @@
       <h2>Contáctame</h2>
     </div>
     <ul>
-      <li>carinapaylemandev@gmail.com</li>
+      <li>{{email}}</li>
       <li>
-        <a href="https://github.com/PaylemanC" target="_blank">GitHub</a>
-        <p>@PaylemanC</p>
+        <a [href]="github.url" target="_blank">GitHub</a>
+        <p>{{github.user}}</p>
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/carina-rocio-payleman/" target="_blank">LinkedIn</a>
-        <p>@Carina Payleman</p>
+        <a [href]="linkedin.url" target="_blank">LinkedIn</a>
+        <p>{{linkedin.user}}</p>
       </li>
     </ul>
   </div>
   <div class="footer__copyright">
-    <span>Carina Payleman © 2023</span>
+    <span>{{name}} © 2023</span>
   </div>
 </footer>

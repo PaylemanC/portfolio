@@ -17,10 +17,10 @@
     </div>
   </section>
   <div class="social-media">
-    <a [href]="personalInfo.social.github">
+    <a [href]="social.github">
       <div class="social-media_icon github"></div>
     </a>
-    <a [href]="personalInfo.social.linkedin">
+    <a [href]="social.linkedin">
       <div class="social-media_icon linkedin"></div>
     </a>
   </div>
@@ -79,4 +79,4 @@
     <h2>Contáctame</h2>
   </section> -->
 </main>
-<app-footer id="contact"></app-footer>
+<app-footer id="contact" [name]="personalInfo.name" [github]="social.github" [linkedin]="social.linkedin" [email]="social.email"></app-footer>
