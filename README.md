@@ -1,8 +1,38 @@
-# MyPortfolio
+# Mi Portfolio 💖
 
-This repository contains my portfolio's code! 💖 It's a showcase of my skills as a Full Stack Developer: a little about me, my favourites projects, technologies and frameworks I use, soft skills, achievements, etc. Explore my portfolio to get a glimpse of my capabilities and my passion for creating innovative websites.
+![Screenshot Portfolio V1](src/assets/imgs/banner-portfoliov1.png)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+¡Este repositorio contiene el código de mi portafolio! 💖 Es una muestra de mis habilidades como Desarrolladora Full Stack: un poco sobre mí, mis proyectos favoritos, herramientas y frameworks que utilizo, habilidades blandas, etc. Explora mi portafolio para tener una visión de mis capacidades y mi pasión por crear sitios web. Gracias por ver! 💘
+
+Este es un proyecto en Angular 15.2.6, Open Source. Siéntete libre de utilizarlo para tu propio portafolio modificándolo a tu gusto. Si lo haces, ¡me encantaría verlo! 😊
+
+## Instalación
+
+Clona el repositorio:
+
+```bash
+git clone https://github.com/PaylemanC/myPortfolio.git
+```
+
+Instala las dependencias con [npm](https://nodejs.org/es/download):
+
+```bash
+npm install
+```
+
+Iniciar servidor con:
+
+```bash
+ng serve
+```
+
+Y abre el navegador en `http://localhost:4200/`
+
+Para más comandos de desarrollo de Angular, visita la [documentación oficial](https://angular.io/cli#command-overview).
+
+## Uso
+
+Este proyecto es **Open Source**, por lo que puedes clonarlo y editarlo a gusto. Puedes añadir tus datos yendo a `src/app/app.component.ts`. Allí encontrarás objetos para modificar a tu gusto.
 
 <!-- ## Development server
 
