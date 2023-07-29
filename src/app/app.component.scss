@@ -133,6 +133,7 @@ h2 {
     padding: 44px;
     border-radius: 24px;
     line-height: 1.6;
+    margin-bottom: 32px;
     h3 {
       font-size: 1.8rem;
       font-weight: bold;
@@ -140,18 +141,19 @@ h2 {
       margin-bottom: 14px;
     }
     p {
-      font-size: 1.4rem;
+      font-size: 1.5rem;
     }
     span {
       font-size: 1.5rem;
       font-weight: bold;
       letter-spacing: 2px;
-    }
+    }  
     a {
       @include secondaryUnderline($secondary-color, $primary-color, 2px);
       line-height: 1.6;
     }
     li {
+      margin-bottom: 12px;
       &.platzi {
         span, a {
           color: #97ca3f;
@@ -159,11 +161,22 @@ h2 {
         }
         a {
           @include secondaryUnderline(#97ca3f, #97ca3f, 2px);
+          line-height: 1.5;
         }
       }
       &.ispc {
         span {
           color: #0ea8de;
+        }
+      }
+      &.codo-a-codo {
+        span {
+          color: #f7b801;
+        }
+      }
+      &.arg-progr {
+        span {
+          color: #c93a92;
         }
       }
     }
@@ -204,7 +217,7 @@ h2 {
   }
   h3 {
     font-size: 2.2rem;
-    margin: 0;
+    margin: 0 0 16px 24px;
     border-bottom: none;
     color: #fd886c;
     line-height: 6rem;
