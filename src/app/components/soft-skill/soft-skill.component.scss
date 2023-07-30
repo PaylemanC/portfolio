@@ -15,9 +15,11 @@
   border: 2px solid #505050;
   border-bottom: none;
   border-right: none;
+  width: 240px;
   p {
     text-transform: lowercase;
     letter-spacing: .5rem;
+    text-align: center;
   }
   &:hover {
     transform: none;
