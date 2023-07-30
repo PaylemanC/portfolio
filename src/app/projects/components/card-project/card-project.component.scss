@@ -1,22 +1,21 @@
 @import '../../../app.component.scss';
 
 .card-project__container {
-  width: 686px;
+  width: 735px;
 }
 .card-project {
   padding: 64px;
-  border-radius: 8px;
   border-radius: 12px;
   background: linear-gradient(145deg, #202020, #121212);
   // background: grey;
   box-shadow: 2px 3px 4px #101010, 1px 0 3px #121212;
   transition: box-shadow 1s;
-  max-width: 600px;
+  max-width: 648px; 
   position: relative;
   img {
     border-radius: 12px;
-    // width: 100%;
     width: 280px;
+    height: auto;
     filter: grayscale(1);
     transition: filter .5s, transform .3s;
   }
