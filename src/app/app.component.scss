@@ -266,12 +266,15 @@ h2 {
       h1 {
         .content-title_occupation {
           white-space:initial;
+          border-right: none;
+          animation: none;
         }
       }
     }
   }
 
   #about-me {
+    margin-top: 36px;
     .about-me__content-container {
       grid-template-columns: 1fr;
     }
