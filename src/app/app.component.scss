@@ -134,11 +134,12 @@ h2 {
     border-radius: 24px;
     line-height: 1.6;
     margin-bottom: 32px;
-    h3 {
+    h2 {
       font-size: 1.8rem;
-      font-weight: bold;
-      color: $secondary-color;
-      margin-bottom: 14px;
+      margin: 0 0 14px 0;
+      line-height: 1.5;
+      border-bottom: none;
+      letter-spacing: normal;
     }
     p {
       font-size: 1.5rem;
@@ -147,7 +148,7 @@ h2 {
       font-size: 1.5rem;
       font-weight: bold;
       letter-spacing: 2px;
-    }  
+    }
     a {
       @include secondaryUnderline($secondary-color, $primary-color, 2px);
       line-height: 1.6;
@@ -176,7 +177,7 @@ h2 {
       }
       &.arg-progr {
         span {
-          color: #c93a92;
+          color: #ff6fc8;
         }
       }
     }
