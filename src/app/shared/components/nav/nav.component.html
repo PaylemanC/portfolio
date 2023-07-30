@@ -13,13 +13,13 @@
         <path d="M4 18l16 0" />
       </svg>
     </li>
-    <div class="nav-right__links" [class.active]="activeMenu">
-      <div class="nav-right__links-container">
+    <li class="nav-right__links" [class.active]="activeMenu">
+      <ul class="nav-right__links-container">
         <li><a href="#introduction" [class.currentLink]="activeSection === 'introduction'">Inicio</a></li>
         <li><a href="#about-me" [class.currentLink]="activeSection === 'about-me'">Sobre mí</a></li>
         <li><a href="#project" [class.currentLink]="activeSection === 'project'">Proyectos</a></li>
         <li><a href="#contact" [class.currentLink]="activeSection === 'contact'">Contacto</a></li>
-      </div>
-    </div>
+      </ul>
+    </li>
   </ul>
 </nav>
