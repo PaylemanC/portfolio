@@ -16,6 +16,23 @@
   }
 }
 
+@mixin setScrolltopColors($bgColor: #333, $arrowColor: white, $bgColorHover: $bgColor, $arrowColorHover: $arrowColor) {
+  #scrolltop-bg {
+    fill: $bgColor;
+  }
+  #scrolltop-arrow {
+    fill: $arrowColor;
+  }
+  a:hover {
+    #scrolltop-bg {
+      fill: $bgColorHover;
+    }
+    #scrolltop-arrow {
+      fill: $arrowColorHover;
+    }
+  }
+}
+
 main {
   margin: 0 16px;
 }
@@ -223,6 +240,45 @@ h2 {
     color: #fd886c;
     line-height: 6rem;
     letter-spacing: 6px;
+  }
+}
+
+.scrolltop-wrap {
+  $size: 4rem;
+  $offsetBottom: 2rem;
+  box-sizing: border-box;
+  position: absolute;
+  top: 1.6rem; 
+  right: 2rem;
+  bottom: 0;
+  pointer-events: none;
+  backface-visibility: hidden;
+  @include setScrolltopColors(#ffa476, $background, lighten(#ffa476, 8%));
+  a {
+    $offset: - ($size + $offsetBottom); 
+    position: fixed; 
+    position: sticky;
+    top: $offset;
+    width: $size;
+    height: $size;
+    margin-bottom: $offset;
+    transform: translateY(100vh); 
+    backface-visibility: hidden;
+    display: inline-block;
+    text-decoration: none;
+    user-select: none;
+    pointer-events: all;
+    outline: none;
+    overflow: hidden;
+    svg {
+      display: block;
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      path {
+        transition: all 0.1s;
+      }
+    }
   }
 }
 

@@ -28,7 +28,7 @@ export class NavComponent {
       const sectionHeight = section.clientHeight;
       const scrollTop = target.scrollTop || window.pageYOffset;
 
-      if (scrollTop >= sectionTop - sectionHeight / 3) {
+      if (scrollTop >= sectionTop - sectionHeight / 4) {
         currentSection = section.id;
       }
     });
