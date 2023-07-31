@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./cv-download-button.component.scss']
 })
 export class CvDownloadButtonComponent {
-  urlCV = '../../../../assets/cv.pdf';
-  
+  urlCV = './assets/cv.pdf';
+
 }

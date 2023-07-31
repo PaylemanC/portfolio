@@ -27,6 +27,7 @@ nav {
   position: sticky;
   z-index: 2;
   top: 0;
+  height: 80px;
   @include blurBackground;
   ul {
     align-items: center;
