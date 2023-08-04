@@ -1,0 +1,217 @@
+{
+  "name": "Carina Payleman",
+  "occupation": ["Web Developer", "Backend Developer", "Frontend Developer"],
+  "summary": "Programadora Web Full Stack con conocimientos en Django, MySQL y enfoque en Angular, comprometida en generar soluciones digitales eficientes, robustas y estéticas de calidad para satisfacer los objetivos de negocio y optimizar la experiencia de usuario. Destaco por mi creativa capacidad de resolución de problemas, mi iniciativa autodidacta con facilidad de aprendizaje, y mi adaptabilidad y entusiasmo ante nuevas tecnologías y proyectos desafiantes.",
+  "description": "Mi nombre es Carina y mi apellido es Payleman, por lo que me gusta referenciarme como @PaylemanC. Soy de Córdoba, Argentina, hablo y me desenvuelvo cómodamente en español e inglés. Tengo conocimiento y práctica en entornos y lenguajes de Backend y Frontend, debido a mi curiosidad innata siempre me encuentro estudiando y practicando cosas nuevas que sumen y complementen mi perfil profesional, con una formación mayoritariamente autodidacta. La disciplina de nunca parar de aprender es uno de mis pilares, soy alguien que considera que la mejor forma de aprender y avanzar es atreverse haciendo (aún si me ha costado horas de debugging y repasos de algoritmos de nuevo), por lo que siempre tengo un proyecto en mente y en proceso para aplicar nuevos conocimientos, amo los desafíos de código y los diseños UI para replicar. Me apasiona aprender y aplicar patrones de diseño, algoritmos, diagramas de flujo, accesibilidad web, frameworks y librerías, entre otros; y me encanta trabajar con gente que persigue ideales similares, destaco en proyectos colaborativos aprendiendo con rapidez y enseñando con vocación, sumando mi impecable resolución de problemas y adaptabilidad. Muchas gracias por interesarte en este portfolio. Te invito a continuar explorándolo 💖",
+  "education": [
+    {
+      "id": 1,
+      "institute": "Platzi",
+      "title": "Escuela de Desarrollo Web",
+      "date": "11.2022 — Actualidad",
+      "description": "Plataforma de cursos en tecnología"
+    },
+    {
+      "id": 2,
+      "institute": "ISPC",
+      "title": "Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales",
+      "date": "02.2022 — Actualidad",
+      "description": "Cursando 2do año"
+    },
+    {
+      "id": 3,
+      "institute": "Codo a Codo",
+      "title": "Full Stack en Python",
+      "date": "08.2023 — Actualidad",
+      "description": ""
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "company": "",
+      "title": "",
+      "date": "",
+      "description": "",
+      "responsibilities": []
+    }
+  ],
+  "cv": "./assets/cv.pdf",
+  "skills": {
+      "hard-skills": [
+        {
+          "id": 1,
+          "name": "Angular",
+          "icon": "./assets/icons/hard-skills/angular.svg"
+        },
+        {
+          "id": 2,
+          "name": "Django",
+          "icon": "./assets/icons/hard-skills/django.svg"
+        },
+        {
+          "id": 3,
+          "name": "MySQL",
+          "icon": "./assets/icons/hard-skills/mysql.svg"
+        },
+        {
+          "id": 4,
+          "name": "Python",
+          "icon": "./assets/icons/hard-skills/git.svg"
+        },
+        {
+          "id": 5,
+          "name": "TypeScript",
+          "icon": "./assets/icons/hard-skills/typescript.svg"
+        },
+        {
+          "id": 6,
+          "name": "JavaScript",
+          "icon": "./assets/icons/hard-skills/javascript.svg"
+        },
+        {
+          "id": 7,
+          "name": "Git",
+          "icon": "./assets/icons/hard-skills/python.svg"
+        },
+        {
+          "id": 8,
+          "name": "SASS",
+          "icon": "./assets/icons/hard-skills/sass.svg"
+        },
+        {
+          "id": 9,
+          "name": "HTML&CSS",
+          "icon": "./assets/icons/hard-skills/html_css.svg"
+        }
+      ],
+    "soft-skills": [
+      {
+        "id": 1,
+        "name": "Trabajo en equipo",
+        "icon": "./assets/icons/soft-skills/2.svg"
+      },
+      {
+        "id": 2,
+        "name": "Autodidacta",
+        "icon": "./assets/icons/soft-skills/5.svg"
+      },
+      {
+        "id": 3,
+        "name": "Facilidad de aprendizaje",
+        "icon": "./assets/icons/soft-skills/1.svg"
+      },
+      {
+        "id": 4,
+        "name": "Creatividad",
+        "icon": "./assets/icons/soft-skills/3.svg"
+      },
+      {
+        "id": 5,
+        "name": "Capacidad analítica",
+        "icon": "./assets/icons/soft-skills/4.svg"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "img": "./assets/imgs/portfolio.png",
+      "title": "Portfolio Personal",
+      "description": "¡Este portafolio! Realicé tanto diseño como programación, aplicando de mis conocimientos en Angular, Figma, Git, usabilidad UX, entre otros, en un reto personal por realizarlo través de todo su proceso desde la planeación hasta su implementación. Está en constante mejora.",
+      "skills": ["Angular", "SCSS", "TypeScript"],
+      "github": "https://github.com/PaylemanC/myPortfolio",
+      "deploy": "#",
+      "status": "IN PROGRESS",
+      "category": "Frontend"
+    },
+    {
+      "id": 2,
+      "img": "./assets/imgs/misrutinas.png",
+      "title": "MisRutinas",
+      "description": "Fitness web full stack para creación y seguimiento de rutinas de entrenamiento. Cuenta con sistema de autenticación y CRUD de rutinas y ejercicios. Fue llevada a cabo durante un año junto a un equipo de 7 personas.",
+      "skills": ["Angular", "Django", "MySQL", "Bootstrap"],
+      "github": "https://github.com/grupoA7ISPC/ProyectoISPCGrupo55/tree/main",
+      "deploy": "",
+      "status": "COMPLETED",
+      "category": "Full Stack"
+    },
+    {
+      "id": 3,
+      "img": "./assets/imgs/yardsale.png",
+      "title": "YardSale",
+      "description": "E-commerce de venta de garaje con implementación de routing, carrito y CRUD de productos, conexión con API, etc., iniciado con un maquetado sencillo en HTML&CSS hasta llevarlo al framework de Angular.",
+      "skills": ["Angular", "TypeScript", "SCSS", "HTML", "CSS", "JavaScript", "API"],
+      "github": "https://github.com/PaylemanC/YardSale--Platzi",
+      "deploy": "https://yardsale-platzi.netlify.app/",
+      "status": "IN PROGRESS",
+      "category": "Frontend"
+    },
+    {
+      "id": 4,
+      "img": "./assets/imgs/encriptador.png",
+      "title": "Des/Encriptador de Mensajes",
+      "description": "Juego de encriptador y desencriptador de mensajes con un algoritmo de vocales desarrollado en JavaScript para uno de los retos de Oracle Next Education.",
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "github": "https://github.com/PaylemanC/Encriptador-de-mensajes--ONE",
+      "deploy": "https://encriptador-mensajes.netlify.app/",
+      "status": "COMPLETED",
+      "category": "Frontend"
+    },
+    {
+      "id": 5,
+      "img": "./assets/imgs/pomodoro-playlist.png",
+      "title": "Pomodoro Playlist",
+      "description": "Landing page usando la API de Youtube para traer mi lista de reproducción de vídeos con la técnica de estudio pomodoro que uso para programar y estudiar, con paisajes bonitos y música lofi & piano de fondo.",
+      "skills": ["HTML", "CSS", "JavaScript", "API"],
+      "github": "https://github.com/PaylemanC/pomodoro-playlist",
+      "deploy": "https://study-with-me-playlist.netlify.app/",
+      "status": "COMPLETED",
+      "category": "Frontend"
+    },
+    {
+      "id": 6,
+      "img": "./assets/imgs/eco-store.png",
+      "title": "Eco-Store",
+      "description": "Landing page responsive de un e-commerce con catálogo de productos ecológicos y sustentables.",
+      "skills": ["HTML", "CSS", "SCSS"],
+      "github": "https://github.com/PaylemanC/Eco-Store--Platzi",
+      "deploy": "https://eco-store-platzi.netlify.app/",
+      "status": "COMPLETED",
+      "category": "Frontend"
+    },
+    {
+      "id": 7,
+      "img": "./assets/imgs/accesible-portfolio.png",
+      "title": "Portfolio Accesible",
+      "description": "Un portfolio sencillo priorizando la accesibilidad web de acuerdo a los lineamientos de la WCAG, incluyendo accesibilidad para usuarios con teclado por navegación por tab y lectores de pantalla.",
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "github": "https://github.com/PaylemanC/proyEj-portfolio-accesible--Platzi",
+      "deploy": "https://master--portfolio-accesible.netlify.app/index.html",
+      "status": "COMPLETED",
+      "category": "Frontend"
+    },
+    {
+      "id": 8,
+      "img": "./assets/imgs/batatabit.png",
+      "title": "Batatabit",
+      "description": "Landing page responsive de la empresa ficticia de bitcoins Batatabit con enfoque en maquetación mobile first.",
+      "skills": ["HTML", "CSS"],
+      "github": "https://github.com/PaylemanC/Batabit--Platzi",
+      "deploy": "https://batabit-crypto.netlify.app/",
+      "status": "COMPLETED",
+      "category": "Frontend"
+    }
+  ],
+  "social-media": {
+    "github":  {
+      "url": "https://github.com/PaylemanC",
+      "user": "@PaylemanC"
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/carina-rocio-payleman/",
+      "user": "@Carina Payleman"
+    },
+    "email": "carinapaylemandev@gmail.com"
+  }
+}
