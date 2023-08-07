@@ -83,6 +83,11 @@
           "id": 9,
           "name": "HTML&CSS",
           "icon": "./assets/icons/hard-skills/html_css.svg"
+        },
+        {
+          "id": 10,
+          "name": "Java",
+          "icon": "./assets/icons/hard-skills/java.svg"
         }
       ],
     "soft_skills": [
