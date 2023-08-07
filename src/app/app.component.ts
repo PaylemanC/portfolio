@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { PersonalDataService } from './services/personal-data.service';
 
 import { Skill } from './models/skill';
@@ -12,22 +12,14 @@ import { Project } from './models/project';
 export class AppComponent {
   title = 'myPortfolio';
 
-  // constructor() {}
-
-
-
 
   //DATA -----------------------------------------------------------
-  personalInfo = {
-    name: 'Carina Payleman',
-    occupation: 'Web Developer',
-    summary: 'Programadora Web Full Stack con conocimientos en Django, MySQL y enfoque en Angular, comprometida en generar soluciones digitales eficientes, robustas y estéticas de calidad para satisfacer los objetivos de negocio y optimizar la experiencia de usuario. Destaco por mi creativa capacidad de resolución de problemas, mi iniciativa autodidacta con facilidad de aprendizaje, y mi adaptabilidad y entusiasmo ante nuevas tecnologías y proyectos desafiantes.',
-  }
+  personalInfo = { name: '', occupation: '', summary: '' }
 
   social = {
-    github: { url: 'https://github.com/PaylemanC', user: '@PaylemanC' },
-    linkedin: { url: 'https://www.linkedin.com/in/carina-rocio-payleman/', user: '@Carina Payleman' },
-    email: 'carinapaylemandev@gmail.com',
+    github: { url: '', user: '' },
+    linkedin: { url: '', user: '' },
+    email: '',
   }
 
   hardSkills: Skill[] = [
@@ -183,11 +175,20 @@ export class AppComponent {
     // }
   ]
 
-  constructor(private personalDataService: PersonalDataService) {
-    console.log("Corriendo constructor");
-  }
+  constructor(private personalDataService: PersonalDataService) { }
 
   ngOnInit() {
-    this.personalDataService.getAllData().subscribe(data => console.log("DATA: =>", data));
+    this.personalDataService.getAllData().subscribe(data => {
+      this.personalInfo = {
+        name: data.name,
+        occupation: data.occupation,
+        summary: data.summary
+      };
+      this.social = {
+        github: { url: data.social_media.github.url, user: data.social_media.github.user },
+        linkedin: { url: data.social_media.linkedin.url, user: data.social_media.linkedin.user },
+        email: data.social_media.email
+      };
+    });
   }
 }

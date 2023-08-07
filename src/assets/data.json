@@ -38,7 +38,7 @@
   ],
   "cv": "./assets/cv.pdf",
   "skills": {
-      "hard-skills": [
+      "hard_skills": [
         {
           "id": 1,
           "name": "Angular",
@@ -85,7 +85,7 @@
           "icon": "./assets/icons/hard-skills/html_css.svg"
         }
       ],
-    "soft-skills": [
+    "soft_skills": [
       {
         "id": 1,
         "name": "Trabajo en equipo",
@@ -203,7 +203,7 @@
       "category": "Frontend"
     }
   ],
-  "social-media": {
+  "social_media": {
     "github":  {
       "url": "https://github.com/PaylemanC",
       "user": "@PaylemanC"

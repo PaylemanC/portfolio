@@ -11,7 +11,7 @@ export class PersonalDataService {
 
   constructor(private http: HttpClient) { }
 
-  getAllData(): Observable<Object> {
-    return this.http.get<Object>(this.apiUrl);
+  getAllData(): Observable<any> {
+    return this.http.get<any>(this.apiUrl);
   }
 }
