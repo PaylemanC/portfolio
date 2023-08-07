@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProjectsModule } from './projects/projects.module';
+import { HttpClientModule } from '@angular/common/http';
 
 import { NavComponent } from './shared/components/nav/nav.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
@@ -23,7 +23,8 @@ import { SoftSkillComponent } from './components/soft-skill/soft-skill.component
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ProjectsModule
+    ProjectsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { PersonalDataService } from './services/personal-data.service';
+
 import { Skill } from './models/skill';
 import { Project } from './models/project';
 
@@ -10,7 +12,7 @@ import { Project } from './models/project';
 export class AppComponent {
   title = 'myPortfolio';
 
-  constructor() {}
+  // constructor() {}
 
 
 
@@ -180,4 +182,12 @@ export class AppComponent {
     //   category: 'Frontend'
     // }
   ]
+
+  constructor(private personalDataService: PersonalDataService) {
+    console.log("Corriendo constructor");
+  }
+
+  ngOnInit() {
+    this.personalDataService.getAllData().subscribe(data => console.log("DATA: =>", data));
+  }
 }
