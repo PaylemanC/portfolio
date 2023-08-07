@@ -14,7 +14,7 @@ export class AppComponent {
 
 
   //DATA -----------------------------------------------------------
-  personalInfo = { name: '', occupation: '', summary: '' }
+  personalInfo = { name: '', occupation: '', summary: '', description: '' }
 
   social = {
     github: { url: '', user: '' },
@@ -125,7 +125,8 @@ export class AppComponent {
       this.personalInfo = {
         name: data.name,
         occupation: data.occupation,
-        summary: data.summary
+        summary: data.summary,
+        description: data.description
       };
       this.social = {
         github: { url: data.social_media.github.url, user: data.social_media.github.user },

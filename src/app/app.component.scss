@@ -148,6 +148,7 @@ h2 {
     grid-template-columns: 1fr 1fr;
     gap: 24px;
     padding: 44px;
+    padding-bottom: 32px;
     border-radius: 24px;
     line-height: 1.6;
     margin-bottom: 32px;
@@ -248,21 +249,21 @@ h2 {
   $offsetBottom: 2rem;
   box-sizing: border-box;
   position: absolute;
-  top: 1.6rem; 
+  top: 1.6rem;
   right: 2rem;
   bottom: 0;
   pointer-events: none;
   backface-visibility: hidden;
   @include setScrolltopColors(#ffa476, $background, lighten(#ffa476, 8%));
   a {
-    $offset: - ($size + $offsetBottom); 
-    position: fixed; 
+    $offset: - ($size + $offsetBottom);
+    position: fixed;
     position: sticky;
     top: $offset;
     width: $size;
     height: $size;
     margin-bottom: $offset;
-    transform: translateY(100vh); 
+    transform: translateY(100vh);
     backface-visibility: hidden;
     display: inline-block;
     text-decoration: none;
