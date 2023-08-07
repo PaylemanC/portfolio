@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-cv-download-button',
@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./cv-download-button.component.scss']
 })
 export class CvDownloadButtonComponent {
-  urlCV = './assets/cv.pdf';
+  @Input() urlCV = '';
 
 }

@@ -22,6 +22,8 @@ export class AppComponent {
     email: '',
   }
 
+  cv = '';
+
   hardSkills: Skill[] = [
     {
       "name": "Angular",
@@ -189,6 +191,7 @@ export class AppComponent {
         linkedin: { url: data.social_media.linkedin.url, user: data.social_media.linkedin.user },
         email: data.social_media.email
       };
+      this.cv = data.cv;
     });
   }
 }
