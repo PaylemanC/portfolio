@@ -10,6 +10,7 @@ import { FooterComponent } from './shared/components/footer/footer.component';
 import { CvDownloadButtonComponent } from './shared/components/cv-download-button/cv-download-button.component';
 import { HardSkillComponent } from './components/hard-skill/hard-skill.component';
 import { SoftSkillComponent } from './components/soft-skill/soft-skill.component';
+import { LoaderComponent } from './shared/components/loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SoftSkillComponent } from './components/soft-skill/soft-skill.component
     FooterComponent,
     CvDownloadButtonComponent,
     HardSkillComponent,
-    SoftSkillComponent
+    SoftSkillComponent,
+    LoaderComponent
   ],
   imports: [
     BrowserModule,
