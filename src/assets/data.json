@@ -7,23 +7,56 @@
     {
       "id": 1,
       "institute": "Platzi",
-      "title": "Escuela de Desarrollo Web",
-      "date": "11.2022 — Actualidad",
-      "description": "Plataforma de cursos en tecnología"
+      "courses": [
+        {
+          "id": 1,
+          "date": "11.2022 — Actualidad",
+          "title": "Escuela de Desarrollo Web",
+          "description": ["Plataforma de cursos en tecnología", "@PaylemanC"]
+        }
+      ]
     },
     {
       "id": 2,
       "institute": "ISPC",
-      "title": "Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales",
-      "date": "02.2022 — Actualidad",
-      "description": "Cursando 2do año"
+      "courses": [
+        {
+          "id": 1,
+          "date": "02.2022 — Actualidad",
+          "title": "Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales",
+          "description": ["Cursando 2do año"]
+        }
+      ]
     },
     {
       "id": 3,
       "institute": "Codo a Codo",
-      "title": "Full Stack en Python",
-      "date": "08.2023 — Actualidad",
-      "description": ""
+      "courses": [
+        {
+          "id": 1,
+          "date": "08.2023 — Actualidad",
+          "title": "Full Stack en Python",
+          "description": [""]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "institute": "Argentina Programa",
+      "courses": [
+        {
+          "id": 1,
+          "date": "02.2022 — 04.2022",
+          "title": "#SéProgramar",
+          "description": ["1era etapa"]
+        },
+        {
+          "id": 2,
+          "date": "07.2022 — 01.2023",
+          "title": "#YoProgramo",
+          "description": ["2da etapa"]
+        }
+      ]
     }
   ],
   "experience": [
