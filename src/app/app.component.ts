@@ -1,5 +1,6 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { PersonalDataService } from './services/personal-data.service';
+import { LoaderService } from './services/loader.service';
 
 import { Skill } from './models/skill';
 import { Project } from './models/project';
@@ -23,9 +24,10 @@ export class AppComponent {
   softSkills: Skill[] = []
   projects: Project[] = []
 
-  constructor(private personalDataService: PersonalDataService) { }
+  constructor(private personalDataService: PersonalDataService, public loaderService: LoaderService) { }
 
   ngOnInit() {
+    this.loaderService.show()
     this.personalDataService.getAllData().subscribe(data => {
       this.personalInfo = {
         name: data.name,
@@ -42,6 +44,7 @@ export class AppComponent {
       this.hardSkills = data.skills.hard_skills;
       this.softSkills = data.skills.soft_skills;
       this.projects = data.projects;
+      this.loaderService.hide();
     });
   }
 
