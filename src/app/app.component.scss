@@ -171,34 +171,6 @@ h2 {
       @include secondaryUnderline($secondary-color, $primary-color, 2px);
       line-height: 1.6;
     }
-    li {
-      margin-bottom: 12px;
-      &.platzi {
-        span, a {
-          color: #97ca3f;
-          text-decoration: none;
-        }
-        a {
-          @include secondaryUnderline(#97ca3f, #97ca3f, 2px);
-          line-height: 1.5;
-        }
-      }
-      &.ispc {
-        span {
-          color: #0ea8de;
-        }
-      }
-      &.codo-a-codo {
-        span {
-          color: #f7b801;
-        }
-      }
-      &.arg-progr {
-        span {
-          color: #ff6fc8;
-        }
-      }
-    }
   }
   .about-me__hard-kills, .about-me__soft-skills {
     h2 {

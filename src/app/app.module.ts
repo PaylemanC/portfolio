@@ -12,6 +12,7 @@ import { HardSkillComponent } from './components/hard-skill/hard-skill.component
 import { SoftSkillComponent } from './components/soft-skill/soft-skill.component';
 import { LoaderComponent } from './shared/components/loader/loader.component';
 import { LoadingInterceptor } from './interceptors/loading.interceptor';
+import { EduItemComponent } from './components/edu-item/edu-item.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { LoadingInterceptor } from './interceptors/loading.interceptor';
     CvDownloadButtonComponent,
     HardSkillComponent,
     SoftSkillComponent,
-    LoaderComponent
+    LoaderComponent,
+    EduItemComponent
   ],
   imports: [
     BrowserModule,
