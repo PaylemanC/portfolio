@@ -7,5 +7,5 @@ import { Skill } from '../../models/skill';
   styleUrls: ['./soft-skill.component.scss']
 })
 export class SoftSkillComponent {
-  @Input() softSkill: Skill = { "name": "", "icon": "" };
+  @Input() softSkill: Skill = { "id": 0, "name": "", "icon": "" };
 }
