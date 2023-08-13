@@ -2,35 +2,33 @@
 p {
   font-size: 1.5rem;
 }
-span {
+.tittle {
   font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: 2px;
 }
+.slash {
+  margin: 0 4px;
+}
 li {
   margin-bottom: 12px;
   &.platzi {
-    span, a {
+    .color {
       color: #97ca3f;
-      text-decoration: none;
-    }
-    a {
-      @include secondaryUnderline(#97ca3f, #97ca3f, 2px);
-      line-height: 1.5;
     }
   }
   &.ispc {
-    span {
+    .color {
       color: #0ea8de;
     }
   }
   &.codo-a-codo {
-    span {
+    .color {
       color: #f7b801;
     }
   }
   &.argentina-programa {
-    span {
+    .color {
       color: #ff6fc8;
     }
   }

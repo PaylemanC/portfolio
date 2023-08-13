@@ -22,6 +22,10 @@ export class EduItemComponent {
     ]
   }
 
+  get courses() {
+    return this.education.courses;
+  }
+
   getClass() {
     let institute = this.education.institute;
     return institute.replace(/\s+/g, '-').toLowerCase();
