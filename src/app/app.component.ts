@@ -29,6 +29,9 @@ export class AppComponent {
   constructor(private personalDataService: PersonalDataService, public loaderService: LoaderService) { }
 
   ngOnInit() {
+    window.onload = () => {
+      this.loaderService.hide();
+    };
     this.loaderService.show()
     this.personalDataService.getAllData().subscribe(data => {
       this.personalInfo = {
