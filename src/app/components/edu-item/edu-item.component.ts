@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-edu-item',
@@ -7,4 +7,23 @@ import { Component } from '@angular/core';
 })
 export class EduItemComponent {
 
+  constructor() { }
+
+  @Input() education = {
+    "id": 0,
+    "institute": "",
+    "courses": [
+      {
+        "id": 0,
+        "date": "",
+        "title": "",
+        "description": []
+      }
+    ]
+  }
+
+  getClass() {
+    let institute = this.education.institute;
+    return institute.replace(/\s+/g, '-').toLowerCase();
+  }
 }

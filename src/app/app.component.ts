@@ -20,6 +20,7 @@ export class AppComponent {
     email: '',
   }
   cv = '';
+  education = []
   hardSkills: Skill[] = []
   softSkills: Skill[] = []
   projects: Project[] = []
@@ -41,6 +42,7 @@ export class AppComponent {
         email: data.social_media.email
       };
       this.cv = data.cv;
+      this.education = data.education;
       this.hardSkills = data.skills.hard_skills;
       this.softSkills = data.skills.soft_skills;
       this.projects = data.projects;

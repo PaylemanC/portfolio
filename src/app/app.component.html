@@ -35,7 +35,7 @@
         <div class="about-me__content education">
           <h2>Educación</h2>
           <ul>
-            <app-edu-item></app-edu-item>
+            <app-edu-item *ngFor="let institute of education" [education]="institute"></app-edu-item>
           </ul>
         </div>
         <!-- <div class="about-me__content work">
