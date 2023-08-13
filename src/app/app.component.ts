@@ -4,6 +4,7 @@ import { LoaderService } from './services/loader.service';
 
 import { Skill } from './models/skill';
 import { Project } from './models/project';
+import { Institute } from './models/institute';
 
 @Component({
   selector: 'app-root',
@@ -20,7 +21,7 @@ export class AppComponent {
     email: '',
   }
   cv = '';
-  education = []
+  education: Institute[] = []
   hardSkills: Skill[] = []
   softSkills: Skill[] = []
   projects: Project[] = []

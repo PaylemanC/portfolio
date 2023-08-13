@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Institute } from 'src/app/models/institute';
 
 @Component({
   selector: 'app-edu-item',
@@ -9,7 +10,7 @@ export class EduItemComponent {
 
   constructor() { }
 
-  @Input() education = {
+  @Input() education: Institute = {
     "id": 0,
     "institute": "",
     "courses": [

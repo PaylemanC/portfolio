@@ -1,6 +1,6 @@
 <li class="{{getClass()}}">
   <span class="tittle color">{{education.institute}}</span>
-  <p *ngFor="let course of education.courses">{{course.date}}  <span class="slash color">//</span>  {{course.title}}   
+  <p *ngFor="let course of courses">{{course.date}}  <span class="slash color">//</span>  {{course.title}}
     <span *ngFor="let description of course.description">
       <span class="slash color">//</span>  {{description}}
     </span>
