@@ -7,7 +7,7 @@ import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 
 import { NavComponent } from './shared/components/nav/nav.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
-import { CvDownloadButtonComponent } from './shared/components/cv-download-button/cv-download-button.component';
+import { CvDownloadButtonComponent } from './components/cv-download-button/cv-download-button.component';
 import { HardSkillComponent } from './components/hard-skill/hard-skill.component';
 import { SoftSkillComponent } from './components/soft-skill/soft-skill.component';
 import { LoaderComponent } from './shared/components/loader/loader.component';
