@@ -9,10 +9,19 @@
   background-color: #303030;
 }
 
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 p {
   font-size: 3.2rem;
   color: white;
   letter-spacing: 6px;
+  line-height: 1.8;
+  text-align: center;
 }
 
 .blur-text {
@@ -25,7 +34,7 @@ p {
   }
 
   50% {
-   filter: blur(5px);
+   filter: blur(4px);
   }
 }
 
@@ -35,7 +44,7 @@ p {
 }
 @keyframes blurIcon {
   0%, 100% {
-   filter: blur(5px);
+   filter: blur(3px);
   }
 
   50% {
