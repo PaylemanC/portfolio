@@ -8,10 +8,10 @@ Este es un proyecto en Angular 15.2.6, Open Source. Siéntete libre de utilizarl
 
 ## Instalación
 
-Clona el repositorio:
+Clona el repositorio en local con Git:
 
 ```bash
-git clone https://github.com/PaylemanC/myPortfolio.git
+git clone https://github.com/PaylemanC/portfolio.git
 ```
 
 Instala las dependencias con [npm](https://nodejs.org/es/download):
@@ -32,7 +32,7 @@ Para más comandos de desarrollo de Angular, visita la [documentación oficial](
 
 ## Uso
 
-Este proyecto es **Open Source**, por lo que puedes clonarlo y editarlo a gusto. Puedes añadir tus datos yendo a `src/app/app.component.ts`. Allí encontrarás objetos para modificar a tu gusto.
+Este proyecto es **Open Source**, por lo que puedes clonarlo y editarlo a gusto. Encontrarás un data.json para añadir tus datos en `src/assets/data.json`.
 
 <!-- ## Development server
 
