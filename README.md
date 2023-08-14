@@ -12,18 +12,21 @@ Clona el repositorio en local con Git:
 
 ```bash
 git clone https://github.com/PaylemanC/portfolio.git
+
 ```
 
 Instala las dependencias con [npm](https://nodejs.org/es/download):
 
 ```bash
 npm install
+
 ```
 
 Iniciar servidor con:
 
 ```bash
 ng serve
+
 ```
 
 Y abre el navegador en `http://localhost:4200/`
@@ -33,6 +36,8 @@ Para más comandos de desarrollo de Angular, visita la [documentación oficial](
 ## Uso
 
 Este proyecto es **Open Source**, por lo que puedes clonarlo y editarlo a gusto. Encontrarás un data.json para añadir tus datos en `src/assets/data.json`.
+
+⚠ Ten en consideración de editarlo a consciencia de seguir su estructura, encontrarás interfaces molde en `src/app/models/` para guiarte y dos estructuras más directamente en `src/app/app.component.ts`.
 
 <!-- ## Development server
 
@@ -55,5 +60,3 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page. -->
