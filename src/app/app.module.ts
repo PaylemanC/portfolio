@@ -13,6 +13,10 @@ import { SoftSkillComponent } from './components/soft-skill/soft-skill.component
 import { LoaderComponent } from './shared/components/loader/loader.component';
 import { LoadingInterceptor } from './interceptors/loading.interceptor';
 import { EduItemComponent } from './components/edu-item/edu-item.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ProjectDetailComponent } from './pages/project-detail/project-detail.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { AllProjectsComponent } from './pages/all-projects/all-projects.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +27,11 @@ import { EduItemComponent } from './components/edu-item/edu-item.component';
     HardSkillComponent,
     SoftSkillComponent,
     LoaderComponent,
-    EduItemComponent
+    EduItemComponent,
+    HomeComponent,
+    ProjectDetailComponent,
+    NotFoundComponent,
+    AllProjectsComponent
   ],
   imports: [
     BrowserModule,
