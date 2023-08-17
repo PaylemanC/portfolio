@@ -1,1 +1,66 @@
-<p>home works!</p>
+<section id="introduction">
+  <div class="introduction__content">
+    <div class="introduction__content-title">
+      <p>&lt;h1&gt;</p>
+      <h1><span class="content-title_name">{{personalInfo.name | titlecase }}</span><span class="content-title_occupation">{{personalInfo.occupation[0]  | titlecase }}</span></h1>
+      <p>&lt;/h1&gt;</p>
+    </div>
+    <div class="introduction__content-summary">
+      <p>{{personalInfo.summary}}</p>
+    </div>
+    <app-cv-download-button [urlCV]="cv"></app-cv-download-button>
+  </div>
+  <div class="introduction__avatar">
+    <div class="introduction__avatar-profile"></div>
+  </div>
+</section>
+<div class="social-media">
+  <a [href]="social.github.url" aria-label="Link a cuenta GitHub">
+    <div class="social-media_icon github"></div>
+  </a>
+  <a [href]="social.linkedin.url" aria-label="Link a cuenta LinkedIn">
+    <div class="social-media_icon linkedin"></div>
+  </a>
+</div>
+<section id="about-me">
+  <div class="about-me__content-container">
+    <div class="about-me__content description">
+      <h2>Sobre Mí</h2>
+      <p *ngFor="let paragraph of personalInfo.description">{{ paragraph }} <br><br></p>
+    </div>
+    <div class="about-me__content education">
+      <h2>Educación</h2>
+      <ul>
+        <app-edu-item *ngFor="let institute of education" [education]="institute"></app-edu-item>
+      </ul>
+    </div>
+    <!-- <div class="about-me__content work">
+      <h3>Experiencia</h3>
+      <ul>
+        <li></li>
+      </ul>
+    </div> -->
+  </div>
+  <div class="about-me__skills">
+    <div class="about-me__hard-kills" *ngIf="hardSkills.length > 0">
+      <h2>hard skills</h2>
+      <div class="hard-skills__container">
+        <app-hard-skill [hardSkill]="hardSkill" *ngFor="let hardSkill of hardSkills"></app-hard-skill>
+      </div>
+    </div>
+    <div class="about-me__soft-skills" *ngIf="softSkills.length > 0">
+      <h2>soft skills</h2>
+      <div class="soft-skills__container">
+        <app-soft-skill [softSkill]="softSkill" *ngFor="let softSkill of softSkills"></app-soft-skill>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="project" *ngIf="projects.length > 0">
+  <h2>Proyectos</h2>
+  <h3>⭐Destacados</h3>
+  <div class="project__container">
+    <app-card-project [project]="project" *ngFor="let project of projects"></app-card-project>
+  </div>
+</section>
+<!-- <section id="contact"><h2>Contáctame</h2></section> -->
