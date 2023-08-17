@@ -17,6 +17,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ProjectDetailComponent } from './pages/project-detail/project-detail.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { AllProjectsComponent } from './pages/all-projects/all-projects.component';
+import { ScrollTopComponent } from './shared/components/scroll-top/scroll-top.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { AllProjectsComponent } from './pages/all-projects/all-projects.componen
     HomeComponent,
     ProjectDetailComponent,
     NotFoundComponent,
-    AllProjectsComponent
+    AllProjectsComponent,
+    ScrollTopComponent
   ],
   imports: [
     BrowserModule,
