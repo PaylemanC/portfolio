@@ -10,7 +10,7 @@
   // background: grey;
   box-shadow: 2px 3px 4px #101010, 1px 0 3px #121212;
   transition: box-shadow 1s;
-  max-width: 648px; 
+  max-width: 648px;
   position: relative;
   img {
     border-radius: 12px;
@@ -37,6 +37,7 @@
     color: $aux-gold;
     letter-spacing: 1px;
     margin: 8px 0;
+    line-height: 1.4;
     &::selection {
       -webkit-text-fill-color: initial;
       -webkit-background-clip: initial;
@@ -96,12 +97,17 @@
   .card-project {
     padding-top: 0;
     margin-top: 88px;
+    h3 {
+      text-align: center;
+    }
     .card-project__content {
       display: flex;
       flex-direction: column;
       .card-project__img {
         position: relative;
-        bottom: 36px;
+        right: 0;
+        bottom: 20px;
+        text-align: center;
       }
       .card-project__text {
         width: 100%;
@@ -109,6 +115,7 @@
     }
     img {
       filter: none;
+      width: 388px;
     }
   }
 }
