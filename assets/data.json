@@ -172,7 +172,7 @@
       "id": 2,
       "img": "./assets/imgs/misrutinas.png",
       "title": "MisRutinas - Web",
-      "description": "Fitness web full stack para creación y seguimiento de rutinas de entrenamiento. El frontend desarrollado en Angular cuenta con sistema de autenticación, CRUD de rutinas y ejercicios y conexión a API desarrollada en Django. Fue llevada a cabo durante un año junto a un equipo de 6 desarrolladores."],
+      "description": "Fitness web full stack para creación y seguimiento de rutinas de entrenamiento. El frontend desarrollado en Angular cuenta con sistema de autenticación, CRUD de rutinas y ejercicios y conexión a API desarrollada en Django. Fue llevada a cabo durante un año junto a un equipo de 6 desarrolladores.",
       "github": "https://github.com/grupoA7ISPC/ProyectoISPCGrupo55/tree/main",
       "deploy": "",
       "status": "COMPLETED",
