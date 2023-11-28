@@ -1,8 +1,8 @@
 {
   "name": "Carina Payleman",
   "occupation": ["Web Developer", "Backend Developer", "Frontend Developer"],
-  "summary": "Programadora Web Full Stack con conocimientos en Django, Java, MySQL, Android Studio y enfoque en Angular, comprometida en generar soluciones digitales eficientes, robustas y estéticas de calidad para satisfacer los objetivos de negocio y optimizar la experiencia de usuario. Destaco por mi creativa capacidad de resolución de problemas, mi iniciativa autodidacta con facilidad de aprendizaje, mi adaptabilidad frente a nuevas tecnologías y mi entusiasmo ante proyectos desafiantes.",
-  "description": ["Mi nombre es Carina y mi apellido es Payleman, por lo que me gusta referenciarme como @PaylemanC. Soy de Córdoba, Argentina, hablo y me desenvuelvo en español e inglés. Tengo conocimiento y práctica en entornos y lenguajes de Backend y Frontend, siempre me encuentro estudiando y practicando cosas nuevas que sumen y complementen mi perfil profesional, con una formación mayoritariamente autodidacta.", "La disciplina de nunca parar de aprender es uno de mis pilares, soy alguien que considera que la mejor forma de aprender y avanzar es atreverse haciendo, por lo que siempre tengo un proyecto en mente y en proceso para aplicar nuevos conocimientos, amo los desafíos de código y los diseños UI para replicar. Me apasiona aprender y aplicar patrones de diseño, algoritmos, diagramas de flujo, accesibilidad web, frameworks y librerías, entre otros; y me encanta trabajar con gente que persigue ideales similares, destaco en proyectos colaborativos aprendiendo con rapidez y enseñando siempre dispuesta a dar una mano, sumando mi impecable resolución de problemas y adaptabilidad.", "Muchas gracias por interesarte en este portfolio. Te invito a continuar explorándolo 💖"],
+  "summary": "Programadora Web Full Stack con conocimientos en Django, Java, MySQL, Android Studio y enfoque en Angular, comprometida en generar soluciones digitales eficientes, robustas y estéticas de calidad para satisfacer los objetivos de negocio y optimizar la experiencia de usuario. Destaco por mi creativa capacidad de resolución de problemas, iniciativa autodidacta con facilidad de aprendizaje, adaptabilidad frente a nuevas tecnologías y entusiasmo ante proyectos desafiantes.",
+  "description": ["Mi nombre es Carina y mi apellido es Payleman, por lo que me gusta referenciarme como @PaylemanC. Soy de Córdoba, Argentina, hablo y me desenvuelvo en español e inglés. Tengo conocimiento y práctica en entornos y lenguajes de Backend y Frontend, siempre estoy estudiando y practicando cosas nuevas que sumen y complementen mi perfil profesional, con una formación mayoritariamente autodidacta.", "La disciplina de nunca parar de aprender es uno de mis pilares, soy alguien que considera que la mejor forma de aprender es atreverse haciendo, por lo que siempre tengo un proyecto en mente y en proceso para aplicar nuevos conocimientos, amo los desafíos de código y los diseños UI para replicar. Me apasiona aprender y aplicar patrones de diseño, algoritmos, diagramas de flujo, accesibilidad web, frameworks y librerías, entre otros; y me encanta trabajar con gente que persigue ideales similares, destaco en proyectos colaborativos aprendiendo con rapidez y enseñando siempre dispuesta a dar una mano, sumando mi impecable resolución de problemas y adaptabilidad.", "Muchas gracias por interesarte en este portfolio. Te invito a continuar explorándolo 💖"],
   "education": [
     {
       "id": 1,
@@ -172,7 +172,7 @@
       "id": 2,
       "img": "./assets/imgs/misrutinas.png",
       "title": "MisRutinas - Web",
-      "description": "Fitness web full stack para creación y seguimiento de rutinas de entrenamiento. El frontend desarrollado en Angular cuenta con sistema de autenticación, CRUD de rutinas y ejercicios y conexión a API desarrollada en Django. Fue llevada a cabo durante un año junto a un equipo de 6 desarrolladores más.",
+      "description": "Fitness web full stack para creación y seguimiento de rutinas de entrenamiento. El frontend desarrollado en Angular cuenta con sistema de autenticación, CRUD de rutinas y ejercicios y conexión a API desarrollada en Django. Fue llevada a cabo durante un año junto a un equipo de 6 desarrolladores.",
       "skills": ["Angular", "Django", "MySQL", "Bootstrap"],
       "github": "https://github.com/grupoA7ISPC/ProyectoISPCGrupo55/tree/main",
       "deploy": "",
@@ -194,7 +194,7 @@
       "id": 4,
       "img": "./assets/imgs/mis-rutinas-mobile.png",
       "title": "MisRutinas - Android",
-      "description": "En continuación al proyecto web, MisRutinas adquiere un nuevo enfoque para aplicación nativa de Android: destinada a gimnasios para la administración sencilla de socios y clases de un gimnasio, con autenticación y 2 CRUD. En 3 meses desarrollamos todo el MVP junto a un equipo de otros 4 desarrolladores más, donde me desenvolví en un papel clave como Scrum Master.",
+      "description": "En continuación al proyecto web, MisRutinas adquiere un nuevo enfoque en la aplicación nativa de Android: destinada a la administración sencilla de socios y clases de gimnasios, con autenticación y 2 CRUD. En 3 meses desarrollamos todo el MVP desde 0 junto a un equipo de otros 4 desarrolladores más, donde me desenvolví en un papel clave como Scrum Master.",
       "skills": ["Android Studio", "Java", "SQLite", "Firebase Authentication API"],
       "github": "https://github.com/grupoA7ISPC/MisRutinas--Mobile/tree/develop",
       "deploy": "",
@@ -205,11 +205,11 @@
       "id": 5,
       "img": "./assets/imgs/frontend-mentor.png",
       "title": "FrontendMentor Challenges",
-      "description": "Proyecto Open Source con componentes de FrontendMentor integrándolos en un proyecto con routing, como una iniciativa a contribuir soluciones en tecnologías alternativas debido a la poca resolución de los mismos con el framework de Angular, a forma de práctica y diversión y en continuo desarrollo.",
+      "description": "Recopilación/proyecto Open Source de componentes completos de FrontendMentor como una iniciativa a contribuir soluciones en tecnologías alternativas debido a la poca resolución de estos challenges con el framework de Angular, a forma de práctica y diversión y en continuo desarrollo.",
       "skills": ["Angular", "API", "TypeScript", "SCSS"],
       "github": "https://github.com/PaylemanC/frontendmentor--Angular",
       "deploy": "https://frontendmentorangular.netlify.app/nft-preview-card",
-      "status": "COMPLETED",
+      "status": "IN PROGRESS",
       "category": "Full Stack"
     }
   ],
