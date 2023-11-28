@@ -1,6 +1,9 @@
 @import '../../../app.component.scss';
 
 @mixin setScrolltopColors($bgColor: #333, $arrowColor: white, $bgColorHover: $bgColor, $arrowColorHover: $arrowColor) {
+  #scrolltop-bg, #scrolltop-arrow {
+    transition: fill .2s ease-in-out;
+  }
   #scrolltop-bg {
     fill: $bgColor;
   }
