@@ -1,10 +1,4 @@
 import { Component } from '@angular/core';
-import { PersonalDataService } from './services/personal-data.service';
-import { LoaderService } from './services/loader.service';
-
-import { Skill } from './models/skill';
-import { Project } from './models/project';
-import { Institute } from './models/institute';
 
 @Component({
   selector: 'app-root',
@@ -13,13 +7,14 @@ import { Institute } from './models/institute';
 })
 export class AppComponent {
   title = 'myPortfolio';
+  loading = true;
 
-  constructor(public loaderService: LoaderService) { }
+  constructor() { }
 
   ngOnInit() {
-    // this.loaderService.show()
-    // window.onload = () => {
-    //   this.loaderService.hide();
-    // };
+    this.loading;
+    setTimeout(() => {
+      this.loading = false;
+    }, 2000);
   }
 }

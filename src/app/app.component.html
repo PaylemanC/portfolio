@@ -1,9 +1,9 @@
-<!-- <app-loader *ngIf="loaderService.loading"></app-loader>
-<ng-container *ngIf="!loaderService.loading"> -->
+<app-loader *ngIf="loading"></app-loader>
+<ng-container *ngIf="!loading">
   <app-nav></app-nav>
   <main>
     <router-outlet></router-outlet>
   </main>
   <app-scroll-top></app-scroll-top>
   <app-footer></app-footer>
-<!-- </ng-container> -->
+</ng-container>

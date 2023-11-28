@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { PersonalDataService } from '../../services/personal-data.service';
-import { LoaderService } from '../../services/loader.service';
 import { Skill } from '../../models/skill';
 import { Project } from '../../models/project';
 import { Institute } from '../../models/institute';
@@ -22,32 +21,28 @@ export class HomeComponent {
   hardSkills: Skill[] = []
   softSkills: Skill[] = []
   projects: Project[] = []
+  loading: boolean = true;
 
-  constructor(private personalDataService: PersonalDataService, public loaderService: LoaderService) { }
+  constructor(private personalDataService: PersonalDataService) { }
 
   ngOnInit() {
-    window.onload = () => {
-      this.loaderService.hide();
-    };
-    this.loaderService.show()
+    this.loading;
     this.personalDataService.getAllData().subscribe(data => {
-      this.personalInfo = {
-        name: data.name,
-        occupation: data.occupation,
-        summary: data.summary,
-        description: data.description
-      };
+      const { name, occupation, summary, description, social_media, cv, education, skills, projects } = data;
+
+      this.personalInfo = { name, occupation, summary, description };
       this.social = {
-        github: { url: data.social_media.github.url, user: data.social_media.github.user },
-        linkedin: { url: data.social_media.linkedin.url, user: data.social_media.linkedin.user },
-        email: data.social_media.email
-      };
-      this.cv = data.cv;
-      this.education = data.education;
-      this.hardSkills = data.skills.hard_skills;
-      this.softSkills = data.skills.soft_skills;
-      this.projects = data.projects;
-      this.loaderService.hide();
+        github: { url: social_media.github.url, user: social_media.github.user },
+        linkedin: { url: social_media.linkedin.url, user: social_media.linkedin.user },
+        email: social_media.email
+      }
+      this.cv = cv;
+      this.education = education;
+      this.hardSkills = skills.hard_skills;
+      this.softSkills = skills.soft_skills;
+      this.projects = projects;
+
+      this.loading = false;
     });
   }
 }
