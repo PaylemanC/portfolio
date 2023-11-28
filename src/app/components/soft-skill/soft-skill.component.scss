@@ -11,13 +11,12 @@
 
 .soft-skill__content {
   @extend .hard-skill__content;
-  background-color: #272727;
   border: 2px solid #505050;
   border-bottom: none;
   border-right: none;
-  width: 240px;
+  height: 80px;
   p {
-    text-transform: lowercase;
+    text-transform: uppercase;
     letter-spacing: .5rem;
     text-align: center;
   }
