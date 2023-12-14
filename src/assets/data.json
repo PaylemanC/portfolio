@@ -170,28 +170,17 @@
     },
     {
       "id": 2,
-      "img": "./assets/imgs/misrutinas.png",
-      "title": "MisRutinas - Web",
-      "description": "Fitness web full stack para creación y seguimiento de rutinas de entrenamiento. El frontend desarrollado en Angular cuenta con sistema de autenticación, CRUD de rutinas y ejercicios y conexión a API desarrollada en Django. Fue llevada a cabo durante un año junto a un equipo de 6 desarrolladores.",
-      "skills": ["Angular", "Django", "MySQL", "Bootstrap"],
-      "github": "https://github.com/grupoA7ISPC/ProyectoISPCGrupo55/tree/main",
-      "deploy": "",
+      "img": "./assets/imgs/clan-f.png",
+      "title": "CLAN-F",
+      "description": "E-commerce ficticio de productos de línea personal como del hogar con Inteligencia Artificial integrada; cuenta con sistema de autenticación y CRUD completo de productos. Desarrollado para el curso de Full Stack en Python con Codo a Codo en equipo con 2 desarrolladores más. Tip: ingresa con paylemanc y admin para acceder al panel del CRUD",
+      "skills": ["Django", "MySQL", "HTML", "CSS", "JavaScript", "API", "Bootstrap"],
+      "github": "https://github.com/PaylemanC/CLAN-F--e-commerce/tree/main",
+      "deploy": "https://paylemanc.pythonanywhere.com/",
       "status": "COMPLETED",
       "category": "Full Stack"
     },
     {
       "id": 3,
-      "img": "./assets/imgs/clan-f.png",
-      "title": "CLAN-F",
-      "description": "E-commerce ficticio de productos innovadores, tanto de línea personal como del hogar, con Inteligencia Artificial integrada. Desarrollado para el curso de Full Stack en Python con Codo a Codo en equipo con 2 desarrolladores más, actualmente en progreso para integrarle Backend con Flask.",
-      "skills": ["HTML", "CSS", "JavaScript", "API", "Bootstrap"],
-      "github": "https://github.com/PaylemanC/CLAN-F--e-commerce/tree/main",
-      "deploy": "https://paylemanc.github.io/CLAN-F--e-commerce/",
-      "status": "IN PROGRESS",
-      "category": "Frontend"
-    },
-    {
-      "id": 4,
       "img": "./assets/imgs/mis-rutinas-mobile.png",
       "title": "MisRutinas - Android",
       "description": "En continuación al proyecto web, MisRutinas adquiere un nuevo enfoque en la aplicación nativa de Android: destinada a la administración sencilla de socios y clases de gimnasios, con autenticación y 2 CRUD. En 3 meses desarrollamos todo el MVP desde 0 junto a un equipo de otros 4 desarrolladores más, donde me desenvolví en un papel clave como Scrum Master.",
@@ -200,6 +189,17 @@
       "deploy": "",
       "status": "IN PROGRESS",
       "category": "Frontend"
+    },
+    {
+      "id": 4,
+      "img": "./assets/imgs/misrutinas.png",
+      "title": "MisRutinas - Web",
+      "description": "Fitness web full stack para creación y seguimiento de rutinas de entrenamiento. El frontend desarrollado en Angular cuenta con sistema de autenticación, CRUD de rutinas y ejercicios y conexión a API desarrollada en Django. Fue llevada a cabo durante un año junto a un equipo de 6 desarrolladores.",
+      "skills": ["Angular", "Django", "MySQL", "Bootstrap"],
+      "github": "https://github.com/grupoA7ISPC/ProyectoISPCGrupo55/tree/main",
+      "deploy": "",
+      "status": "COMPLETED",
+      "category": "Full Stack"
     },
     {
       "id": 5,
