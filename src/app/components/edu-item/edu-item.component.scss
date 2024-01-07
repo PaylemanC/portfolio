@@ -1,4 +1,12 @@
 @import '../../app.component.scss';
+
+$colors: (
+  platzi: #97ca3f,
+  ispc: #0ea8de,
+  codo-a-codo: #f7b801,
+  argentina-programa: #ff6fc8
+);
+
 p {
   font-size: 1.5rem;
 }
@@ -10,26 +18,15 @@ p {
 .slash {
   margin: 0 4px;
 }
+
 li {
   margin-bottom: 12px;
-  &.platzi {
-    .color {
-      color: #97ca3f;
-    }
-  }
-  &.ispc {
-    .color {
-      color: #0ea8de;
-    }
-  }
-  &.codo-a-codo {
-    .color {
-      color: #f7b801;
-    }
-  }
-  &.argentina-programa {
-    .color {
-      color: #ff6fc8;
+
+  @each $institute, $color in $colors {
+    &.#{$institute} {
+      .color {
+        color: $color;
+      }
     }
   }
 }
