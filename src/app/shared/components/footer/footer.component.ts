@@ -12,6 +12,8 @@ export class FooterComponent {
   linkedin = { url: '', user: '' };
   name = '';
 
+  currentYear: number = new Date().getFullYear();
+
   constructor(private personalDataService: PersonalDataService) { }
 
   ngOnInit() {
