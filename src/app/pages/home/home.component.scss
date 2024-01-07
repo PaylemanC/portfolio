@@ -4,7 +4,7 @@
   margin-top: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   gap: 32px;
   .introduction__content {
@@ -44,19 +44,10 @@
     font-size: 1.8rem;
     line-height: 3.2rem;
   }
-  .introduction__avatar {
-    border: 2px solid $aux-gold;
-    z-index: -1;
-  }
   .introduction__avatar-profile {
-    position: relative;
-    top: 24px;
-    right: 24px;
-    width: 352px;
-    height: 352px;
     background: url('../../../assets/avatar.png') center/cover no-repeat;
-    border-radius: 4px;
-    z-index: 1;
+    width: 550px;
+    height:  550px;
   }
 }
 
