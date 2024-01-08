@@ -59,6 +59,7 @@
   display: flex;
   gap: 16px;
   justify-content: flex-end;
+  height: 0;
   .social-media_icon {
     width: 68px;
     height: 68px;
@@ -85,23 +86,26 @@
 }
 
 #about-me {
+  .about-me__intro {
+    h4 {
+      text-align: center;
+      margin-top: 32px;
+    }
+    h2 {
+      text-align: center;
+      margin: 4px 0 8px;
+    }
+  }
   .about-me__content-container {
     background-color: #282828;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
-    padding: 44px;
-    padding-bottom: 32px;
+    padding: 26px 44px;
+    padding-bottom: 12px;
     border-radius: 24px;
     line-height: 1.6;
     margin-bottom: 32px;
-    h2 {
-      font-size: 1.8rem;
-      margin: 0 0 14px 0;
-      line-height: 1.5;
-      border-bottom: none;
-      letter-spacing: normal;
-    }
     p {
       font-size: 1.5rem;
     }
@@ -116,11 +120,7 @@
     }
   }
   .about-me__hard-kills, .about-me__soft-skills {
-    margin: 0 24px;
-    h2 {
-      margin: 0;
-      width: auto;
-    }
+    margin: 32px 16px;
   }
   .hard-skills__container, .soft-skills__container {
     display: flex;
@@ -129,10 +129,8 @@
     justify-content: center;
   }
   .about-me__soft-skills {
-    h2 {
+    h2, h4 {
       text-align: end;
-      padding-right: 0;
-      padding-left: 24px;
     }
     margin-top: 16px;
   }
@@ -140,6 +138,9 @@
 
 #project {
   margin: 0 16px;
+  h2, h4 {
+    text-align: center;
+  }
   .project__container {
     display: flex;
     justify-content: center;
@@ -147,16 +148,8 @@
     flex-wrap: wrap;
     gap: 40px;
   }
-  h2 {
-    margin-bottom: 0;
-  }
-  h3 {
-    font-size: 2.2rem;
-    margin: 0 0 16px 24px;
-    border-bottom: none;
-    color: #fd886c;
-    line-height: 6rem;
-    letter-spacing: 6px;
+  h4 {
+    font-style:normal;
   }
 }
 

@@ -27,33 +27,37 @@
   </a>
 </div>
 <section id="about-me">
-  <div class="about-me__content-container">
-    <div class="about-me__content description">
-      <h2>Sobre Mí</h2>
-      <p *ngFor="let paragraph of personalInfo.description">{{ paragraph }} <br><br></p>
+  <div class="about-me__intro">
+    <h4>¿Quién soy y qué estudio?</h4>
+    <h2>Sobre Mí</h2>
+    <div class="about-me__content-container">
+      <div class="about-me__content description">
+        <p *ngFor="let paragraph of personalInfo.description">{{ paragraph }} <br><br></p>
+      </div>
+      <div class="about-me__content education">
+        <ul>
+          <app-edu-item *ngFor="let institute of education" [education]="institute"></app-edu-item>
+        </ul>
+      </div>
     </div>
-    <div class="about-me__content education">
-      <h2>Educación</h2>
-      <ul>
-        <app-edu-item *ngFor="let institute of education" [education]="institute"></app-edu-item>
-      </ul>
-    </div>
-    <!-- <div class="about-me__content work">
-      <h3>Experiencia</h3>
-      <ul>
-        <li></li>
-      </ul>
-    </div> -->
   </div>
+  <!-- <div class="about-me__content work">
+    <h3>Experiencia</h3>
+    <ul>
+      <li></li>
+    </ul>
+  </div> -->
   <div class="about-me__skills">
     <div class="about-me__hard-kills" *ngIf="hardSkills.length > 0">
-      <h2>hard skills</h2>
+      <h4>¿Qué tecnologías manejo?</h4>
+      <h2>Hard Skills</h2>
       <div class="hard-skills__container">
         <app-hard-skill [hardSkill]="hardSkill" *ngFor="let hardSkill of hardSkills"></app-hard-skill>
       </div>
     </div>
     <div class="about-me__soft-skills" *ngIf="softSkills.length > 0">
-      <h2>soft skills</h2>
+      <h4>¿Qué habilidades blandas poseo?</h4>
+      <h2>Soft Skills</h2>
       <div class="soft-skills__container">
         <app-soft-skill [softSkill]="softSkill" *ngFor="let softSkill of softSkills"></app-soft-skill>
       </div>
@@ -62,7 +66,7 @@
 </section>
 <section id="project" *ngIf="projects.length > 0">
   <h2>Proyectos</h2>
-  <h3>⭐Destacados</h3>
+  <h4>⭐Destacados</h4>
   <div class="project__container">
     <app-card-project [project]="project" *ngFor="let project of projects"></app-card-project>
   </div>

@@ -16,14 +16,13 @@
   }
 }
 
+h4 {
+  color: $primary-color;
+  font-size: 1.6rem;
+  font-style: italic;
+  margin-bottom: 6px;
+}
 h2 {
   font-size: 3.2rem;
-  font-weight: bold;
-  margin: 32px 0;
-  color: $secondary-color;
-  line-height: 6rem;
-  border-bottom: 2px solid gold;
-  letter-spacing: 8px;
-  width: fit-content;
-  padding-right: 24px;
+  color: white;
 }
