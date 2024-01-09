@@ -97,7 +97,7 @@
     }
   }
   .about-me__content-container {
-    background-color: #282828;
+    background-color: $aux-grey;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
