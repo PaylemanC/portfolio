@@ -6,6 +6,7 @@
   gap: 24px;
   padding: 16px 24px;
   max-width: 1040px;
+  min-height: 70vh;
   border-radius: 12px;
   background: linear-gradient(145deg, #202020, #121212);
   box-shadow: 2px 3px 4px #101010, 1px 0 3px #121212;
@@ -98,31 +99,20 @@
 }
 
 @media (max-width: 768px) {
-  .card-project__container {
-    width: fit-content;
-  }
   .card-project {
-    padding-top: 0;
-    margin-top: 88px;
-    h3 {
-      text-align: center;
-    }
-    .card-project__content {
-      display: flex;
-      flex-direction: column;
-      .card-project__img {
-        position: relative;
-        right: 0;
-        bottom: 20px;
-        text-align: center;
-      }
-      .card-project__text {
-        width: 100%;
-      }
-    }
+    flex-direction: column;
+    gap: 0;
     img {
       filter: none;
-      width: 388px;
     }
+  }
+  .card-project__preview {
+    width: 100%;
+  }
+  .card-project__content {
+    width: 100%;
+  }
+  .card-project__links {
+    margin-bottom: 0;
   }
 }
