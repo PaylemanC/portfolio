@@ -1,22 +1,24 @@
-<footer>
-  <div class="footer__content">
-    <div class="footer__content-thanks">
-      <div class="heart"></div>
-      <h2>Contáctame</h2>
+<section id="contact">
+  <footer>
+    <div class="footer__content">
+      <div class="footer__content-thanks">
+        <div class="heart"></div>
+        <h2>Contáctame</h2>
+      </div>
+      <ul>
+        <li>{{email}}</li>
+        <li>
+          <a [href]="github.url" target="_blank">GitHub</a>
+          <p>{{github.user}}</p>
+        </li>
+        <li>
+          <a [href]="linkedin.url" target="_blank">LinkedIn</a>
+          <p>{{linkedin.user}}</p>
+        </li>
+      </ul>
     </div>
-    <ul>
-      <li>{{email}}</li>
-      <li>
-        <a [href]="github.url" target="_blank">GitHub</a>
-        <p>{{github.user}}</p>
-      </li>
-      <li>
-        <a [href]="linkedin.url" target="_blank">LinkedIn</a>
-        <p>{{linkedin.user}}</p>
-      </li>
-    </ul>
-  </div>
-  <div class="footer__copyright">
-    <span>{{name}} © {{currentYear}}</span>
-  </div>
-</footer>
+    <div class="footer__copyright">
+      <span>{{name}} © {{currentYear}}</span>
+    </div>
+  </footer>
+</section>
