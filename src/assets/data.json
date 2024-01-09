@@ -2,29 +2,29 @@
   "name": "Carina Payleman",
   "occupation": ["Web Developer", "Backend Developer", "Frontend Developer"],
   "summary": "Programadora Web Full Stack con conocimientos en Django, Java, MySQL y Angular, comprometida en generar soluciones digitales eficientes, robustas y estéticas de calidad para satisfacer los objetivos de negocio y optimizar la experiencia de usuario. Destaco por mi creativa capacidad de resolución de problemas, iniciativa autodidacta con facilidad de aprendizaje, adaptabilidad frente a nuevas tecnologías y entusiasmo ante proyectos desafiantes.",
-  "description": ["Mi nombre es Carina y mi apellido es Payleman, por lo que me gusta referenciarme como @PaylemanC. Soy de Córdoba, Argentina, hablo y me desenvuelvo en español e inglés. Tengo conocimiento y práctica en entornos y lenguajes de Backend y Frontend, siempre estoy estudiando y practicando cosas nuevas que sumen y complementen mi perfil profesional, con una formación mayoritariamente autodidacta.", "La disciplina de nunca parar de aprender es uno de mis pilares, soy alguien que considera que la mejor forma de aprender es atreverse haciendo, por lo que siempre tengo un proyecto en mente y en proceso para aplicar nuevos conocimientos, amo los desafíos de código y los diseños UI para replicar. Me apasiona aprender y aplicar patrones de diseño, algoritmos, diagramas de flujo, accesibilidad web, frameworks y librerías, entre otros; y me encanta trabajar con gente que persigue ideales similares, destaco en proyectos colaborativos aprendiendo con rapidez y enseñando siempre dispuesta a dar una mano, sumando mi impecable resolución de problemas y adaptabilidad.", "Muchas gracias por interesarte en este portfolio. Te invito a continuar explorándolo 💖"],
+  "description": ["Mi nombre es Carina y mi apellido es Payleman, por lo que me gusta referenciarme como @PaylemanC. Soy de Córdoba, Argentina, hablo y me desenvuelvo en español e inglés. Tengo conocimiento y práctica en entornos y lenguajes de Backend y Frontend, siempre estoy estudiando y practicando cosas nuevas que sumen y complementen mi perfil profesional.", "La disciplina de nunca parar de aprender es uno de mis pilares, soy alguien que considera que la mejor forma de aprender es atreverse haciendo, por lo que siempre tengo un proyecto en mente y en proceso para aplicar nuevos conocimientos, amo los desafíos de código y los diseños UI para replicar. Me apasiona aprender y aplicar patrones de diseño, algoritmos, diagramas de flujo, accesibilidad web, frameworks y librerías; y me encanta trabajar con gente que persigue ideales similares, destaco en proyectos colaborativos aprendiendo con rapidez y enseñando siempre dispuesta a dar una mano, sumando mi impecable resolución de problemas y adaptabilidad.", "Muchas gracias por interesarte en este portfolio. Te invito a continuar explorándolo 💖"],
   "education": [
     {
       "id": 1,
-      "institute": "Platzi",
-      "courses": [
-        {
-          "id": 1,
-          "date": "11.2022 — Actualidad",
-          "title": "Escuela de Desarrollo Web, UX/UI, Habilidades Blandas y English Academy",
-          "description": ["Plataforma de cursos en tecnología", "@PaylemanC"]
-        }
-      ]
-    },
-    {
-      "id": 2,
       "institute": "ISPC",
       "courses": [
         {
           "id": 1,
           "date": "02.2022 — Actualidad",
           "title": "Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales",
-          "description": ["Cursando 2do año"]
+          "description": ["Cursando último cuatrimestre"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "institute": "Platzi",
+      "courses": [
+        {
+          "id": 1,
+          "date": "11.2022 — Actualidad",
+          "title": "Escuela de Desarrollo Web, UX/UI, Habilidades Blandas y English Academy",
+          "description": ["@PaylemanC"]
         }
       ]
     },
@@ -34,9 +34,9 @@
       "courses": [
         {
           "id": 1,
-          "date": "08.2023 — Actualidad",
+          "date": "08.2023 — 12.2023",
           "title": "Full Stack en Python",
-          "description": ["Proyecto 'Clan-F'"]
+          "description": ["Proyecto 'Clan-F completo'"]
         }
       ]
     },
