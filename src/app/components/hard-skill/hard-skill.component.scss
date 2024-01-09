@@ -4,35 +4,55 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  position: relative;
   span {
-    position: relative;
-    top: 16px;
-    left: 16px;
+    position: absolute;
+    top: -37px;
+    left: -21px;
     font-size: 4.6rem;
     opacity: 0.35;
     font-weight: bolder;
     z-index: -1;
     cursor: default;
+    user-select: none;
   }
 }
 
 .hard-skill__content {
   display: flex;
-  background: $aux-grey;
-  border-right: 2px solid #505050;
-  border-bottom: 2px solid #505050;
+  flex-direction: column;
   align-items: center;
-  border-radius: 8px;
-  padding: 16px;
-  gap: 12px;
+  background: linear-gradient(135deg, #393F46 0%, #202328 50%) no-repeat;
+  background-clip: padding-box;
+  border-color: transparent;
+  border-radius: 10px;
+  padding: 26px;
+  gap: 16px;
+  position: relative;
+  height: auto;
+  width: 148px;
   img {
-    height: 55px;
-    width: 55px;
+    height: 58px;
+    width: 58px;
+    z-index: 1;
   }
   p {
     font-size: 1.6rem;
     font-weight: bold;
     text-transform:uppercase;
-    letter-spacing: 1rem;
+    letter-spacing: 2px;
+    z-index: 1;
+    text-align: center;
+  }
+  &:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 1px;
+    content: "";
+    background-color: #242424;
+    border-radius: 10px;
   }
 }

@@ -123,8 +123,10 @@
   }
   .hard-skills__container, .soft-skills__container {
     display: flex;
-    gap: 0 24px;
+    gap: 24px;
     flex-wrap: wrap;
+    margin: 40px 16px;
+    align-items: center;
     justify-content: center;
   }
   .about-me__soft-skills {
