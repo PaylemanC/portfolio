@@ -1,20 +1,18 @@
 @import '../../../app.component.scss';
 
-.card-project__container {
-  width: 735px;
-}
 .card-project {
-  padding: 64px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 24px;
+  max-width: 1040px;
   border-radius: 12px;
   background: linear-gradient(145deg, #202020, #121212);
-  // background: grey;
   box-shadow: 2px 3px 4px #101010, 1px 0 3px #121212;
-  transition: box-shadow 1s;
-  max-width: 648px;
-  position: relative;
+  transition: box-shadow 1s ease-in-out, transform .3s ease-in-out;
   img {
     border-radius: 12px;
-    width: 280px;
+    width: 100%;
     height: auto;
     filter: grayscale(1);
     transition: filter .5s, transform .3s;
@@ -27,6 +25,7 @@
     font-size: 1.6rem;
     font-weight:lighter;
     line-height: 1.5;
+    margin: 16px 0;
   }
   h3 {
     font-size: 3.1rem;
@@ -36,7 +35,6 @@
     background-clip: none;
     color: $aux-gold;
     letter-spacing: 1px;
-    margin: 8px 0;
     line-height: 1.4;
     &::selection {
       -webkit-text-fill-color: initial;
@@ -44,49 +42,58 @@
       background-clip: initial;
     }
   }
-  .card-project__content {
-    min-height: 154px;
-    margin-bottom: 36px;
-    .card-project__text {
-      width: 67%;
-    }
-    .card-project__img {
-      position: absolute;
-      right: -86px;
-    }
+  h4 {
+    color: #cbcbcb;
+    font-size: 1.7rem;
   }
-  .card-project__info {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-top: 16px;
-    gap: 16px;
-    .card-project__info-skills {
-      font-weight: bold;
-      letter-spacing: 3px;
-      font-size: 1.2rem;
-      line-height: 2.4rem;
-    }
-    .card-project__info-links {
-      display: flex;
-      cursor: pointer;
-      gap: 8px;
-      .link {
-        border: 2px solid white;
-        background: black;
-        border-radius: 50%;
-        padding: 8px;
-        height: fit-content;
-      }
-    }
-  }
+
   &:hover {
     box-shadow: 4px 6px 8px #101010, -1px -2px 6px #121212;
+    transform: scale(1.01);
     img {
       filter: none;
-      transform: scale(1.04);
+      transform: scale(1.03);
     }
+  }
+}
+
+.odd-card { // Impar
+  flex-direction: row;
+}
+
+.even-card { // Par
+  flex-direction: row-reverse;
+}
+
+.card-project__preview {
+  width: 55%;
+}
+.card-project__content {
+  width: 45%;
+  padding: 16px;
+}
+
+.card-project__skills {
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+}
+
+.card-project__links {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  gap: 16px;
+  margin: -25px 0 8px;
+  position: relative;
+  z-index: 1;
+  .link {
+    border: 2px solid white;
+    background: $background;
+    border-radius: 50%;
+    padding: 8px;
+    height: fit-content;
   }
 }
 

@@ -101,9 +101,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
-    padding: 26px 44px;
+    padding: 32px 44px;
     padding-bottom: 12px;
-    border-radius: 24px;
     line-height: 1.6;
     margin-bottom: 32px;
     p {
@@ -137,7 +136,6 @@
 }
 
 #project {
-  margin: 0 16px;
   h2, h4 {
     text-align: center;
   }
@@ -146,7 +144,8 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 32px;
+    margin: 24px 16px;
   }
   h4 {
     font-style:normal;

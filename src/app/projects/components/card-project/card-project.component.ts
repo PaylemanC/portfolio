@@ -11,11 +11,16 @@ export class CardProjectComponent {
     id: 0,
     img: '', //https://via.placeholder.com/300x150
     title: '',
+    subtitle: '',
     description: '',
     skills: [],
     github: '',
     deploy: '',
     status: 'IN PROGRESS',
     category: 'Full Stack'
+  }
+
+  get isEven(): boolean {
+    return this.project.id % 2 === 0;
   }
 }
