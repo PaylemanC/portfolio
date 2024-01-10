@@ -1,6 +1,12 @@
+---
+runme:
+  id: 01HKRDPAMDR52D3QV9WSKKC66A
+  version: v2.2
+---
+
 # Mi Portfolio 💖
 
-![Screenshot Portfolio V1](src/assets/imgs/banner-portfoliov1.png)
+![Screenshot Portfolio V1](src/assets/imgs/banner-portfoliov2.png)
 
 ¡Este repositorio contiene el código de mi portafolio! 💖 Es una muestra de mis habilidades como Desarrolladora Full Stack: un poco sobre mí, mis proyectos favoritos, herramientas y frameworks que utilizo, habilidades blandas, etc. Explora mi portafolio para tener una visión de mis capacidades y mi pasión por crear sitios web. Gracias por ver! 💘
 
@@ -10,22 +16,25 @@ Este es un proyecto en Angular 15.2.6, Open Source. Siéntete libre de utilizarl
 
 Clona el repositorio en local con Git:
 
-```bash
+```bash {"id":"01HKRDPAKETVPNRRT9W0F3MG0Q"}
 git clone https://github.com/PaylemanC/portfolio.git
+
 
 ```
 
 Instala las dependencias con [npm](https://nodejs.org/es/download):
 
-```bash
+```bash {"id":"01HKRDPAKETVPNRRT9W2Y7QRDJ"}
 npm install
+
 
 ```
 
 Iniciar servidor con:
 
-```bash
+```bash {"id":"01HKRDPAKETVPNRRT9W50P4NXW"}
 ng serve
+
 
 ```
 
