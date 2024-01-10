@@ -1,9 +1,3 @@
----
-runme:
-  id: 01HKRDPAMDR52D3QV9WSKKC66A
-  version: v2.2
----
-
 # Mi Portfolio 💖
 
 ![Screenshot Portfolio V1](src/assets/imgs/banner-portfoliov2.png)
