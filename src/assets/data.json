@@ -150,16 +150,26 @@
         "icon": "./assets/icons/soft-skills/3.svg"
       },
       {
-        "id": 5,
-        "name": "Capacidad analítica",
-        "icon": "./assets/icons/soft-skills/4.svg"
+        "id": 6,
+        "name": "Adaptabilidad",
+        "icon": ""
+      },
+      {
+        "id": 7,
+        "name": "Resolución de problemas",
+        "icon": ""
+      },
+      {
+        "id": 8,
+        "name": "Comunicación asertiva",
+        "icon": ""
       }
     ]
   },
   "projects": [
     {
       "id": 1,
-      "img": "./assets/imgs/portfolio.png",
+      "img": "./assets/imgs/portfolio-v2.png",
       "title": "Portfolio Personal",
       "subtitle": "¡Este portafolio!",
       "description": "Realicé tanto diseño como programación, aplicando conocimientos en Angular, Figma, Git, usabilidad UX, entre otros, en un reto personal por realizarlo desde el diseño hasta su implementación. Está en constante mejora.",
