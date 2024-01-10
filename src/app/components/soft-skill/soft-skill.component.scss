@@ -2,22 +2,26 @@
 
 .soft-skill {
   @extend .hard-skill;
-  align-items: initial;
   span {
-    top: 28px;
+    top: -34px;
     left: -21px;
   }
 }
 
 .soft-skill__content {
   @extend .hard-skill__content;
-  border: 2px solid #505050;
-  border-bottom: none;
-  border-right: none;
-  height: 80px;
+  width: auto;
+  background: linear-gradient(153deg, $soft-pink 0%, #5f4e4a 50%) no-repeat;
   p {
-    text-transform: uppercase;
-    letter-spacing: .5rem;
-    text-align: center;
+    letter-spacing: 3px;
+  }
+}
+
+@media (max-width: 575px) {
+  .soft-skill {
+    width: 80vw;
+  }
+  .soft-skill__content {
+    width: 100%;
   }
 }

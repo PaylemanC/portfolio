@@ -123,7 +123,7 @@
   }
   .hard-skills__container, .soft-skills__container {
     display: flex;
-    gap: 24px;
+    gap: 34px;
     flex-wrap: wrap;
     margin: 40px 16px;
     align-items: center;
@@ -229,6 +229,9 @@
     }
     .about-me__content-container {
       grid-template-columns: 1fr;
+    }
+    .hard-skills__container, .soft-skills__container {
+      gap: 16px;
     }
   }
 }
