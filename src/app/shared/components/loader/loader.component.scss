@@ -1,4 +1,4 @@
-@import '../../../app.component.scss';
+@import 'src/app/app.component.scss';
 
 .overlay {
   position: relative;
@@ -16,6 +16,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding: 16px;
 }
 
 p {
