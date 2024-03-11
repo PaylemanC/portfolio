@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
-
 $primary-color: #FAA87F;
 $secondary-color: #fd886c;
 $background: #17191a;
@@ -8,7 +6,14 @@ $soft-pink: #FDD8B2;
 $aux-gold: rgba(241, 205, 0, 0.99);
 $aux-grey: #262626;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
+  font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
@@ -19,7 +24,24 @@ body {
   position: relative;
 }
 
+
 ::selection {
   background-color: #f7c0a4;
   color: #111111;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
 }

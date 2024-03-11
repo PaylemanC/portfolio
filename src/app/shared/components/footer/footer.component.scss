@@ -1,4 +1,4 @@
-@import '../../../app.component.scss';
+@import 'src/app/app.component.scss';
 
 footer {
   font-size: 1.6rem;
@@ -9,6 +9,7 @@ footer {
   h2 {
     @extend h2;
     margin-top: 0;
+    font-family: 'Lato', sans-serif;
   }
   .footer__content-thanks {
     .heart {
