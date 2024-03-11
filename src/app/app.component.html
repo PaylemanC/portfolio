@@ -1,4 +1,4 @@
-<app-loader></app-loader>
+<app-loader *ngIf="loading"></app-loader>
 <ng-container *ngIf="!loading">
   <app-nav></app-nav>
   <main>
