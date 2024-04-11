@@ -79,51 +79,56 @@
         },
         {
           "id": 2,
+          "name": "React.js",
+          "icon": "./assets/icons/hard-skills/react.svg"
+        },
+        {
+          "id": 3,
           "name": "Django",
           "icon": "./assets/icons/hard-skills/django.svg"
         },
         {
-          "id": 3,
+          "id": 4,
           "name": "MySQL",
           "icon": "./assets/icons/hard-skills/mysql.svg"
         },
         {
-          "id": 4,
+          "id": 5,
           "name": "Python",
           "icon": "./assets/icons/hard-skills/git.svg"
         },
         {
-          "id": 5,
+          "id": 6,
           "name": "TypeScript",
           "icon": "./assets/icons/hard-skills/typescript.svg"
         },
         {
-          "id": 6,
+          "id": 7,
           "name": "JavaScript",
           "icon": "./assets/icons/hard-skills/javascript.svg"
         },
         {
-          "id": 7,
+          "id": 8,
           "name": "Git",
           "icon": "./assets/icons/hard-skills/python.svg"
         },
         {
-          "id": 8,
+          "id": 9,
           "name": "SASS",
           "icon": "./assets/icons/hard-skills/sass.svg"
         },
         {
-          "id": 9,
+          "id": 10,
           "name": "HTML&CSS",
           "icon": "./assets/icons/hard-skills/html_css.svg"
         },
         {
-          "id": 10,
+          "id": 11,
           "name": "Java",
           "icon": "./assets/icons/hard-skills/java.svg"
         },
         {
-          "id": 11,
+          "id": 12,
           "name": "Android Studio",
           "icon": "./assets/icons/hard-skills/android_studio.png"
         }
