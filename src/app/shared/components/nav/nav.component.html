@@ -1,25 +1,21 @@
-<nav>
-  <ul class="nav-left">
-    <li>
-      <img src="./assets/personal-icon.svg" alt="Icon Carina Payleman">
-    </li>
-  </ul>
-  <ul class="nav-right">
-    <li class="nav-right__mobile-menu" (click)="toggleMenu()">
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-        <path d="M4 6l16 0" />
-        <path d="M4 12l16 0" />
-        <path d="M4 18l16 0" />
-      </svg>
-    </li>
-    <li class="nav-right__links" [class.active]="activeMenu">
-      <ul class="nav-right__links-container">
-        <li><a href="#introduction" [class.currentLink]="activeSection === 'introduction'">Inicio</a></li>
-        <li><a href="#about-me" [class.currentLink]="activeSection === 'about-me'">Sobre mí</a></li>
-        <li><a href="#project" [class.currentLink]="activeSection === 'project'">Proyectos</a></li>
-        <li><a href="#contact" [class.currentLink]="activeSection === 'contact'">Contacto</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+<header>
+  <div class="logo">
+    <img src="./assets/personal-icon.svg" alt="Icon Carina Payleman">
+  </div>
+  <div class="hamburger-menu" (click)="toggleMenu()">
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path d="M4 6l16 0" />
+      <path d="M4 12l16 0" />
+      <path d="M4 18l16 0" />
+    </svg>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#introduction" [class.currentLink]="activeSection === 'introduction'">Inicio</a></li>
+      <li><a href="#about-me" [class.currentLink]="activeSection === 'about-me'">Sobre mí</a></li>
+      <li><a href="#project" [class.currentLink]="activeSection === 'project'">Proyectos</a></li>
+      <li><a href="#contact" [class.currentLink]="activeSection === 'contact'">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
