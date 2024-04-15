@@ -36,6 +36,11 @@ header {
   @include blurBackground;
 }
 
+.logo {
+  width: 72px;
+  height: 72px;
+}
+
 .hamburger-menu {
   display: none;
 }
@@ -45,7 +50,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 32px;
     gap: 24px;
   }
 
