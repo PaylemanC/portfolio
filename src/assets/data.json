@@ -174,14 +174,14 @@
   "projects": [
     {
       "id": 1,
-      "img": "./assets/imgs/portfolio-v2.png",
-      "title": "Portfolio Personal",
-      "subtitle": "¡Este portafolio!",
-      "description": "Realicé tanto diseño como programación, aplicando conocimientos en Angular, Figma, Git, usabilidad UX, entre otros, en un reto personal por realizarlo desde el diseño hasta su implementación. Está en constante mejora.",
-      "skills": ["Angular", "SCSS", "TypeScript"],
-      "github": "https://github.com/PaylemanC/myPortfolio",
-      "deploy": "#",
-      "status": "IN PROGRESS",
+      "img": "./assets/imgs/project-manager.png",
+      "title": "Project Manager",
+      "subtitle": "Gestor de proyectos de software",
+      "description": "Esta plataforma de getión de proyectos se centra en operaciones CRUD, con barra de búsqueda y paginación. Apliqué muchos conceptos interesantes, como almacenamiento en local storage, la librería ngx-pagination para paginado, y data binding para filtrado. La UI fue desarrollada según el Ant Design System de Figma.",
+      "skills": ["Angular", "TypeScript", "SCSS"],
+      "github": "https://github.com/PaylemanC/project-manager--FrontendChallenge",
+      "deploy": "https://project-manager.netlify.app",
+      "status": "COMPLETED",
       "category": "Frontend"
     },
     {
@@ -198,14 +198,14 @@
     },
     {
       "id": 3,
-      "img": "./assets/imgs/project-manager.png",
-      "title": "Project Manager",
-      "subtitle": "Gestor de proyectos de software",
-      "description": "Esta plataforma de getión de proyectos se centra en operaciones CRUD, con barra de búsqueda y paginación. Apliqué muchos conceptos interesantes, como almacenamiento en local storage, la librería ngx-pagination para paginado, y data binding para filtrado. La UI fue desarrollada según el Ant Design System de Figma.",
-      "skills": ["Angular", "TypeScript", "SCSS"],
-      "github": "https://github.com/PaylemanC/project-manager--FrontendChallenge",
-      "deploy": "https://project-manager.netlify.app",
-      "status": "COMPLETED",
+      "img": "./assets/imgs/todoapp.png",
+      "title": "TodoApp",
+      "subtitle": "Listado de tareas pendientes",
+      "description": "Esta web sencilla contiene un CRUD de tareas diarias almacenadas con localStorage. Es ubn proyecto académico sencillo desearrollado en React, con un diseño minimalista y responsive. Está en proceso de desarrollo para sumarle Next.js, añadir autenticación y filtros.",
+      "skills": ["React.js", "JavaScript", "HTML", "CSS"],
+      "github": "https://github.com/PaylemanC/Todo-App",
+      "deploy": "https://paylemanc.github.io/Todo-App/",
+      "status": "IN PROGRESS",
       "category": "Frontend"
     },
     {
