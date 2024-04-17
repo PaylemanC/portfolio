@@ -1,4 +1,4 @@
-  <div class="card-project" [ngClass]="{'odd-card': !isEven, 'even-card': isEven}">
+  <div class="card-project" [ngClass]="{'odd-card': !isEven, 'even-card': isEven}" [attr.data-aos]="isEven ? 'fade-left' : 'fade-right'" data-aos-duration="1900">
     <div class="card-project__preview">
       <div class="card-project__img">
         <a [href]="project.deploy !== '' ? project.deploy : project.github" target="_blank" aria-label="Link a repositorio del proyecto en GitHub">

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import AOS from 'aos';
+
 import { PersonalDataService } from '../../services/personal-data.service';
 import { Skill } from '../../models/skill';
 import { Project } from '../../models/project';
@@ -44,5 +46,7 @@ export class HomeComponent {
 
       this.loading = false;
     });
+
+    AOS.init();
   }
 }

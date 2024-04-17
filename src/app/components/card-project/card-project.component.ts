@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import AOS from 'aos';
 import { Project } from 'src/app/models/project';
 
 @Component({
@@ -18,6 +19,10 @@ export class CardProjectComponent {
     deploy: '',
     status: 'IN PROGRESS',
     category: 'Full Stack'
+  }
+
+  ngOnInit() {
+    AOS.init();
   }
 
   get isEven(): boolean {

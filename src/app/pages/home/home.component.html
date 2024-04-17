@@ -2,7 +2,7 @@
   <app-loader></app-loader>
 </div>
 <div *ngIf="!loading">
-<section id="introduction">
+<section id="introduction"  data-aos="fade-in" data-aos-duration="1900">
   <div class="introduction__content">
     <div class="introduction__content-title">
       <p>&lt;h1&gt;</p>
@@ -27,7 +27,7 @@
   </a>
 </div>
 <section id="about-me">
-  <div class="about-me__intro">
+  <div class="about-me__intro" data-aos="fade-down" data-aos-duration="1900">
     <h4>¿Quién soy y qué estudio?</h4>
     <h2>Sobre Mí</h2>
     <div class="about-me__content-container">
@@ -49,24 +49,30 @@
   </div> -->
   <div class="about-me__skills">
     <div class="about-me__hard-kills" *ngIf="hardSkills.length > 0">
-      <h4>¿Qué tecnologías manejo?</h4>
-      <h2>Hard Skills</h2>
-      <div class="hard-skills__container">
+      <div class="hard-skills__title" data-aos="fade-up" data-aos-duration="1800">
+        <h4>¿Qué tecnologías manejo?</h4>
+        <h2>Hard Skills</h2>
+      </div>
+      <div class="hard-skills__container" data-aos="fade-up" data-aos-duration="2300">
         <app-hard-skill [hardSkill]="hardSkill" *ngFor="let hardSkill of hardSkills"></app-hard-skill>
       </div>
     </div>
-    <div class="about-me__soft-skills" *ngIf="softSkills.length > 0">
-      <h4>¿Qué habilidades blandas destaco?</h4>
-      <h2>Soft Skills</h2>
-      <div class="soft-skills__container">
+    <div class="about-me__soft-skills" *ngIf="softSkills.length > 0" data-aos="fade-in" data-aos-duration="3000">
+      <div class="soft-skills__title" data-aos="fade-up" data-aos-duration="1800">
+        <h4>¿Qué habilidades blandas destaco?</h4>
+        <h2>Soft Skills</h2>
+      </div>
+      <div class="soft-skills__container" data-aos="fade-up" data-aos-duration="2300">
         <app-soft-skill [softSkill]="softSkill" *ngFor="let softSkill of softSkills"></app-soft-skill>
       </div>
     </div>
   </div>
 </section>
 <section id="project" *ngIf="projects.length > 0">
-  <h2>Proyectos</h2>
-  <h4>⭐Destacados</h4>
+  <div class="projects__title" data-aos="fade-up" data-aos-duration="2000">
+    <h2>Proyectos</h2>
+    <h4>⭐Destacados</h4>
+  </div>
   <div class="project__container">
     <app-card-project [project]="project" *ngFor="let project of projects"></app-card-project>
   </div>
