@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Skill } from '../../models/skill';
+import { Skill } from 'src/app/models/skill';
 
 @Component({
   selector: 'app-soft-skill',

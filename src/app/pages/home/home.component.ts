@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import AOS from 'aos';
 
-import { PersonalDataService } from '../../services/personal-data.service';
-import { Skill } from '../../models/skill';
-import { Project } from '../../models/project';
-import { Institute } from '../../models/institute';
+import { PersonalDataService } from 'src/app/services/personal-data.service';
+import { Skill } from 'src/app/models/skill';
+import { Project } from 'src/app/models/project';
+import { Institute } from 'src/app/models/institute';
 
 @Component({
   selector: 'app-home',
