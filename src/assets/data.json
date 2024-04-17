@@ -1,8 +1,8 @@
 {
   "name": "Carina Payleman",
   "occupation": ["Web Developer", "Backend Developer", "Frontend Developer"],
-  "summary": "Programadora Web Full Stack con conocimientos en Django, Java, MySQL y Angular, comprometida en generar soluciones digitales eficientes, robustas y estéticas de calidad para satisfacer los objetivos de negocio y optimizar la experiencia de usuario. Destaco por mi creativa capacidad de resolución de problemas, iniciativa autodidacta con facilidad de aprendizaje, adaptabilidad frente a nuevas tecnologías y entusiasmo ante proyectos desafiantes.",
-  "description": ["Mi nombre es Carina y mi apellido es Payleman, por lo que me gusta referenciarme como @PaylemanC. Soy de Córdoba, Argentina, hablo y me desenvuelvo en español e inglés. Tengo conocimiento y práctica en entornos y lenguajes de Backend y Frontend, siempre estoy estudiando y practicando cosas nuevas que sumen y complementen mi perfil profesional.", "La disciplina de nunca parar de aprender es uno de mis pilares, soy alguien que considera que la mejor forma de aprender es atreverse haciendo, por lo que siempre tengo un proyecto en mente y en proceso para aplicar nuevos conocimientos, amo los desafíos de código y los diseños UI para replicar. Me apasiona aprender y aplicar patrones de diseño, algoritmos, diagramas de flujo, accesibilidad web, frameworks y librerías; y me encanta trabajar con gente que persigue ideales similares, destaco en proyectos colaborativos aprendiendo con rapidez y enseñando siempre dispuesta a dar una mano, sumando mi impecable resolución de problemas y adaptabilidad.", "Muchas gracias por interesarte en este portfolio. Te invito a continuar explorándolo 💖"],
+  "summary": "Programadora Full Stack, desarrollo aplicaciones web robustas y escalables con interfaces de usuario atractivas y funcionales. Actualmente disponible para trabajar, abierta a nuevas oportunidades para contribuir con mi conocimiento y creatividad en  proyectos desafiantes y dinámicos.",
+  "description": ["👋 ¡Hola! Te doy la bienvenida a mi portafolio profesional. Mi nombre es Carina Payleman y me gusta referenciarme como @PaylemanC. Soy una programadora web de Córdoba, Argentina, con conocimientos y prácticas en entornos, frameworks y lenguajes de programación tanto Frontend como Backend. Estoy familiarizada con todas las etapas del desarrollo web, participando activa y colaborativamente en múltiples proyectos, tanto individuales como en equipo, bajo metodologías ágiles como SCRUM y Kanban que me han permitido  desarrollar una sólida comprensión de la dinámica de trabajo en equipo y la gestión eficiente de proyectos.", "🚀 Siempre estoy aprendiendo y explorando nuevas habilidades para enriquecer mi perfil, esta mentalidad de aprendizaje activo me impulsa a crecer constantemente como profesional. Creo firmemente que la mejor forma de aprender es atreverse haciendo, así que me centro en la acción: siempre tengo un proyecto en mente y en proceso para aplicar y profundizar mis conocimientos, amo los desafíos de código y los diseños UI para replicar. Destaco en proyectos colaborativos aprendiendo con rapidez, adaptándome fácilmente y siempre dispuesta a dar una mano, sumando mi impecable resolución de problemas y creatividad.", "Muchas gracias por interesarte en este portfolio. Te invito a continuar explorándolo 💖"],
   "education": [
     {
       "id": 1,
@@ -13,6 +13,11 @@
           "date": "02.2022 — Actualidad",
           "title": "Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales",
           "description": ["Cursando último cuatrimestre"]
+        },
+        {
+          "id": 2,
+          "date": "02.2024 — Actualidad",
+          "title": "Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial"
         }
       ]
     },
