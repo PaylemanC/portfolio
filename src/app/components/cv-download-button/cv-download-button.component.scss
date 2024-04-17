@@ -1,7 +1,7 @@
 @import 'src/app/app.component.scss';
 
 a {
-  width: 208px;
+  width:208px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,6 +21,7 @@ a {
   margin-bottom: 20px;
   span {
     display: flex;
+    justify-content: center;
     gap: 8px;
     align-items: center;
     background-color: $background;
@@ -37,5 +38,11 @@ a {
   }
   &:active {
     transform: scale(0.9);
+  }
+}
+
+@media (max-width: 575px) {
+  a {
+    width: 100%;
   }
 }

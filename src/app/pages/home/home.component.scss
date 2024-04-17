@@ -206,6 +206,10 @@
   }
 
   #introduction {
+    .introduction__content {
+      margin: 32px;
+    }
+
     .introduction__content-title {
       h1 {
         margin-left: 0;
