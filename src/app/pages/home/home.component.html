@@ -9,9 +9,7 @@
       <h1><span class="content-title_name">{{personalInfo.name | titlecase }}</span><span class="content-title_occupation">{{personalInfo.occupation[0]  | titlecase }}</span></h1>
       <p>&lt;/h1&gt;</p>
     </div>
-    <div class="introduction__content-summary">
-      <p>{{personalInfo.summary}}</p>
-    </div>
+    <p class="introduction__content-summary">{{personalInfo.summary}}</p>
     <app-cv-download-button [urlCV]="cv"></app-cv-download-button>
   </div>
   <div class="introduction__avatar">
@@ -32,11 +30,9 @@
     <h2>Sobre Mí</h2>
     <div class="about-me__content-container">
       <p class="about-me__content description" [innerHTML]="personalInfo.description"></p>
-      <div class="about-me__content education">
-        <ul>
-          <app-edu-item *ngFor="let institute of education" [education]="institute"></app-edu-item>
-        </ul>
-      </div>
+      <ul class="about-me__content education">
+        <app-edu-item *ngFor="let institute of education" [education]="institute"></app-edu-item>
+      </ul>
     </div>
   </div>
   <!-- <div class="about-me__content work">
