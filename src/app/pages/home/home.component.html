@@ -31,9 +31,7 @@
     <h4>¿Quién soy y qué estudio?</h4>
     <h2>Sobre Mí</h2>
     <div class="about-me__content-container">
-      <div class="about-me__content description">
-        <p *ngFor="let paragraph of personalInfo.description">{{ paragraph }} <br><br></p>
-      </div>
+      <p class="about-me__content description" [innerHTML]="personalInfo.description"></p>
       <div class="about-me__content education">
         <ul>
           <app-edu-item *ngFor="let institute of education" [education]="institute"></app-edu-item>
