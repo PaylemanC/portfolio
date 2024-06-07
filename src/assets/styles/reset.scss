@@ -11,15 +11,14 @@ html {
 
 body {
   background-color: $background;
-  color: white;
+  color: $text-color;
   font-family: 'Lato', sans-serif;
   position: relative;
 }
 
-
 ::selection {
-  background-color: #f7c0a4;
-  color: #111111;
+  background-color: $selection;
+  color: $selection-text;
 }
 
 input, button, textarea, select {

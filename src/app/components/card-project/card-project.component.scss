@@ -1,4 +1,5 @@
 @import 'src/app/app.component.scss';
+$background-card: linear-gradient(145deg, #202020, #121212);
 
 .card-project {
   display: flex;
@@ -8,7 +9,7 @@
   max-width: 1040px;
   min-height: 70vh;
   border-radius: 12px;
-  background: linear-gradient(145deg, #202020, #121212);
+  background: $background-card;
   box-shadow: 2px 3px 4px #101010, 1px 0 3px #121212;
   transition: box-shadow 1s ease-in-out, transform .3s ease-in-out;
 
@@ -21,11 +22,11 @@
   }
 
   a {
-    color: white;
+    color: $text-color;
   }
 
   p {
-    color: white;
+    color: $text-color;
     font-size: 1.6rem;
     font-weight:lighter;
     line-height: 1.5;
@@ -34,11 +35,11 @@
 
   h3 {
     font-size: 3.1rem;
-    background: $degradado-gold;
+    background: $gradient;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: none;
-    color: $aux-gold;
+    color: $aux-gradient;
     letter-spacing: 1px;
     line-height: 1.4;
 
@@ -50,8 +51,9 @@
   }
 
   h4 {
-    color: #cbcbcb;
+    color: $text-color;
     font-size: 1.7rem;
+    opacity: .7;
   }
 
   &:hover {
@@ -98,7 +100,7 @@
   z-index: 1;
 
   .link {
-    border: 2px solid white;
+    border: 2px solid $text-color;
     background: $background;
     border-radius: 50%;
     padding: 8px;

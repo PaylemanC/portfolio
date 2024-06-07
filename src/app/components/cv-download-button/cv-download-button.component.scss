@@ -1,13 +1,16 @@
 @import 'src/app/app.component.scss';
 
 a {
+  $first-gradient: rgba($aux-gradient, 0.99);
+  $second-gradient: rgba($secondary-color, 0.9);
+  $third-gradient: rgba($primary-color, 0.9);
   width:208px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(144deg, rgba(241, 205, 0, 0.99), rgba(255, 122, 90, 0.9) 50%, rgba(250, 168, 127, 0.9));
+  background-image: linear-gradient(144deg, $first-gradient, $second-gradient, $third-gradient);
   border-radius: 8px;
-  color: white;
+  color:  $text-color;
   font-size: 1.8rem;
   max-width: 100%;
   min-width: 140px;

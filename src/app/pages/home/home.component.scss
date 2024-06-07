@@ -22,7 +22,7 @@
         padding-right: 6px;
         display: inline-block;
         max-width:fit-content;
-        color: white;
+        color: $text-color;
         overflow: hidden;
         border-right: .7rem solid $secondary-color;
         white-space: nowrap;
@@ -36,7 +36,8 @@
     }
 
     p {
-      color: rgba(255, 255, 255, 0.6);
+      color: $text-color;
+      opacity: .6;
       font-size: 2.8rem;
       cursor: default;
     }
@@ -111,7 +112,7 @@
   }
 
   .about-me__content-container {
-    background-color: $aux-grey;
+    background-color: $aux-soft-background;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;

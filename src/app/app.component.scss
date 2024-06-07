@@ -12,7 +12,7 @@
   padding: 5px 2px;
   &:hover {
     background-size: 4px 50px;
-    color: $aux-grey;
+    color: $aux-soft-background;
   }
 }
 
@@ -24,5 +24,5 @@ h4 {
 }
 h2 {
   font-size: 3.2rem;
-  color: white;
+  color: $text-color;
 }

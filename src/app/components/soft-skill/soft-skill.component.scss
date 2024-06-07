@@ -1,4 +1,5 @@
 @import '../hard-skill/hard-skill.component.scss';
+$background-card: linear-gradient(153deg, $soft-color 0%, #5f4e4a 50%) no-repeat;
 
 .soft-skill {
   @extend .hard-skill;
@@ -12,7 +13,7 @@
 .soft-skill__content {
   @extend .hard-skill__content;
   width: auto;
-  background: linear-gradient(153deg, $soft-pink 0%, #5f4e4a 50%) no-repeat;
+  background: $background-card;
 
   p {
     letter-spacing: 3px;

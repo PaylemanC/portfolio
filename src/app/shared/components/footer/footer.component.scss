@@ -3,7 +3,7 @@
 footer {
   font-size: 1.6rem;
   width: 100%;
-  background-color: $aux-grey;
+  background-color: $aux-soft-background;
   padding: 32px 64px;
   margin-top: 80px;
 
@@ -75,11 +75,11 @@ footer {
       li {
         a {
           font-size: 1.8rem;
-          @include secondaryUnderline(white, $aux-gold, 4px);
+          @include secondaryUnderline($text-color, $aux-gradient, 4px);
         }
 
         p {
-          color: gold;
+          color: $aux-gradient;
           font-size: 1.5rem;
         }
       }
@@ -91,7 +91,7 @@ footer {
           content: "";
           display: block;
           height: 4px;
-          background: linear-gradient(90deg, rgba(249,237,85,1) 6%, rgba(223,170,64,1) 40%, rgba(236,178,61,1) 76%, rgba(210,155,72,1) 100%);
+          background: $gradient;
           transform: scale(1,1);
           transform-origin: center;
           transition: transform .35s;
@@ -106,7 +106,8 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     line-height: 4rem;
     font-size: 1.4rem;
-    color: #e6e6e6;
+    color: $text-color;
+    opacity: .85;
   }
 }
 

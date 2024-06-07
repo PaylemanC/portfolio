@@ -1,5 +1,10 @@
 @import 'src/app/app.component.scss';
 
+$background-card: (
+  border: linear-gradient(135deg, #393F46 0%, #202328 50%) no-repeat,
+  background: #242424
+);
+
 .hard-skill {
   display: flex;
   flex-direction: column;
@@ -23,7 +28,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(135deg, #393F46 0%, #202328 50%) no-repeat;
+  background: map-get($background-card, border);
   background-clip: padding-box;
   border-color: transparent;
   border-radius: 10px;
@@ -56,7 +61,7 @@
     left: 0;
     margin: 1px;
     content: "";
-    background-color: #242424;
+    background-color:  map-get($background-card, background);
     border-radius: 10px;
   }
 }
