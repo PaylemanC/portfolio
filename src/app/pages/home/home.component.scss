@@ -4,16 +4,19 @@
   margin-top: 0;
   display: flex;
   justify-content: space-between;
+
   .introduction__content {
     max-width: 620px;
     margin: 16px 32px 16px 48px;
   }
+
   .introduction__content-title {
     h1 {
       display: flex;
       flex-direction: column;
       margin-left: 16px;
       font-weight: bold;
+
       .content-title_occupation {
         font-size: 7.4rem;
         padding-right: 6px;
@@ -25,26 +28,31 @@
         white-space: nowrap;
         animation: typing 1.7s steps(20, end) forwards, blinking .85s infinite;
       }
+
       .content-title_name {
         color: $primary-color;
         font-size: 5.6rem;
       }
     }
+
     p {
       color: rgba(255, 255, 255, 0.6);
       font-size: 2.8rem;
       cursor: default;
     }
   }
+
   .introduction__content-summary {
     margin: 16px 0 36px;
     font-size: 1.8rem;
     line-height: 3.2rem;
   }
+
   .introduction__avatar {
     width: 575px;
     height: 575px;
   }
+
   .introduction__avatar-profile {
     background: url('../../../assets/avatar-lg.png') right/contain no-repeat;
     width: 100%;
@@ -60,6 +68,7 @@
   gap: 16px;
   justify-content: flex-end;
   height: 0;
+
   .social-media_icon {
     width: 68px;
     height: 68px;
@@ -70,12 +79,14 @@
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     border: 2px solid $secondary-color;
+
     &.github {
       background: url('../../../assets/icons/github.png') center/cover no-repeat;
       background-color:white;
       height: 60px;
       width: 60px
     }
+
     &.linkedin {
       background: url('../../../assets/icons/linkedin.png') center/cover no-repeat;
       background-color:white;
@@ -86,16 +97,19 @@
 }
 
 #about-me {
+
   .about-me__intro {
     h4 {
       text-align: center;
       margin-top: 32px;
     }
+
     h2 {
       text-align: center;
       margin: 4px 0 8px;
     }
   }
+
   .about-me__content-container {
     background-color: $aux-grey;
     display: grid;
@@ -105,22 +119,27 @@
     padding-bottom: 12px;
     line-height: 1.6;
     margin-bottom: 32px;
+
     p {
       font-size: 1.5rem;
     }
+
     span {
       font-size: 1.5rem;
       font-weight: bold;
       letter-spacing: 2px;
     }
+
     a {
       @include secondaryUnderline($secondary-color, $primary-color, 2px);
       line-height: 1.6;
     }
   }
+
   .about-me__hard-kills, .about-me__soft-skills {
     margin: 32px 16px;
   }
+
   .hard-skills__container, .soft-skills__container {
     display: flex;
     gap: 34px;
@@ -129,11 +148,12 @@
     align-items: center;
     justify-content: center;
   }
+
   .about-me__soft-skills {
+    margin-top: 16px;
     h2, h4 {
       text-align: end;
     }
-    margin-top: 16px;
   }
 }
 
@@ -141,6 +161,7 @@
   h2, h4 {
     text-align: center;
   }
+
   .project__container {
     display: flex;
     justify-content: center;
@@ -149,6 +170,7 @@
     gap: 40px;
     margin: 24px 16px;
   }
+
   h4 {
     font-style:normal;
   }
@@ -188,10 +210,12 @@
   #introduction {
     flex-wrap: wrap;
     justify-content: center;
+
     .introduction__avatar {
       width: 460px;
       height: 415px;
     }
+
     .introduction__avatar-profile {
       background: url('../../../assets/avatar-sm.png') top/contain no-repeat;
       width: 100%;
@@ -227,13 +251,16 @@
       h4 {
         margin-top: 0;
       }
+
       h2 {
         margin-bottom: 24px;
       }
     }
+
     .about-me__content-container {
       grid-template-columns: 1fr;
     }
+
     .hard-skills__container, .soft-skills__container {
       gap: 16px;
     }

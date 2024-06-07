@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: flex-end;
   position: relative;
+
   span {
     position: absolute;
     top: -37px;
@@ -31,11 +32,13 @@
   position: relative;
   height: auto;
   width: 148px;
+
   img {
     height: 58px;
     width: 58px;
     z-index: 1;
   }
+
   p {
     font-size: 1.6rem;
     font-weight: bold;
@@ -44,6 +47,7 @@
     z-index: 1;
     text-align: center;
   }
+
   &:before {
     position: absolute;
     top: 0;

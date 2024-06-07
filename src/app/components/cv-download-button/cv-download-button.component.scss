@@ -19,6 +19,7 @@ a {
   cursor: pointer;
   transition: all .3s;
   margin-bottom: 20px;
+
   span {
     display: flex;
     justify-content: center;
@@ -33,9 +34,11 @@ a {
     position: relative;
     z-index: 1;
   }
+
   &:hover span {
     background: none;
   }
+
   &:active {
     transform: scale(0.9);
   }

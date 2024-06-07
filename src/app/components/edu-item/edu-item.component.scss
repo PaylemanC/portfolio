@@ -10,18 +10,19 @@ $colors: (
 p {
   font-size: 1.5rem;
 }
+
 .tittle {
   font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: 2px;
 }
+
 .slash {
   margin: 0 4px;
 }
 
 li {
   margin-bottom: 12px;
-
   @each $institute, $color in $colors {
     &.#{$institute} {
       .color {

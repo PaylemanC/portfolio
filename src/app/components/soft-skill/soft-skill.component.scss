@@ -2,6 +2,7 @@
 
 .soft-skill {
   @extend .hard-skill;
+
   span {
     top: -34px;
     left: -21px;
@@ -12,6 +13,7 @@
   @extend .hard-skill__content;
   width: auto;
   background: linear-gradient(153deg, $soft-pink 0%, #5f4e4a 50%) no-repeat;
+
   p {
     letter-spacing: 3px;
   }
@@ -21,6 +23,7 @@
   .soft-skill {
     width: 80vw;
   }
+
   .soft-skill__content {
     width: 100%;
   }

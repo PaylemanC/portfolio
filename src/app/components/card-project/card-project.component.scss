@@ -11,6 +11,7 @@
   background: linear-gradient(145deg, #202020, #121212);
   box-shadow: 2px 3px 4px #101010, 1px 0 3px #121212;
   transition: box-shadow 1s ease-in-out, transform .3s ease-in-out;
+
   img {
     border-radius: 12px;
     width: 100%;
@@ -18,9 +19,11 @@
     filter: grayscale(1);
     transition: filter .5s, transform .3s;
   }
+
   a {
     color: white;
   }
+
   p {
     color: white;
     font-size: 1.6rem;
@@ -28,6 +31,7 @@
     line-height: 1.5;
     margin: 16px 0;
   }
+
   h3 {
     font-size: 3.1rem;
     background: $degradado-gold;
@@ -37,12 +41,14 @@
     color: $aux-gold;
     letter-spacing: 1px;
     line-height: 1.4;
+
     &::selection {
       -webkit-text-fill-color: initial;
       -webkit-background-clip: initial;
       background-clip: initial;
     }
   }
+
   h4 {
     color: #cbcbcb;
     font-size: 1.7rem;
@@ -51,6 +57,7 @@
   &:hover {
     box-shadow: 4px 6px 8px #101010, -1px -2px 6px #121212;
     transform: scale(1.01);
+
     img {
       filter: none;
       transform: scale(1.03);
@@ -89,6 +96,7 @@
   margin: -25px 0 8px;
   position: relative;
   z-index: 1;
+
   .link {
     border: 2px solid white;
     background: $background;
@@ -106,12 +114,15 @@
       filter: none;
     }
   }
+
   .card-project__preview {
     width: 100%;
   }
+
   .card-project__content {
     width: 100%;
   }
+
   .card-project__links {
     margin-bottom: 0;
   }

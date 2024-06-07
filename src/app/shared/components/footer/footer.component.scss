@@ -6,11 +6,13 @@ footer {
   background-color: $aux-grey;
   padding: 32px 64px;
   margin-top: 80px;
+
   h2 {
     @extend h2;
     margin-top: 0;
     font-family: 'Lato', sans-serif;
   }
+
   .footer__content-thanks {
     .heart {
       position:relative;
@@ -18,6 +20,7 @@ footer {
       height:90px;
       transition: transform 500ms;
       transition-timing-function: cubic-bezier(.75, -3, .25, 4);
+
       &:before {
         position: absolute;
         content: "";
@@ -28,6 +31,7 @@ footer {
         background: $secondary-color;
         border-radius: 50px 50px 0 0;
       }
+
       &::before, &::after {
         content: "";
         position: absolute;
@@ -37,11 +41,13 @@ footer {
         border-radius: 50px 50px 0 0;
         background: $secondary-color;
       }
+
       &::before {
         left: 42px;
         transform: rotate(-45deg);
         transform-origin: 0 100%;
       }
+
       &::after {
         left: 0;
         transform: rotate(45deg);
@@ -49,31 +55,38 @@ footer {
       }
     }
   }
+
   &:hover {
     .heart {
       transform: scale(1.1);
     }
   }
+
   .footer__content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
     ul {
       display: flex;
       flex-direction: column;
       gap: 20px;
+
       li {
         a {
           font-size: 1.8rem;
           @include secondaryUnderline(white, $aux-gold, 4px);
         }
+
         p {
           color: gold;
           font-size: 1.5rem;
         }
       }
+
       li:first-child {
         font-size: 2rem;
+
         &::after {
           content: "";
           display: block;
@@ -86,6 +99,7 @@ footer {
       }
     }
   }
+
   .footer__copyright {
     text-align: center;
     margin-top: 32px;

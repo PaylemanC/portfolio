@@ -31,6 +31,7 @@
   pointer-events: none;
   backface-visibility: hidden;
   @include setScrolltopColors(#ffa476, $background, lighten(#ffa476, 8%));
+
   a {
     $offset: - ($size + $offsetBottom);
     position: fixed;
@@ -47,6 +48,7 @@
     pointer-events: all;
     outline: none;
     overflow: hidden;
+
     svg {
       display: block;
       border-radius: 50%;
