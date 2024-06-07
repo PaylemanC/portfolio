@@ -1,0 +1,43 @@
+@mixin span-icons($url, $width, $height) {
+  display: inline-block;
+  background: url($url) no-repeat center;
+  width: $width;
+  height: $height;
+}
+
+@mixin secondaryUnderline ($color, $hover-color, $line-weight) {
+  color: $color;
+  line-height: 4rem;
+  background: linear-gradient(to bottom, $hover-color 0%, $hover-color 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: $line-weight $line-weight;
+  text-decoration: none;
+  transition: background-size .4s;
+  padding: 5px 2px;
+  &:hover {
+    background-size: 4px 50px;
+    color: $aux-soft-background;
+  }
+}
+
+@mixin blurBackground {
+  background-color: transparent;
+  backdrop-filter: blur(6px) saturate(75%);
+  -webkit-backdrop-filter: blur(6px) saturate(75%);
+}
+
+@mixin underlineAnimation {
+  &::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: $secondary-color;
+    transform: scale(0,1);
+    transform-origin: center;
+    transition: transform .35s;
+  }
+  &:hover::after, &.currentLink::after {
+    transform: scale(1,1);
+  }
+}

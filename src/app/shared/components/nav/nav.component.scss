@@ -1,26 +1,5 @@
 @import 'src/app/app.component.scss';
 
-@mixin blurBackground {
-  background-color: transparent;
-  backdrop-filter: blur(6px) saturate(75%);
-  -webkit-backdrop-filter: blur(6px) saturate(75%);
-}
-
-@mixin underlineAnimation {
-  &::after {
-    content: "";
-    display: block;
-    height: 3px;
-    background-color: $secondary-color;
-    transform: scale(0,1);
-    transform-origin: center;
-    transition: transform .35s;
-  }
-  &:hover::after, &.currentLink::after {
-    transform: scale(1,1);
-  }
-}
-
 $nav-height: 80px;
 $mobile-background: #151515cc;
 
