@@ -30,7 +30,7 @@ export class HomeComponent {
   ngOnInit() {
     this.loading;
     this.personalDataService.getAllData().subscribe(data => {
-      const { name, occupation, summary, description, social_media, cv, education, skills, projects } = data;
+      const { name, occupation, cv, summary, description, social_media, education, skills, projects } = data;
 
       this.personalInfo = { name, occupation, summary, description };
       this.social = {

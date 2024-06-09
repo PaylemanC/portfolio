@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class PersonalDataService {
 
-  private apiUrl: string = './assets/data.json';
+  private apiUrl: string = './assets/data/data.json';
 
   constructor(private http: HttpClient) { }
 
