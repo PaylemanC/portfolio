@@ -13,7 +13,7 @@
           "id": 1,
           "date": "02.2022 — Actualidad",
           "title": "Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales",
-          "description": ["Cursando último cuatrimestre"]
+          "description": ["Cursando último semestre"]
         },
         {
           "id": 2,
@@ -126,38 +126,28 @@
           "id": 10,
           "name": "HTML&CSS",
           "icon": "./assets/icons/hard-skills/html_css.svg"
-        },
-        {
-          "id": 11,
-          "name": "Java",
-          "icon": "./assets/icons/hard-skills/java.svg"
-        },
-        {
-          "id": 12,
-          "name": "Android Studio",
-          "icon": "./assets/icons/hard-skills/android_studio.png"
         }
       ],
     "soft_skills": [
       {
         "id": 1,
         "name": "Trabajo en equipo",
-        "icon": "./assets/icons/soft-skills/2.svg"
+        "icon": ""
       },
       {
         "id": 2,
         "name": "Autodidacta",
-        "icon": "./assets/icons/soft-skills/5.svg"
+        "icon": ""
       },
       {
         "id": 3,
         "name": "Facilidad de aprendizaje",
-        "icon": "./assets/icons/soft-skills/1.svg"
+        "icon": ""
       },
       {
         "id": 4,
         "name": "Creatividad",
-        "icon": "./assets/icons/soft-skills/3.svg"
+        "icon": ""
       },
       {
         "id": 6,
@@ -218,9 +208,9 @@
       "img": "./assets/imgs/misrutinas.png",
       "title": "MisRutinas",
       "subtitle": "Full Stack & Android & SCRUM",
-      "description": "MisRutinas tiene un enfoque de creación y seguimiento de rutinas de entrenamiento en Web, y otro enfoque de administración de socios y clases de gym en la aplicación Android. Ambos cuentan con CRUDs y autenticación, llevadas a cabo en 1 año y 3 meses, junto a un Scrum Team de 6 desarrolladores en donde me desenvolví como Scrum Master para la etapa final.",
+      "description": "MisRutinas es un sistema completo de administración de clases, socios y entrenadores de gimnasio. Cuenta con 1 CRUD de clases en Web + e-commerce, y 3 CRUD en la aplicación Mobile; ambos cuentan con registro y autenticación para administradores. El proyecto se desarrolló en 1 año y 6 meses, junto a un Scrum Team de 6 desarrolladores más, y bajo metodología SCRUM.",
       "skills": ["Angular", "Django", "Android Studio", "Java", "MySQL", "SQLite", "Firebase Authentication API","Bootstrap"],
-      "github": "https://github.com/grupoA7ISPC/ProyectoISPCGrupo55/tree/main",
+      "github": "https://github.com/grupoA7ISPC/MisRutinas-PracticasProfesionalizante",
       "deploy": "",
       "status": "COMPLETED",
       "category": "Full Stack"
