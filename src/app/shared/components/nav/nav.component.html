@@ -8,10 +8,10 @@
   </label>
   <nav [class.active]="activeMenu">
     <ul>
-      <li><a href="#introduction" [class.currentLink]="activeSection === 'introduction'">Inicio</a></li>
-      <li><a href="#about-me" [class.currentLink]="activeSection === 'about-me'">Sobre mí</a></li>
-      <li><a href="#project" [class.currentLink]="activeSection === 'project'">Proyectos</a></li>
-      <li><a href="#contact" [class.currentLink]="activeSection === 'contact'">Contacto</a></li>
+      <li><a href="#introduction" (click)="scrollToSection($event, 'introduction')" [class.currentLink]="activeSection === 'introduction'">Inicio</a></li>
+      <li><a href="#about-me" (click)="scrollToSection($event, 'about-me')" [class.currentLink]="activeSection === 'about-me'">Sobre mí</a></li>
+      <li><a href="#project" (click)="scrollToSection($event, 'project')" [class.currentLink]="activeSection === 'project'">Proyectos</a></li>
+      <li><a href="#contact" (click)="scrollToSection($event, 'contact')" [class.currentLink]="activeSection === 'contact'">Contacto</a></li>
     </ul>
   </nav>
 </header>

@@ -10,29 +10,39 @@ export class NavComponent {
 
   toggleMenu() {
     this.activeMenu = !this.activeMenu;
-  }
+    }
 
+  navbarHeight: number = 80;
   activeSection: string = 'introduction';
 
-  @HostListener('window:scroll', ['$event.target'])
-  onScroll(target: HTMLElement) {
-    this.detectCurrentSection(target);
-  }
-
-  detectCurrentSection(target: HTMLElement) {
+  @HostListener('window:scroll', ['$event'])
+  onScroll() {
     const sections = document.querySelectorAll('section');
-    let currentSection: string = '';
+    let scrollPos = document.documentElement.scrollTop || document.body.scrollTop;
 
-    sections.forEach(section => {
-      const sectionTop = section.offsetTop;
-      const sectionHeight = section.clientHeight;
-      const scrollTop = target.scrollTop || window.pageYOffset;
+    sections.forEach((section: Element) => {
+      const sectionElement = section as HTMLElement;
+      const sectionTop = sectionElement.offsetTop - this.navbarHeight;
+      const sectionBottom = sectionElement.offsetTop + sectionElement.clientHeight - this.navbarHeight;
 
-      if (scrollTop >= sectionTop - sectionHeight / 4) {
-        currentSection = section.id;
+      if (sectionTop <= scrollPos + 60 && sectionBottom > scrollPos + 60) {
+        const id = section.getAttribute('id');
+        this.activeSection = id ? id : '';
       }
     });
+  }
 
-    this.activeSection = currentSection;
+  scrollToSection(event: Event, sectionId: string) {
+    event.preventDefault();
+    const targetElement = document.getElementById(sectionId);
+    if (targetElement) {
+      const yOffset = -this.navbarHeight;
+      const y = targetElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  }
+
+  ngOnInit(): void {
+    this.onScroll();
   }
 }
