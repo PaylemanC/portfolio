@@ -1,4 +1,4 @@
-@mixin span-icons($url, $width, $height) {
+@mixin span-icon($url, $width, $height) {
   display: inline-block;
   background: url($url) no-repeat center;
   width: $width;

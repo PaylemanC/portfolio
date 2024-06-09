@@ -10,7 +10,7 @@ a {
   justify-content: center;
   background-image: linear-gradient(144deg, $first-gradient, $second-gradient, $third-gradient);
   border-radius: 8px;
-  color:  $text-color;
+  color: $text-color;
   font-size: 1.8rem;
   max-width: 100%;
   min-width: 140px;
@@ -23,7 +23,7 @@ a {
   transition: all .3s;
   margin-bottom: 20px;
 
-  span {
+  .cv-content {
     display: flex;
     justify-content: center;
     gap: 8px;
@@ -36,9 +36,13 @@ a {
     transition: 300ms;
     position: relative;
     z-index: 1;
+
+    .cv-icon {
+      @include span-icon('../../../assets/icons/download.svg', 28px, 28px);
+    }
   }
 
-  &:hover span {
+  &:hover .cv-content {
     background: none;
   }
 

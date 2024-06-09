@@ -3,11 +3,12 @@ $background-card: linear-gradient(153deg, $soft-color 0%, #5f4e4a 50%) no-repeat
 
 .soft-skill {
   @extend .hard-skill;
+}
 
-  span {
-    top: -34px;
-    left: -21px;
-  }
+.soft-skill__icon {
+  @include span-icon('../../../assets/icons/target.svg', 60px, 60px);
+  top: -34px;
+  left: -21px;
 }
 
 .soft-skill__content {

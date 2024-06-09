@@ -106,6 +106,14 @@ $background-card: linear-gradient(145deg, #202020, #121212);
     padding: 8px;
     height: fit-content;
   }
+
+  .link.github span {
+    @include span-icon('../../../assets/icons/github.svg', 24px, 24px);
+  }
+
+  .link.deploy span {
+    @include span-icon('../../../assets/icons/external-link.svg', 24px, 24px);
+  }
 }
 
 @media (max-width: 768px) {
