@@ -1,9 +1,9 @@
 {
   "name": "Carina Payleman",
-  "occupation": ["Web Developer", "Backend Developer", "Frontend Developer"],
+  "occupation": ["Full Stack Developer", "Web Developer", "Backend Developer", "Frontend Developer"],
   "cv": "./assets/data/cv.pdf",
-  "summary": "Programadora Full Stack, desarrollo aplicaciones web robustas y escalables con interfaces de usuario atractivas y funcionales. Actualmente disponible para trabajar, abierta a nuevas oportunidades para contribuir con mi conocimiento y creatividad en  proyectos desafiantes y dinámicos.",
-  "description": "👋 ¡Hola! Te doy la bienvenida a mi portafolio profesional. Mi nombre es <strong>Carina Payleman</strong> y me gusta referenciarme como <strong>@PaylemanC</strong>. Soy una programadora web de Córdoba, Argentina, con conocimientos y prácticas en entornos, frameworks y lenguajes de programación tanto Frontend como Backend. Estoy familiarizada con todas las etapas del desarrollo web, participando activa y colaborativamente en múltiples proyectos, tanto individuales como en equipo, bajo metodologías ágiles como SCRUM y Kanban que me han permitido  desarrollar una sólida comprensión de la dinámica de trabajo en equipo y la gestión eficiente de proyectos. <br><br> 🚀 Siempre estoy aprendiendo y explorando nuevas habilidades para enriquecer mi perfil, esta mentalidad de aprendizaje activo me impulsa a crecer constantemente como profesional. Creo firmemente que la mejor forma de aprender es atreverse haciendo, así que me centro en la acción: siempre tengo un proyecto en mente y en proceso para aplicar y profundizar mis conocimientos, amo los desafíos de código y los diseños UI para replicar. Destaco en proyectos colaborativos aprendiendo con rapidez, adaptándome fácilmente y siempre dispuesta a dar una mano, sumando mi impecable resolución de problemas y creatividad.<br><br>Muchas gracias por interesarte en este portfolio. Te invito a continuar explorándolo 💖",
+  "summary": "Desarrollo aplicaciones web robustas y escalables con interfaces de usuario atractivas y funcionales. Estoy abierta a nuevas oportunidades laborales para contribuir con mis habilidades y conocimientos en proyectos desafiantes y dinámicos.",
+  "description": "👋 ¡Hola! Te doy la bienvenida a mi portafolio profesional. Mi nombre es <strong>Carina Payleman</strong> y me gusta referenciarme como <strong>@PaylemanC</strong>. Tengo conocimiento y práctica en frameworks y lenguajes de programación tanto Frontend como Backend, así como estoy familiarizada con todas las etapas del desarrollo web, participando activa y colaborativamente en múltiples proyectos (tanto individuales como en equipo) bajo metodologías ágiles como SCRUM y Kanban, que me han permitido desarrollar una sólida comprensión de la dinámica de trabajo en equipo y la gestión eficiente de proyectos. <br><br> 🚀 Siempre estoy aprendiendo y explorando nuevas habilidades para enriquecer mi perfil, esta mentalidad de aprendizaje activo me impulsa a crecer constantemente como profesional. Creo firmemente que la mejor forma de aprender es atreverse haciendo, así que siempre tengo un proyecto en proceso para aplicar y profundizar mis skills, amo los desafíos de código y el campo UI/UX para aplicar. Destaco en proyectos colaborativos aprendiendo con rapidez, adaptándome fácilmente y siempre dispuesta a dar una mano, sumando mi impecable resolución de problemas y creatividad.<br><br>Muchas gracias por interesarte en este portfolio. Te invito a continuar explorándolo 💖",
   "education": [
     {
       "id": 1,
@@ -169,15 +169,15 @@
   "projects": [
     {
       "id": 1,
-      "img": "./assets/imgs/project-manager.png",
-      "title": "Project Manager",
-      "subtitle": "Gestor de proyectos de software",
-      "description": "Esta plataforma de getión de proyectos se centra en operaciones CRUD, con barra de búsqueda y paginación. Apliqué muchos conceptos interesantes, como almacenamiento en local storage, la librería ngx-pagination para paginado, y data binding para filtrado. La UI fue desarrollada según el Ant Design System de Figma.",
-      "skills": ["Angular", "TypeScript", "SCSS"],
-      "github": "https://github.com/PaylemanC/project-manager--FrontendChallenge",
-      "deploy": "https://project-manager.netlify.app",
+      "img": "./assets/imgs/misrutinas.png",
+      "title": "MisRutinas",
+      "subtitle": "Full Stack & Android & SCRUM",
+      "description": "MisRutinas es un sistema completo de administración de clases, socios y entrenadores de gimnasio. Cuenta con 1 CRUD de clases en Web + e-commerce, y 3 CRUD en la aplicación Mobile; ambos cuentan con registro y autenticación para administradores. El proyecto se desarrolló en 1 año y 6 meses, junto a un Scrum Team de 6 desarrolladores más, y bajo metodología SCRUM.",
+      "skills": ["Angular", "Django", "Android Studio", "Java", "MySQL", "SQLite", "Firebase Authentication API","Bootstrap"],
+      "github": "https://github.com/grupoA7ISPC/MisRutinas-PracticasProfesionalizante",
+      "deploy": "",
       "status": "COMPLETED",
-      "category": "Frontend"
+      "category": "Full Stack"
     },
     {
       "id": 2,
@@ -193,6 +193,18 @@
     },
     {
       "id": 3,
+      "img": "./assets/imgs/project-manager.png",
+      "title": "Project Manager",
+      "subtitle": "Gestor de proyectos de software",
+      "description": "Esta plataforma de getión de proyectos se centra en operaciones CRUD, con barra de búsqueda y paginación. Apliqué muchos conceptos interesantes, como almacenamiento en local storage, la librería ngx-pagination para paginado, y data binding para filtrado. La UI fue desarrollada según el Ant Design System de Figma.",
+      "skills": ["Angular", "TypeScript", "SCSS"],
+      "github": "https://github.com/PaylemanC/project-manager--FrontendChallenge",
+      "deploy": "https://project-manager.netlify.app",
+      "status": "COMPLETED",
+      "category": "Frontend"
+    },
+    {
+      "id": 4,
       "img": "./assets/imgs/todoapp.png",
       "title": "TodoApp",
       "subtitle": "Listado de tareas pendientes",
@@ -202,18 +214,6 @@
       "deploy": "https://paylemanc.github.io/Todo-App/",
       "status": "IN PROGRESS",
       "category": "Frontend"
-    },
-    {
-      "id": 4,
-      "img": "./assets/imgs/misrutinas.png",
-      "title": "MisRutinas",
-      "subtitle": "Full Stack & Android & SCRUM",
-      "description": "MisRutinas es un sistema completo de administración de clases, socios y entrenadores de gimnasio. Cuenta con 1 CRUD de clases en Web + e-commerce, y 3 CRUD en la aplicación Mobile; ambos cuentan con registro y autenticación para administradores. El proyecto se desarrolló en 1 año y 6 meses, junto a un Scrum Team de 6 desarrolladores más, y bajo metodología SCRUM.",
-      "skills": ["Angular", "Django", "Android Studio", "Java", "MySQL", "SQLite", "Firebase Authentication API","Bootstrap"],
-      "github": "https://github.com/grupoA7ISPC/MisRutinas-PracticasProfesionalizante",
-      "deploy": "",
-      "status": "COMPLETED",
-      "category": "Full Stack"
     },
     {
       "id": 5,

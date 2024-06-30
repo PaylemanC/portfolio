@@ -7,7 +7,7 @@
 
   .introduction__content {
     max-width: 620px;
-    margin: 16px 32px 16px 48px;
+    margin: 16px 60px;
   }
 
   .introduction__content-title {
@@ -18,7 +18,7 @@
       font-weight: bold;
 
       .content-title_occupation {
-        font-size: 7.4rem;
+        font-size: 6.5rem;
         padding-right: 6px;
         display: inline-block;
         max-width:fit-content;
@@ -107,7 +107,7 @@
 
     h2 {
       text-align: center;
-      margin: 4px 0 8px;
+      margin: 4px 0 12px;
     }
   }
 
@@ -115,13 +115,21 @@
     background-color: $aux-soft-background;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 24px;
+    align-items: center;
+    gap: 60px;
     padding: 44px;
     line-height: 1.6;
     margin-bottom: 32px;
 
     p {
       font-size: 1.5rem;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin: 32px;
     }
 
     span {
@@ -222,9 +230,16 @@
       height: 100%;
     }
   }
+
+  #about-me {
+    .about-me__content-container {
+      align-items: normal;
+      gap: 32px;
+    }
+  }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 675px) {
   .introduction__avatar, .social-media {
     display: none;
   }
@@ -236,12 +251,18 @@
 
     .introduction__content-title {
       h1 {
-        margin-left: 0;
+        text-align: center;
+        margin: 10px 0;
         .content-title_occupation {
           white-space:initial;
           border-right: none;
           animation: none;
         }
+      }
+
+      p {
+        margin-left: 2vw;
+        line-height: 1;
       }
     }
   }
@@ -259,6 +280,10 @@
 
     .about-me__content-container {
       grid-template-columns: 1fr;
+
+      .about-me__content.education {
+        margin: 0 25px;
+      }
     }
 
     .hard-skills__container, .soft-skills__container {
