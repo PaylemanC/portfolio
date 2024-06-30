@@ -1,4 +1,4 @@
-  <div class="card-project" [ngClass]="{'odd-card': !isEven, 'even-card': isEven}" [attr.data-aos]="isEven ? 'fade-left' : 'fade-right'" data-aos-duration="1900">
+  <article class="card-project" [ngClass]="{'odd-card': !isEven, 'even-card': isEven}" [attr.data-aos]="isEven ? 'fade-left' : 'fade-right'" data-aos-duration="1900">
     <div class="card-project__preview">
       <a class="card-project__img" [href]="project.deploy !== '' ? project.deploy : project.github" target="_blank" aria-label="Link a repositorio del proyecto en GitHub">
         <img [src]="project.img" alt="Screenshot de {{project.title}}">
@@ -9,9 +9,13 @@
       </div>
     </div>
     <div class="card-project__content">
-      <h4>{{project.subtitle}}</h4>
-      <h3>{{project.title}}</h3>
-      <p>{{project.description}}</p>
-      <span class="card-project__skills">{{ project.skills | joinWithSlash }}</span>
+      <header>
+        <h4>{{project.subtitle}}</h4>
+        <h3>{{project.title}}</h3>
+        <p>{{project.description}}</p>
+      </header>
+      <footer>
+        <span class="card-project__skills">{{ project.skills | joinWithSlash }}</span>
+      </footer>
     </div>
-  </div>
+  </article>
