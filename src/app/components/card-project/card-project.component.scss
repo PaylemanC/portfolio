@@ -120,8 +120,17 @@ $background-card: linear-gradient(145deg, #202020, #121212);
   .card-project {
     flex-direction: column;
     gap: 0;
+    padding: 0;
     img {
       filter: none;
+      border-radius: 12px 12px 0 0;
+    }
+
+    &:hover {
+      transform: none;
+      img {
+        transform: none;
+      }
     }
   }
 
@@ -131,6 +140,7 @@ $background-card: linear-gradient(145deg, #202020, #121212);
 
   .card-project__content {
     width: 100%;
+    padding: 18px 32px 32px;
   }
 
   .card-project__links {
