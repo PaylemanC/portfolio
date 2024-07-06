@@ -2,8 +2,8 @@
   "name": "Carina Payleman",
   "occupation": ["Full Stack Developer", "Web Developer", "Backend Developer", "Frontend Developer"],
   "cv": "./assets/data/cv.pdf",
-  "summary": "Desarrollo aplicaciones web robustas y escalables con interfaces de usuario atractivas y funcionales. Estoy abierta a nuevas oportunidades laborales para contribuir con mis habilidades y conocimientos en proyectos desafiantes y dinámicos.",
-  "description": "👋 ¡Hola! Te doy la bienvenida a mi portafolio profesional. Mi nombre es <strong>Carina Payleman</strong> y me gusta referenciarme como <strong>@PaylemanC</strong>. Tengo conocimiento y práctica en frameworks y lenguajes de programación tanto Frontend como Backend, así como estoy familiarizada con todas las etapas del desarrollo web, participando activa y colaborativamente en múltiples proyectos (tanto individuales como en equipo) bajo metodologías ágiles como SCRUM y Kanban, que me han permitido desarrollar una sólida comprensión de la dinámica de trabajo en equipo y la gestión eficiente de proyectos. <br><br> 🚀 Siempre estoy aprendiendo y explorando nuevas habilidades para enriquecer mi perfil, esta mentalidad de aprendizaje activo me impulsa a crecer constantemente como profesional. Creo firmemente que la mejor forma de aprender es atreverse haciendo, así que siempre tengo un proyecto en proceso para aplicar y profundizar mis skills, amo los desafíos de código y el campo UI/UX para aplicar. Destaco en proyectos colaborativos aprendiendo con rapidez, adaptándome fácilmente y siempre dispuesta a dar una mano, sumando mi impecable resolución de problemas y creatividad.<br><br>Muchas gracias por interesarte en este portfolio. Te invito a continuar explorándolo 💖",
+  "summary": "Desarrollo aplicaciones web robustas & escalables con interfaces de usuario atractivas & funcionales. Estoy abierta a nuevas oportunidades laborales para contribuir con mis habilidades y conocimientos en proyectos desafiantes y dinámicos.",
+  "description": "👋 ¡Hola! Te doy la bienvenida a mi portafolio, soy Técnica en Desarrollo Web y Apps Digitales con conocimiento y práctica en Frontend y Backend, participé en múltiples proyectos tanto personales como colaborativos de los cuales he seleccionado mis favoritos para mostrarte aquí.<br><br> 🚀 Siempre estoy aprendiendo y explorando nuevas habilidades para enriquecer mi perfil, enfocándome en la práctica constante. Amo los desafíos de código y las leyes UX/UI para aplicar.<br><br>Muchas gracias por interesarte en este portfolio. Te invito a continuar explorándolo 💖",
   "education": [
     {
       "id": 1,
@@ -11,14 +11,15 @@
       "courses": [
         {
           "id": 1,
-          "date": "02.2022 — Actualidad",
+          "date": "02.2022 — 07.2024",
           "title": "Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales",
-          "description": ["Cursando último semestre"]
+          "description": ["Completa"]
         },
         {
           "id": 2,
           "date": "02.2024 — Actualidad",
-          "title": "Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial"
+          "title": "Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial",
+          "description": ["En proceso"]
         }
       ]
     },
@@ -43,24 +44,6 @@
           "date": "08.2023 — 12.2023",
           "title": "Full Stack en Python",
           "description": ["Proyecto 'Clan-F completo'"]
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "institute": "Argentina Programa",
-      "courses": [
-        {
-          "id": 1,
-          "date": "02.2022 — 04.2022",
-          "title": "#SéProgramar",
-          "description": ["1era etapa"]
-        },
-        {
-          "id": 2,
-          "date": "07.2022 — 01.2023",
-          "title": "#YoProgramo",
-          "description": ["2da etapa"]
         }
       ]
     }
