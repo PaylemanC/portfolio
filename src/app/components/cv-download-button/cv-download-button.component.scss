@@ -21,7 +21,6 @@ a {
   white-space: nowrap;
   cursor: pointer;
   transition: all .3s;
-  margin-bottom: 20px;
 
   .cv-content {
     display: flex;
@@ -51,7 +50,7 @@ a {
   }
 }
 
-@media (max-width: 675px) {
+@media (max-width: 1154px) {
   a {
     width: 100%;
   }
