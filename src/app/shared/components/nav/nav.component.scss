@@ -52,8 +52,8 @@ nav {
     display: block;
     cursor: pointer;
     position: relative;
-    width: 40px;
-    height: 30px;
+    width: 35px;
+    height: 28px;
     background: transparent;
 
     input {
@@ -101,7 +101,7 @@ nav {
 
     input:checked ~ span:nth-of-type(3) {
       transform: rotate(-45deg);
-      top: 28px;
+      top: 25px;
       left: 5px;
     }
   }
