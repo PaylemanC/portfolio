@@ -2,8 +2,8 @@
   "name": "Carina Payleman",
   "occupation": ["Full Stack Developer", "Web Developer", "Backend Developer", "Frontend Developer"],
   "cv": "./assets/data/cv.pdf",
-  "summary": "Desarrollo aplicaciones web robustas & escalables con interfaces de usuario atractivas & funcionales. Estoy abierta a nuevas oportunidades laborales para contribuir con mis habilidades y conocimientos en proyectos desafiantes y dinámicos.",
-  "description": "👋 ¡Hola! Te doy la bienvenida a mi portafolio, soy Técnica en Desarrollo Web y Apps Digitales con conocimiento y práctica en Frontend y Backend, participé en múltiples proyectos tanto personales como colaborativos de los cuales he seleccionado mis favoritos para mostrarte aquí.<br><br> 🚀 Siempre estoy aprendiendo y explorando nuevas habilidades para enriquecer mi perfil, enfocándome en la práctica constante. Amo los desafíos de código y las leyes UX/UI para aplicar.<br><br>Muchas gracias por interesarte en este portfolio. Te invito a continuar explorándolo 💖",
+  "summary": "Desarrollo aplicaciones web robustas y escalables, con interfaces de usuario atractivas y funcionales. Amo aprender programando, los proyectos desafiantes y el mate argentino.",
+  "description": "👋 ¡Hola! Te doy la bienvenida a mi portafolio, soy Técnica en Desarrollo Web y Apps Digitales con conocimiento y práctica en Frontend y Backend, participé en múltiples proyectos tanto personales como colaborativos, seleccionando mis favoritos para mostrarte aquí.<br><br> 🚀 Siempre estoy aprendiendo y explorando nuevas habilidades para enriquecer mi perfil, enfocándome en la práctica constante. Amo los desafíos de código y las leyes UX/UI para aplicar, así como el trabajo en equipo y la colaboración en proyectos entre aprender y enseñar.<br><br>Muchas gracias por interesarte en este portfolio. Te invito a continuar explorándolo 💖<br><br> PD. No te olvides contactarme en Github & LinkedIn si quieres conectar 😉",
   "education": [
     {
       "id": 1,
@@ -25,6 +25,24 @@
     },
     {
       "id": 2,
+      "institute": "Código Facilito",
+      "courses": [
+        {
+          "id": 1,
+          "date": "07.2024 — Actualidad",
+          "title": "Cursos y Bootcamp Replays en Desarrollo Web, Bases de Datos, Ciencia de Datos e Inteligencia Artificial",
+          "description": ["@PaylemanC"]
+        },
+        {
+          "id": 2,
+          "date": "08.2024 — Actualidad",
+          "title": "Bootcamp de Python Avanzado",
+          "description": ["En proceso"]
+        }
+      ]
+    },
+    {
+      "id": 3,
       "institute": "Platzi",
       "courses": [
         {
@@ -36,7 +54,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "institute": "Codo a Codo",
       "courses": [
         {
@@ -155,7 +173,7 @@
       "img": "./assets/imgs/misrutinas.png",
       "title": "MisRutinas",
       "subtitle": "Full Stack & Android & SCRUM",
-      "description": "MisRutinas es un sistema completo de administración de clases, socios y entrenadores de gimnasio. Cuenta con 1 CRUD de clases en Web + e-commerce, y 3 CRUD en la aplicación Mobile; ambos cuentan con registro y autenticación para administradores. El proyecto se desarrolló en 1 año y 6 meses, junto a un Scrum Team de 6 desarrolladores más, y bajo metodología SCRUM.",
+      "description": "MisRutinas es un sistema completo de administración de clases, socios y entrenadores de gimnasio. Cuenta con un CRUD de clases en Web + e-commerce, y tres CRUD de administración completa en la aplicación de Android. Ambos cuentan con registro y autenticación para administradores. El proyecto se desarrolló en 1 año y 6 meses para la TSDWAD, junto a un Scrum Team de 6 desarrolladores más, y bajo metodología SCRUM.",
       "skills": ["Angular", "Django", "Android Studio", "Java", "MySQL", "SQLite", "Firebase Authentication API","Bootstrap"],
       "github": "https://github.com/grupoA7ISPC/MisRutinas-PracticasProfesionalizante",
       "deploy": "",
@@ -164,10 +182,22 @@
     },
     {
       "id": 2,
+      "img": "./assets/imgs/imagescaleprinter.png",
+      "title": "Image Scale Printer",
+      "subtitle": "Imágenes en CM, para imprimir en A4",
+      "description": "Este proyecto Open Source es un demo de una app creada para STAMPAD, un cliente que necesitaba una solución para imprimir diseños en tamaños específicos para productos sublimables pequeños. Permite subir imágenes, escalarlas escalarlas en centímetros y generar un archivo PDF listo para imprimir en hojas A4. Desarrollada con Angular, cuenta con un lienzo mediante Fabric.js y utiliza jsPDF para la descarga del archivo PDF client-side.",
+      "skills": ["Angular", "TypeScript", "SCSS", "Canvas de HTML"],
+      "github": "https://github.com/PaylemanC/ImageScalePrint",
+      "deploy": "https://image-scale-printer-demo.netlify.app/",
+      "status": "COMPLETED",
+      "category": "Frontend"
+    },
+    {
+      "id": 3,
       "img": "./assets/imgs/clan-f.png",
       "title": "CLAN-F",
       "subtitle": "Proyecto para el curso Full Stack Python de CaC",
-      "description": "E-commerce ficticio de productos de línea personal como del hogar con Inteligencia Artificial integrada; cuenta con sistema de autenticación y CRUD completo de productos, desarrollado en equipo con 2 desarrolladores más. TIP: ingresa con paylemanc y admin123 para acceder al panel del CRUD",
+      "description": "E-commerce ficticio de productos de línea personal como del hogar con Inteligencia Artificial integrada; cuenta con sistema de autenticación y creación, lectura, modificación y eliminación de productos, desarrollado en equipo con 2 desarrolladores más. TIP: ingresa con ''paylemanc'' y ''admin123'' para acceder al panel del administrador.",
       "skills": ["Django", "MySQL", "HTML", "CSS", "JavaScript", "API", "Bootstrap"],
       "github": "https://github.com/PaylemanC/CLAN-F--e-commerce/tree/main",
       "deploy": "https://paylemanc.pythonanywhere.com/",
@@ -175,40 +205,16 @@
       "category": "Full Stack"
     },
     {
-      "id": 3,
+      "id": 4,
       "img": "./assets/imgs/project-manager.png",
       "title": "Project Manager",
       "subtitle": "Gestor de proyectos de software",
       "description": "Esta plataforma de getión de proyectos se centra en operaciones CRUD, con barra de búsqueda y paginación. Apliqué muchos conceptos interesantes, como almacenamiento en local storage, la librería ngx-pagination para paginado, y data binding para filtrado. La UI fue desarrollada según el Ant Design System de Figma.",
-      "skills": ["Angular", "TypeScript", "SCSS"],
+      "skills": ["Angular", "TypeScript", "SCSS", "Design System"],
       "github": "https://github.com/PaylemanC/project-manager--FrontendChallenge",
       "deploy": "https://project-manager.netlify.app",
       "status": "COMPLETED",
       "category": "Frontend"
-    },
-    {
-      "id": 4,
-      "img": "./assets/imgs/todoapp.png",
-      "title": "TodoApp",
-      "subtitle": "Listado de tareas pendientes",
-      "description": "Esta web sencilla contiene un CRUD de tareas diarias almacenadas con localStorage. Es ubn proyecto académico sencillo desearrollado en React, con un diseño minimalista y responsive. Está en proceso de desarrollo para sumarle Next.js, añadir autenticación y filtros.",
-      "skills": ["React.js", "JavaScript", "HTML", "CSS"],
-      "github": "https://github.com/PaylemanC/Todo-App",
-      "deploy": "https://paylemanc.github.io/Todo-App/",
-      "status": "IN PROGRESS",
-      "category": "Frontend"
-    },
-    {
-      "id": 5,
-      "img": "./assets/imgs/frontend-mentor.png",
-      "title": "FrontendMentor Challenges",
-      "subtitle": "Open Source",
-      "description": "Recopilación de componentes completos de FrontendMentor como una iniciativa a contribuir soluciones en tecnologías alternativas debido a la poca resolución de estos challenges con el framework de Angular, a forma de práctica y diversión y en continuo desarrollo.",
-      "skills": ["Angular", "API", "TypeScript", "SCSS"],
-      "github": "https://github.com/PaylemanC/frontendmentor--Angular",
-      "deploy": "https://frontendmentorangular.netlify.app",
-      "status": "IN PROGRESS",
-      "category": "Full Stack"
     }
   ],
   "social_media": {
