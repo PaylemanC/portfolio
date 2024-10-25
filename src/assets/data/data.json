@@ -95,36 +95,41 @@
         },
         {
           "id": 4,
+          "name": "Ruby on Rails",
+          "icon": "./assets/icons/hard-skills/ruby_on_rails.svg"
+        },
+        {
+          "id": 5,
           "name": "MySQL",
           "icon": "./assets/icons/hard-skills/mysql.svg"
         },
         {
-          "id": 5,
+          "id": 6,
           "name": "Python",
           "icon": "./assets/icons/hard-skills/git.svg"
         },
         {
-          "id": 6,
+          "id": 7,
           "name": "TypeScript",
           "icon": "./assets/icons/hard-skills/typescript.svg"
         },
         {
-          "id": 7,
+          "id": 8,
           "name": "JavaScript",
           "icon": "./assets/icons/hard-skills/javascript.svg"
         },
         {
-          "id": 8,
+          "id": 9,
           "name": "Git",
           "icon": "./assets/icons/hard-skills/python.svg"
         },
         {
-          "id": 9,
+          "id": 10,
           "name": "SASS",
           "icon": "./assets/icons/hard-skills/sass.svg"
         },
         {
-          "id": 10,
+          "id": 11,
           "name": "HTML&CSS",
           "icon": "./assets/icons/hard-skills/html_css.svg"
         }
