@@ -7,8 +7,12 @@ $colors: (
   codo-a-codo: #f7b801
 );
 
-p {
+div {
   font-size: 1.5rem;
+}
+
+p {
+  display: inline;
 }
 
 .tittle {

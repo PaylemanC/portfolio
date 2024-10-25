@@ -12,14 +12,14 @@
         {
           "id": 1,
           "date": "02.2022 — 07.2024",
-          "title": "Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales",
-          "description": ["Completa"]
+          "title": "⭐Tecnicatura Superior en <strong>Desarrollo Web y Aplicaciones Digitales</strong>",
+          "description": []
         },
         {
           "id": 2,
-          "date": "02.2024 — Actualidad",
-          "title": "Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial",
-          "description": ["En proceso"]
+          "date": "02.2024 — Cursando",
+          "title": "Tecnicatura Superior en <strong>Ciencia de Datos e Inteligencia Artificial</strong>",
+          "description": []
         }
       ]
     },
@@ -29,15 +29,15 @@
       "courses": [
         {
           "id": 1,
-          "date": "07.2024 — Actualidad",
+          "date": "07.2024 — Cursando",
           "title": "Cursos y Bootcamp Replays en Desarrollo Web, Bases de Datos, Ciencia de Datos e Inteligencia Artificial",
-          "description": ["@PaylemanC"]
+          "description": ["<em>@PaylemanC</em>"]
         },
         {
           "id": 2,
-          "date": "08.2024 — Actualidad",
+          "date": "08.2024 — Cursando",
           "title": "Bootcamp de Python Avanzado",
-          "description": ["En proceso"]
+          "description": []
         }
       ]
     },
@@ -47,9 +47,9 @@
       "courses": [
         {
           "id": 1,
-          "date": "11.2022 — Actualidad",
+          "date": "11.2022 — Cursando",
           "title": "Escuela de Desarrollo Web, UX/UI, Habilidades Blandas y English Academy",
-          "description": ["@PaylemanC"]
+          "description": ["<em>@PaylemanC</em>"]
         }
       ]
     },
