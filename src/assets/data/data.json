@@ -35,7 +35,7 @@
         },
         {
           "id": 2,
-          "date": "08.2024 — Cursando",
+          "date": "08.2024 — 12.2024",
           "title": "Bootcamp de Python Avanzado",
           "description": []
         }
@@ -175,6 +175,30 @@
   "projects": [
     {
       "id": 1,
+      "img": "./assets/imgs/imagescaleprinter.png",
+      "title": "Image Scale Printer",
+      "subtitle": "Imágenes en CM, para imprimir en A4",
+      "description": "Este proyecto Open Source es un demo de una app creada para STAMPAD, que necesitaba una solución para imprimir diseños en tamaños específicos para productos sublimables pequeños. Permite subir imágenes, escalarlas escalarlas en centímetros y generar un archivo PDF listo para imprimir en hojas A4. Desarrollada con Angular, cuenta con un lienzo mediante Fabric.js y utiliza jsPDF para la descarga del archivo PDF client-side.",
+      "skills": ["Angular", "TypeScript", "SCSS", "Fabric.js"],
+      "github": "https://github.com/PaylemanC/ImageScalePrint",
+      "deploy": "https://image-scale-printer-demo.netlify.app/",
+      "status": "COMPLETED",
+      "category": "Frontend"
+    },
+    {
+      "id": 2,
+      "img": "./assets/imgs/descarga.png",
+      "title": "Puzzle Mockups Maker",
+      "subtitle": "Mockups de Rompecabezas",
+      "description": "Este proyecto Open Source es un demo de una app creada para STAMPAD, que necesitaba una solución para crear mockups de rompecabezas con sus diseños personalizados para mostrar a sus clientes antes de sublimarlos. Permite subir imágenes y previsualizar el resultado final, generando un archivo PNG sin fondo. Desarrollada con Angular, cuenta con un lienzo mediante Fabric.js.",
+      "skills": ["Angular", "TypeScript", "SCSS", "Fabric.js"],
+      "github": "https://github.com/PaylemanC/PuzzleMockupsMaker",
+      "deploy": "https://puzzle-mockups-maker-demo.netlify.app/",
+      "status": "COMPLETED",
+      "category": "Frontend"
+    },
+    {
+      "id": 3,
       "img": "./assets/imgs/misrutinas.png",
       "title": "MisRutinas",
       "subtitle": "Full Stack & Android & SCRUM",
@@ -186,19 +210,7 @@
       "category": "Full Stack"
     },
     {
-      "id": 2,
-      "img": "./assets/imgs/imagescaleprinter.png",
-      "title": "Image Scale Printer",
-      "subtitle": "Imágenes en CM, para imprimir en A4",
-      "description": "Este proyecto Open Source es un demo de una app creada para STAMPAD, un cliente que necesitaba una solución para imprimir diseños en tamaños específicos para productos sublimables pequeños. Permite subir imágenes, escalarlas escalarlas en centímetros y generar un archivo PDF listo para imprimir en hojas A4. Desarrollada con Angular, cuenta con un lienzo mediante Fabric.js y utiliza jsPDF para la descarga del archivo PDF client-side.",
-      "skills": ["Angular", "TypeScript", "SCSS", "Canvas de HTML"],
-      "github": "https://github.com/PaylemanC/ImageScalePrint",
-      "deploy": "https://image-scale-printer-demo.netlify.app/",
-      "status": "COMPLETED",
-      "category": "Frontend"
-    },
-    {
-      "id": 3,
+      "id": 4,
       "img": "./assets/imgs/clan-f.png",
       "title": "CLAN-F",
       "subtitle": "Proyecto para el curso Full Stack Python de CaC",
@@ -210,7 +222,7 @@
       "category": "Full Stack"
     },
     {
-      "id": 4,
+      "id": 5,
       "img": "./assets/imgs/project-manager.png",
       "title": "Project Manager",
       "subtitle": "Gestor de proyectos de software",
