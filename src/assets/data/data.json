@@ -3,7 +3,7 @@
   "occupation": ["Full Stack Developer", "Web Developer", "Backend Developer", "Frontend Developer"],
   "cv": "./assets/data/cv.pdf",
   "summary": "Desarrollo aplicaciones web robustas y escalables, con interfaces de usuario atractivas y funcionales. Amo aprender programando, los proyectos desafiantes y el mate argentino.",
-  "description": "👋 ¡Hola! Te doy la bienvenida a mi portafolio, soy Técnica en Desarrollo Web y Apps Digitales con conocimiento y práctica en Frontend y Backend, participé en múltiples proyectos tanto personales como colaborativos, seleccionando mis favoritos para mostrarte aquí.<br><br> 🚀 Siempre estoy aprendiendo y explorando nuevas habilidades para enriquecer mi perfil, enfocándome en la práctica constante. Amo los desafíos de código y las leyes UX/UI para aplicar, así como el trabajo en equipo y la colaboración en proyectos entre aprender y enseñar.<br><br>Muchas gracias por interesarte en este portfolio. Te invito a continuar explorándolo 💖<br><br> PD. No te olvides contactarme en Github & LinkedIn si quieres conectar 😉",
+  "description": "👋 ¡Hola! Te doy la bienvenida a mi portafolio, soy Técnica en Desarrollo Web y Apps Digitales con conocimiento y práctica en Frontend y Backend, participé en múltiples proyectos tanto personales como colaborativos, seleccionando mis favoritos para mostrarte aquí.<br><br> 🚀 Siempre estoy aprendiendo y explorando nuevas habilidades para enriquecer mi perfil, enfocándome en la práctica constante. Amo los desafíos de código, el UX/UI, y trabajo en equipo en proyectos de desarrollo web.<br><br>Muchas gracias por interesarte en este portfolio. Te invito a continuar explorándolo 💖<br><br> PD. No te olvides contactarme en Github & LinkedIn si quieres conectar 😉",
   "education": [
     {
       "id": 1,
@@ -30,11 +30,23 @@
         {
           "id": 1,
           "date": "07.2024 — Cursando",
-          "title": "Cursos y Bootcamp Replays en Desarrollo Web, Bases de Datos, Ciencia de Datos e Inteligencia Artificial",
+          "title": "Cursos y Bootcamps Replays en Desarrollo Web, Bases de Datos, Ciencia de Datos e Inteligencia Artificial",
           "description": ["<em>@PaylemanC</em>"]
         },
         {
           "id": 2,
+          "date": "04.2025 — Cursando",
+          "title": "Bootcamp de Django Avanzado",
+          "description": []
+        },
+        {
+          "id": 3,
+          "date": "04.2025 — Cursando",
+          "title": "Bootcamp de GitHub Foundations",
+          "description": []
+        },
+        {
+          "id": 4,
           "date": "08.2024 — 12.2024",
           "title": "Bootcamp de Python Avanzado",
           "description": []
@@ -226,7 +238,7 @@
       "img": "./assets/imgs/project-manager.png",
       "title": "Project Manager",
       "subtitle": "Gestor de proyectos de software",
-      "description": "Esta plataforma de getión de proyectos se centra en operaciones CRUD, con barra de búsqueda y paginación. Apliqué muchos conceptos interesantes, como almacenamiento en local storage, la librería ngx-pagination para paginado, y data binding para filtrado. La UI fue desarrollada según el Ant Design System de Figma.",
+      "description": "Esta plataforma de gestión de proyectos se centra en operaciones CRUD, con barra de búsqueda y paginación. Apliqué muchos conceptos interesantes, como almacenamiento en local storage, la librería ngx-pagination para paginado, y data binding para filtrado. La UI fue desarrollada según el Ant Design System de Figma.",
       "skills": ["Angular", "TypeScript", "SCSS", "Design System"],
       "github": "https://github.com/PaylemanC/project-manager--FrontendChallenge",
       "deploy": "https://project-manager.netlify.app",
